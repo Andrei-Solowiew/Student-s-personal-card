@@ -7,14 +7,47 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.Odbc;
+using System.Data.OleDb;
 
 namespace WindowsFormsApp7
 {
     public partial class AddDocumetsCollege : Form
     {
+        public static string connectsString = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=БД3.mdb";
+        private OleDbConnection myConnection;
         public AddDocumetsCollege()
         {
             InitializeComponent();
+            myConnection = new OleDbConnection(connectsString);
+            myConnection.Open();
+        }
+
+        private void AddDocumetsCollege_Load(object sender, EventArgs e)
+        {
+            // TODO: данная строка кода позволяет загрузить данные в таблицу "бД3DataSet.Документы_от_колледжа". При необходимости она может быть перемещена или удалена.
+            this.документы_от_колледжаTableAdapter.Fill(this.бД3DataSet.Документы_от_колледжа);
+
+        }
+
+        private void AddDocumetsCollege_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            myConnection.Close();
+            e.Cancel = true;
+            Hide();
+        }
+
+        private void Add_Click(object sender, EventArgs e)
+        {
+            int num = Convert.ToInt32(textBoxNumber.Text);
+            int kod_student = Convert.ToInt32(textBoxKodStudent.Text);
+            string data_contract = textBoxDataContract.Text;
+            string data_order = textBoxDataOrder.Text;
+            string query = "INSERT INTO [Документы от колледжа] ([Номер приказа о зачислении], [Код студента], [Дата заключения договора], [Дата приказа о зачислении]) VALUES(" + num + ",'" + kod_student + "','" + data_contract + "','" + data_order + "')";
+            OleDbCommand command = new OleDbCommand(query, myConnection);
+            command.ExecuteNonQuery();
+            MessageBox.Show("Данные добавлены");
+            this.документы_от_колледжаTableAdapter.Fill(this.бД3DataSet.Документы_от_колледжа);
         }
     }
 }

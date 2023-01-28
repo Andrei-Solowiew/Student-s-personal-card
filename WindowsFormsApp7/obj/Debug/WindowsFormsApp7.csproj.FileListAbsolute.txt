@@ -375,3 +375,4 @@ C:\Users\79635\Desktop\БАЗА15\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.cs
 C:\Users\79635\Desktop\БАЗА15\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.exe
 C:\Users\79635\Desktop\БАЗА15\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.pdb
 C:\Users\79635\Desktop\БАЗА15\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.AddDocumetsStudent.resources
+C:\Users\79635\Desktop\БАЗА15\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.AddDocumetsCollege.resources
