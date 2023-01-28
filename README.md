@@ -1,0 +1,1 @@
+echo "# Student-s-personal-card"
