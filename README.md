@@ -1,1 +1,1 @@
-echo "# Student-s-personal-card"
+echo "# This is an automated system "Student's Personal Card". It allows you to add, delete, edit and search the database with information about students. This automated system is perfect for colleges and universities."
