@@ -235,6 +235,9 @@
     <EmbeddedResource Include="AddFamilyForm.resx">
       <DependentUpon>AddFamilyForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="AddLastSchool.resx">
+      <DependentUpon>AddLastSchool.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="AddLivingForm.resx">
       <DependentUpon>AddLivingForm.cs</DependentUpon>
     </EmbeddedResource>
