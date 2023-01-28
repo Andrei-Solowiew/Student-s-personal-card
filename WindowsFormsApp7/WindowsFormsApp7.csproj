@@ -226,6 +226,9 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>БД3DataSet.xsd</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="AddDocumetsStudent.resx">
+      <DependentUpon>AddDocumetsStudent.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="AddFamilyForm.resx">
       <DependentUpon>AddFamilyForm.cs</DependentUpon>
     </EmbeddedResource>
