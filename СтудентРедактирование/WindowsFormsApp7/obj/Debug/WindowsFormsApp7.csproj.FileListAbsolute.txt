@@ -1,0 +1,170 @@
+D:\WindowsFormsApp7\WindowsFormsApp7\bin\Debug\WindowsFormsApp7.exe.config
+D:\WindowsFormsApp7\WindowsFormsApp7\bin\Debug\WindowsFormsApp7.exe
+D:\WindowsFormsApp7\WindowsFormsApp7\bin\Debug\WindowsFormsApp7.pdb
+D:\WindowsFormsApp7\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.csproj.AssemblyReference.cache
+D:\WindowsFormsApp7\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.Form1.resources
+D:\WindowsFormsApp7\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.Properties.Resources.resources
+D:\WindowsFormsApp7\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.csproj.GenerateResource.cache
+D:\WindowsFormsApp7\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.csproj.CoreCompileInputs.cache
+D:\WindowsFormsApp7\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.exe
+D:\WindowsFormsApp7\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.pdb
+C:\Users\79635\Desktop\WindowsFormsApp7\WindowsFormsApp7\bin\Debug\СР-5_ОПБД_Соловьев_Андрей_П9021.mdb
+C:\Users\79635\Desktop\WindowsFormsApp7\WindowsFormsApp7\bin\Debug\WindowsFormsApp7.exe.config
+C:\Users\79635\Desktop\WindowsFormsApp7\WindowsFormsApp7\bin\Debug\WindowsFormsApp7.exe
+C:\Users\79635\Desktop\WindowsFormsApp7\WindowsFormsApp7\bin\Debug\WindowsFormsApp7.pdb
+C:\Users\79635\Desktop\WindowsFormsApp7\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.csproj.AssemblyReference.cache
+C:\Users\79635\Desktop\WindowsFormsApp7\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.Form1.resources
+C:\Users\79635\Desktop\WindowsFormsApp7\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.Form2.resources
+C:\Users\79635\Desktop\WindowsFormsApp7\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.Properties.Resources.resources
+C:\Users\79635\Desktop\WindowsFormsApp7\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.csproj.GenerateResource.cache
+C:\Users\79635\Desktop\WindowsFormsApp7\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.csproj.CoreCompileInputs.cache
+C:\Users\79635\Desktop\WindowsFormsApp7\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.exe
+C:\Users\79635\Desktop\WindowsFormsApp7\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.pdb
+C:\Users\79635\Desktop\WindowsFormsApp7\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.Form3.resources
+D:\WindowsFormsApp7\WindowsFormsApp7\bin\Debug\СР-5_ОПБД_Соловьев_Андрей_П9021.mdb
+D:\WindowsFormsApp7\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.Form2.resources
+D:\WindowsFormsApp7\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.Form3.resources
+D:\3 формы без подключения\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.csproj.AssemblyReference.cache
+D:\3 формы без подключения\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.Form1.resources
+D:\3 формы без подключения\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.Form2.resources
+D:\3 формы без подключения\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.Form3.resources
+D:\3 формы без подключения\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.Form4.resources
+D:\3 формы без подключения\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.Properties.Resources.resources
+D:\3 формы без подключения\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.csproj.GenerateResource.cache
+D:\3 формы без подключения\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.csproj.CoreCompileInputs.cache
+D:\3 формы без подключения\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.exe
+D:\3 формы без подключения\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.pdb
+D:\3 формы без подключения\WindowsFormsApp7\bin\Debug\СР-5_ОПБД_Соловьев_Андрей_П9021.mdb
+D:\3 формы без подключения\WindowsFormsApp7\bin\Debug\WindowsFormsApp7.exe.config
+D:\3 формы без подключения\WindowsFormsApp7\bin\Debug\WindowsFormsApp7.exe
+D:\3 формы без подключения\WindowsFormsApp7\bin\Debug\WindowsFormsApp7.pdb
+D:\Основной проект\WindowsFormsApp7\bin\Debug\СР-5_ОПБД_Соловьев_Андрей_П9021.mdb
+D:\Основной проект\WindowsFormsApp7\bin\Debug\WindowsFormsApp7.exe.config
+D:\Основной проект\WindowsFormsApp7\bin\Debug\WindowsFormsApp7.exe
+D:\Основной проект\WindowsFormsApp7\bin\Debug\WindowsFormsApp7.pdb
+D:\Основной проект\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.csproj.AssemblyReference.cache
+D:\Основной проект\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.Form1.resources
+D:\Основной проект\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.Form2.resources
+D:\Основной проект\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.Form3.resources
+D:\Основной проект\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.Form4.resources
+D:\Основной проект\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.Properties.Resources.resources
+D:\Основной проект\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.csproj.GenerateResource.cache
+D:\Основной проект\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.csproj.CoreCompileInputs.cache
+D:\Основной проект\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.exe
+D:\Основной проект\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.pdb
+D:\Основной проект\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.Form5.resources
+D:\Основной проект\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.Form6.resources
+D:\Основной проект\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.Form7.resources
+D:\Основной проект\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.Form8.resources
+D:\Основной проект\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.Form9.resources
+D:\Основной проект\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.Form10.resources
+D:\Основной проект\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.Form11.resources
+D:\Основной проект\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.Form12.resources
+D:\Основной проект\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.Form13.resources
+D:\Основной проект\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.Form14.resources
+D:\Основной проект\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.Search_form.resources
+D:\Основной проект\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.Help.resources
+C:\Users\79635\Desktop\Основной проект\WindowsFormsApp7\bin\Debug\СР-5_ОПБД_Соловьев_Андрей_П9021.mdb
+C:\Users\79635\Desktop\Основной проект\WindowsFormsApp7\bin\Debug\WindowsFormsApp7.exe.config
+C:\Users\79635\Desktop\Основной проект\WindowsFormsApp7\bin\Debug\WindowsFormsApp7.exe
+C:\Users\79635\Desktop\Основной проект\WindowsFormsApp7\bin\Debug\WindowsFormsApp7.pdb
+C:\Users\79635\Desktop\Основной проект\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.csproj.AssemblyReference.cache
+C:\Users\79635\Desktop\Основной проект\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.Properties.Resources.resources
+C:\Users\79635\Desktop\Основной проект\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.Search_form.resources
+C:\Users\79635\Desktop\Основной проект\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.csproj.GenerateResource.cache
+C:\Users\79635\Desktop\Основной проект\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.csproj.CoreCompileInputs.cache
+C:\Users\79635\Desktop\Основной проект\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.exe
+C:\Users\79635\Desktop\Основной проект\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.pdb
+E:\Основной проект\WindowsFormsApp7\bin\Debug\СР-5_ОПБД_Соловьев_Андрей_П9021.mdb
+E:\Основной проект\WindowsFormsApp7\bin\Debug\WindowsFormsApp7.exe.config
+E:\Основной проект\WindowsFormsApp7\bin\Debug\WindowsFormsApp7.exe
+E:\Основной проект\WindowsFormsApp7\bin\Debug\WindowsFormsApp7.pdb
+E:\Основной проект\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.csproj.AssemblyReference.cache
+E:\Основной проект\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.Form1.resources
+E:\Основной проект\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.Form10.resources
+E:\Основной проект\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.Form11.resources
+E:\Основной проект\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.Form12.resources
+E:\Основной проект\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.Form13.resources
+E:\Основной проект\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.Form14.resources
+E:\Основной проект\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.Form2.resources
+E:\Основной проект\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.Form3.resources
+E:\Основной проект\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.Form4.resources
+E:\Основной проект\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.Form5.resources
+E:\Основной проект\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.Form6.resources
+E:\Основной проект\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.Form7.resources
+E:\Основной проект\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.Form8.resources
+E:\Основной проект\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.Form9.resources
+E:\Основной проект\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.Help.resources
+E:\Основной проект\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.Properties.Resources.resources
+E:\Основной проект\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.Search_form.resources
+E:\Основной проект\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.csproj.GenerateResource.cache
+E:\Основной проект\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.csproj.CoreCompileInputs.cache
+E:\Основной проект\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.exe
+E:\Основной проект\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.pdb
+D:\СОЛОВЬЕВ_АНДРЕЙ_П9021_КУРСОВОЙ_ПРОЕКТ\Основной проект\WindowsFormsApp7\bin\Debug\СР-5_ОПБД_Соловьев_Андрей_П9021.mdb
+D:\СОЛОВЬЕВ_АНДРЕЙ_П9021_КУРСОВОЙ_ПРОЕКТ\Основной проект\WindowsFormsApp7\bin\Debug\WindowsFormsApp7.exe.config
+D:\СОЛОВЬЕВ_АНДРЕЙ_П9021_КУРСОВОЙ_ПРОЕКТ\Основной проект\WindowsFormsApp7\bin\Debug\WindowsFormsApp7.exe
+D:\СОЛОВЬЕВ_АНДРЕЙ_П9021_КУРСОВОЙ_ПРОЕКТ\Основной проект\WindowsFormsApp7\bin\Debug\WindowsFormsApp7.pdb
+D:\СОЛОВЬЕВ_АНДРЕЙ_П9021_КУРСОВОЙ_ПРОЕКТ\Основной проект\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.csproj.AssemblyReference.cache
+D:\СОЛОВЬЕВ_АНДРЕЙ_П9021_КУРСОВОЙ_ПРОЕКТ\Основной проект\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.Form1.resources
+D:\СОЛОВЬЕВ_АНДРЕЙ_П9021_КУРСОВОЙ_ПРОЕКТ\Основной проект\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.Form10.resources
+D:\СОЛОВЬЕВ_АНДРЕЙ_П9021_КУРСОВОЙ_ПРОЕКТ\Основной проект\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.Form11.resources
+D:\СОЛОВЬЕВ_АНДРЕЙ_П9021_КУРСОВОЙ_ПРОЕКТ\Основной проект\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.Form12.resources
+D:\СОЛОВЬЕВ_АНДРЕЙ_П9021_КУРСОВОЙ_ПРОЕКТ\Основной проект\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.Form13.resources
+D:\СОЛОВЬЕВ_АНДРЕЙ_П9021_КУРСОВОЙ_ПРОЕКТ\Основной проект\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.Form14.resources
+D:\СОЛОВЬЕВ_АНДРЕЙ_П9021_КУРСОВОЙ_ПРОЕКТ\Основной проект\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.Form2.resources
+D:\СОЛОВЬЕВ_АНДРЕЙ_П9021_КУРСОВОЙ_ПРОЕКТ\Основной проект\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.Form3.resources
+D:\СОЛОВЬЕВ_АНДРЕЙ_П9021_КУРСОВОЙ_ПРОЕКТ\Основной проект\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.Form4.resources
+D:\СОЛОВЬЕВ_АНДРЕЙ_П9021_КУРСОВОЙ_ПРОЕКТ\Основной проект\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.Form5.resources
+D:\СОЛОВЬЕВ_АНДРЕЙ_П9021_КУРСОВОЙ_ПРОЕКТ\Основной проект\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.Form6.resources
+D:\СОЛОВЬЕВ_АНДРЕЙ_П9021_КУРСОВОЙ_ПРОЕКТ\Основной проект\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.Form7.resources
+D:\СОЛОВЬЕВ_АНДРЕЙ_П9021_КУРСОВОЙ_ПРОЕКТ\Основной проект\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.Form8.resources
+D:\СОЛОВЬЕВ_АНДРЕЙ_П9021_КУРСОВОЙ_ПРОЕКТ\Основной проект\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.Form9.resources
+D:\СОЛОВЬЕВ_АНДРЕЙ_П9021_КУРСОВОЙ_ПРОЕКТ\Основной проект\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.Help.resources
+D:\СОЛОВЬЕВ_АНДРЕЙ_П9021_КУРСОВОЙ_ПРОЕКТ\Основной проект\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.Properties.Resources.resources
+D:\СОЛОВЬЕВ_АНДРЕЙ_П9021_КУРСОВОЙ_ПРОЕКТ\Основной проект\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.Search_form.resources
+D:\СОЛОВЬЕВ_АНДРЕЙ_П9021_КУРСОВОЙ_ПРОЕКТ\Основной проект\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.csproj.GenerateResource.cache
+D:\СОЛОВЬЕВ_АНДРЕЙ_П9021_КУРСОВОЙ_ПРОЕКТ\Основной проект\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.csproj.CoreCompileInputs.cache
+D:\СОЛОВЬЕВ_АНДРЕЙ_П9021_КУРСОВОЙ_ПРОЕКТ\Основной проект\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.exe
+D:\СОЛОВЬЕВ_АНДРЕЙ_П9021_КУРСОВОЙ_ПРОЕКТ\Основной проект\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.pdb
+C:\Users\79635\Desktop\ОСНОВНОЙ ПРОЕКТ\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.AutorizationForm.resources
+C:\Users\79635\Desktop\ОСНОВНОЙ ПРОЕКТ\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.EditingLivingForm.resources
+C:\Users\79635\Desktop\ОСНОВНОЙ ПРОЕКТ\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.EditingParentsForm.resources
+C:\Users\79635\Desktop\ОСНОВНОЙ ПРОЕКТ\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.EditingStudentDocumetsForm.resources
+C:\Users\79635\Desktop\ОСНОВНОЙ ПРОЕКТ\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.EditingCollegeDocumetsForm.resources
+C:\Users\79635\Desktop\ОСНОВНОЙ ПРОЕКТ\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.EditingLastSchoolForm.resources
+C:\Users\79635\Desktop\ОСНОВНОЙ ПРОЕКТ\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.MainForm.resources
+C:\Users\79635\Desktop\ОСНОВНОЙ ПРОЕКТ\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.EditingForm.resources
+C:\Users\79635\Desktop\ОСНОВНОЙ ПРОЕКТ\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.EditingStudentForm.resources
+C:\Users\79635\Desktop\ОСНОВНОЙ ПРОЕКТ\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.EditingSpecializationForm.resources
+C:\Users\79635\Desktop\ОСНОВНОЙ ПРОЕКТ\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.EditingFamilyForm.resources
+C:\Users\79635\Desktop\ОСНОВНОЙ ПРОЕКТ\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.EditingNeedsForm.resources
+C:\Users\79635\Desktop\ОСНОВНОЙ ПРОЕКТ\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.EditingStudyForm.resources
+C:\Users\79635\Desktop\ОСНОВНОЙ ПРОЕКТ\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.EditingRegistrationForm.resources
+C:\Users\79635\Desktop\ОСНОВНОЙ ПРОЕКТ\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.HelpForm.resources
+C:\Users\79635\Desktop\БАЗА3\WindowsFormsApp7\bin\Debug\СР-5_ОПБД_Соловьев_Андрей_П9021.mdb
+C:\Users\79635\Desktop\БАЗА3\WindowsFormsApp7\bin\Debug\WindowsFormsApp7.exe.config
+C:\Users\79635\Desktop\БАЗА3\WindowsFormsApp7\bin\Debug\WindowsFormsApp7.exe
+C:\Users\79635\Desktop\БАЗА3\WindowsFormsApp7\bin\Debug\WindowsFormsApp7.pdb
+C:\Users\79635\Desktop\БАЗА3\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.csproj.AssemblyReference.cache
+C:\Users\79635\Desktop\БАЗА3\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.AutorizationForm.resources
+C:\Users\79635\Desktop\БАЗА3\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.EditingLivingForm.resources
+C:\Users\79635\Desktop\БАЗА3\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.EditingParentsForm.resources
+C:\Users\79635\Desktop\БАЗА3\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.EditingStudentDocumetsForm.resources
+C:\Users\79635\Desktop\БАЗА3\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.EditingCollegeDocumetsForm.resources
+C:\Users\79635\Desktop\БАЗА3\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.EditingLastSchoolForm.resources
+C:\Users\79635\Desktop\БАЗА3\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.MainForm.resources
+C:\Users\79635\Desktop\БАЗА3\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.EditingForm.resources
+C:\Users\79635\Desktop\БАЗА3\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.EditingStudentForm.resources
+C:\Users\79635\Desktop\БАЗА3\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.EditingSpecializationForm.resources
+C:\Users\79635\Desktop\БАЗА3\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.EditingFamilyForm.resources
+C:\Users\79635\Desktop\БАЗА3\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.EditingNeedsForm.resources
+C:\Users\79635\Desktop\БАЗА3\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.EditingStudyForm.resources
+C:\Users\79635\Desktop\БАЗА3\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.EditingRegistrationForm.resources
+C:\Users\79635\Desktop\БАЗА3\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.HelpForm.resources
+C:\Users\79635\Desktop\БАЗА3\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.Properties.Resources.resources
+C:\Users\79635\Desktop\БАЗА3\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.Search_form.resources
+C:\Users\79635\Desktop\БАЗА3\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.csproj.GenerateResource.cache
+C:\Users\79635\Desktop\БАЗА3\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.csproj.CoreCompileInputs.cache
+C:\Users\79635\Desktop\БАЗА3\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.exe
+C:\Users\79635\Desktop\БАЗА3\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.pdb

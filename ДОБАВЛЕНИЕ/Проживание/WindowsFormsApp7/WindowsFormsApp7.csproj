@@ -1,0 +1,364 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{69B96872-1E96-4B5E-A957-ECC8EE59C06A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>WindowsFormsApp7</RootNamespace>
+    <AssemblyName>WindowsFormsApp7</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddDocumetsCollege.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddDocumetsCollege.Designer.cs">
+      <DependentUpon>AddDocumetsCollege.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddDocumetsStudent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddDocumetsStudent.Designer.cs">
+      <DependentUpon>AddDocumetsStudent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddFamilyForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddFamilyForm.Designer.cs">
+      <DependentUpon>AddFamilyForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddLastSchool.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddLastSchool.Designer.cs">
+      <DependentUpon>AddLastSchool.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddLivingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddLivingForm.Designer.cs">
+      <DependentUpon>AddLivingForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddNeedsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddNeedsForm.Designer.cs">
+      <DependentUpon>AddNeedsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddParentsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddParentsForm.Designer.cs">
+      <DependentUpon>AddParentsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddRegistrationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddRegistrationForm.Designer.cs">
+      <DependentUpon>AddRegistrationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddSpecializationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddSpecializationForm.Designer.cs">
+      <DependentUpon>AddSpecializationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddStudentForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddStudentForm.Designer.cs">
+      <DependentUpon>AddStudentForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddStudyForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddStudyForm.Designer.cs">
+      <DependentUpon>AddStudyForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AutorizationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AutorizationForm.Designer.cs">
+      <DependentUpon>AutorizationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditingLivingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditingLivingForm.Designer.cs">
+      <DependentUpon>EditingLivingForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditingParentsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditingParentsForm.Designer.cs">
+      <DependentUpon>EditingParentsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditingStudentDocumetsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditingStudentDocumetsForm.Designer.cs">
+      <DependentUpon>EditingStudentDocumetsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditingCollegeDocumetsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditingCollegeDocumetsForm.Designer.cs">
+      <DependentUpon>EditingCollegeDocumetsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditingLastSchoolForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditingLastSchoolForm.Designer.cs">
+      <DependentUpon>EditingLastSchoolForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddForm.Designer.cs">
+      <DependentUpon>AddForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditingForm.Designer.cs">
+      <DependentUpon>EditingForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditingStudentForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditingStudentForm.Designer.cs">
+      <DependentUpon>EditingStudentForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditingSpecializationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditingSpecializationForm.Designer.cs">
+      <DependentUpon>EditingSpecializationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditingFamilyForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditingFamilyForm.Designer.cs">
+      <DependentUpon>EditingFamilyForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditingNeedsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditingNeedsForm.Designer.cs">
+      <DependentUpon>EditingNeedsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditingStudyForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditingStudyForm.Designer.cs">
+      <DependentUpon>EditingStudyForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditingRegistrationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditingRegistrationForm.Designer.cs">
+      <DependentUpon>EditingRegistrationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HelpForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HelpForm.Designer.cs">
+      <DependentUpon>HelpForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Search_form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Search_form.Designer.cs">
+      <DependentUpon>Search_form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_СР_5_ОПБД_Соловьев_Андрей_П9021DataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>_СР_5_ОПБД_Соловьев_Андрей_П9021DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="БД3DataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>БД3DataSet.xsd</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AddFamilyForm.resx">
+      <DependentUpon>AddFamilyForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddLivingForm.resx">
+      <DependentUpon>AddLivingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddNeedsForm.resx">
+      <DependentUpon>AddNeedsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddRegistrationForm.resx">
+      <DependentUpon>AddRegistrationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddSpecializationForm.resx">
+      <DependentUpon>AddSpecializationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddStudentForm.resx">
+      <DependentUpon>AddStudentForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddStudyForm.resx">
+      <DependentUpon>AddStudyForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AutorizationForm.resx">
+      <DependentUpon>AutorizationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditingLivingForm.resx">
+      <DependentUpon>EditingLivingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditingParentsForm.resx">
+      <DependentUpon>EditingParentsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditingStudentDocumetsForm.resx">
+      <DependentUpon>EditingStudentDocumetsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditingCollegeDocumetsForm.resx">
+      <DependentUpon>EditingCollegeDocumetsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditingLastSchoolForm.resx">
+      <DependentUpon>EditingLastSchoolForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddForm.resx">
+      <DependentUpon>AddForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditingForm.resx">
+      <DependentUpon>EditingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditingStudentForm.resx">
+      <DependentUpon>EditingStudentForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditingSpecializationForm.resx">
+      <DependentUpon>EditingSpecializationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditingFamilyForm.resx">
+      <DependentUpon>EditingFamilyForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditingNeedsForm.resx">
+      <DependentUpon>EditingNeedsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditingStudyForm.resx">
+      <DependentUpon>EditingStudyForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditingRegistrationForm.resx">
+      <DependentUpon>EditingRegistrationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HelpForm.resx">
+      <DependentUpon>HelpForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Search_form.resx">
+      <DependentUpon>Search_form.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="_СР_5_ОПБД_Соловьев_Андрей_П9021DataSet.xsc">
+      <DependentUpon>_СР_5_ОПБД_Соловьев_Андрей_П9021DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="_СР_5_ОПБД_Соловьев_Андрей_П9021DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>_СР_5_ОПБД_Соловьев_Андрей_П9021DataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="_СР_5_ОПБД_Соловьев_Андрей_П9021DataSet.xss">
+      <DependentUpon>_СР_5_ОПБД_Соловьев_Андрей_П9021DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="БД3DataSet.xsc">
+      <DependentUpon>БД3DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="БД3DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>БД3DataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="БД3DataSet.xss">
+      <DependentUpon>БД3DataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\the-question-mark-2061539_1280.png" />
+    <None Include="Resources\png-clipart-computer-icons-question-mark-others-miscellaneous-cdr.png" />
+    <None Include="Resources\imgonline-com-ua-Resize-pyM7RDbqCPXFeKpi.png" />
+    <None Include="Resources\imgonline-com-ua-Resize-4Dw8ruXesq.png" />
+    <None Include="Resources\imgonline-com-ua-Resize-sqxAKj9H28QoRyaQ.png" />
+    <None Include="Resources\png-clipart-question-mark-little.png" />
+    <None Include="Resources\а.png" />
+    <None Include="Resources\а %281%29.png" />
+    <None Include="Resources\а %281%291.png" />
+    <Content Include="БД3.mdb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="СР-5_ОПБД_Соловьев_Андрей_П9021.mdb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
