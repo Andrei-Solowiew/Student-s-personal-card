@@ -7,14 +7,56 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.Odbc;
+using System.Data.OleDb;
 
 namespace WindowsFormsApp7
 {
     public partial class AddNeedsForm : Form
     {
+        public static string connectsString = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=БД3.mdb";
+        private OleDbConnection myConnection;
         public AddNeedsForm()
         {
             InitializeComponent();
+            myConnection = new OleDbConnection(connectsString);
+            myConnection.Open();
+        }
+
+        private void AddNeedsForm_Load(object sender, EventArgs e)
+        {
+            // TODO: данная строка кода позволяет загрузить данные в таблицу "бД3DataSet.Потребности_студента". При необходимости она может быть перемещена или удалена.
+            this.потребности_студентаTableAdapter.Fill(this.бД3DataSet.Потребности_студента);
+
+        }
+
+        private void AddNeedsForm_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            myConnection.Close();
+            e.Cancel = true;
+            Hide();
+        }
+
+        private void Add_Click(object sender, EventArgs e)
+        {
+            int kod_needs = Convert.ToInt32(textBoxKodNeeds.Text);
+            string language = textBoxLanguage.Text;
+            int check;
+            if (checkBoxNeeds.Checked)
+            {
+                check = 1;
+            }
+            else
+            {
+                check = 0;
+            }
+            int kod_student = Convert.ToInt32(textBoxKodStudent.Text);
+
+            string query = "INSERT INTO [Потребности студента] ([Код потребностей], Язык, [Потребность в общежитии], [Код студента]) VALUES(" + kod_needs + ",'" + language + "','" + check + "','" + kod_student + "')";
+            OleDbCommand command = new OleDbCommand(query, myConnection);
+            command.ExecuteNonQuery();
+            MessageBox.Show("Данные добавлены");
+            this.потребности_студентаTableAdapter.Fill(this.бД3DataSet.Потребности_студента);
         }
     }
 }
