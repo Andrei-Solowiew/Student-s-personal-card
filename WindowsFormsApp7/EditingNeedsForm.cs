@@ -45,10 +45,20 @@ namespace WindowsFormsApp7
         private void Change_Click(object sender, EventArgs e)
         {
             int kod = Convert.ToInt32(textBoxKodNeed.Text);
-            string query = "UPDATE [Потребности студента] SET [Потребность в общежитии] = '" + checkBoxNeed.Text + "' WHERE [Код потребностей] = " + kod;
+            int check;
+
+            if (checkBoxNeed.Checked)
+            {
+                check = 1;
+            }
+            else
+            {
+                check = 0;
+            }
+            string query = "UPDATE [Потребности студента] SET [Потребность в общежитии] = '" + check + "' WHERE [Код потребностей] = " + kod;
             OleDbCommand command = new OleDbCommand(query, myConnection);
             command.ExecuteNonQuery();
-            MessageBox.Show("Специальность обновлена");
+            MessageBox.Show("Наличие потребности обновлено");
             this.потребности_студентаTableAdapter1.Fill(this.бД3DataSet.Потребности_студента);
         }
     }
