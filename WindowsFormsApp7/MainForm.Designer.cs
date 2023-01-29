@@ -34,6 +34,7 @@ namespace WindowsFormsApp7
             this.Form2BtnSearch = new System.Windows.Forms.Button();
             this.Form2BtnHelp = new System.Windows.Forms.Button();
             this.BtnAdd = new System.Windows.Forms.Button();
+            this.Del = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -64,7 +65,7 @@ namespace WindowsFormsApp7
             // 
             this.Form2BtnSearch.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Form2BtnSearch.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Form2BtnSearch.Location = new System.Drawing.Point(153, 222);
+            this.Form2BtnSearch.Location = new System.Drawing.Point(153, 283);
             this.Form2BtnSearch.Margin = new System.Windows.Forms.Padding(2);
             this.Form2BtnSearch.Name = "Form2BtnSearch";
             this.Form2BtnSearch.Size = new System.Drawing.Size(329, 40);
@@ -98,11 +99,25 @@ namespace WindowsFormsApp7
             this.BtnAdd.UseVisualStyleBackColor = true;
             this.BtnAdd.Click += new System.EventHandler(this.BtnAdd_Click);
             // 
+            // Del
+            // 
+            this.Del.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Del.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Del.Location = new System.Drawing.Point(153, 222);
+            this.Del.Margin = new System.Windows.Forms.Padding(2);
+            this.Del.Name = "Del";
+            this.Del.Size = new System.Drawing.Size(329, 40);
+            this.Del.TabIndex = 11;
+            this.Del.Text = "Удаление";
+            this.Del.UseVisualStyleBackColor = true;
+            this.Del.Click += new System.EventHandler(this.Del_Click);
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(663, 450);
+            this.Controls.Add(this.Del);
             this.Controls.Add(this.BtnAdd);
             this.Controls.Add(this.Form2BtnHelp);
             this.Controls.Add(this.Form2BtnSearch);
@@ -124,5 +139,6 @@ namespace WindowsFormsApp7
         private System.Windows.Forms.Button Form2BtnSearch;
         private System.Windows.Forms.Button Form2BtnHelp;
         private System.Windows.Forms.Button BtnAdd;
+        private System.Windows.Forms.Button Del;
     }
 }

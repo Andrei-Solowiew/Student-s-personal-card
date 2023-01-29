@@ -19,13 +19,14 @@ namespace WindowsFormsApp7
             SearchForm = new Search_form();
             HelpForm = new HelpForm();
             Add = new AddForm();
-
+            Delete = new DelForm();
         }
 
         EditingForm form3;
         Search_form SearchForm;
         HelpForm HelpForm;
         AddForm Add;
+        DelForm Delete;
 
 
 
@@ -60,6 +61,11 @@ namespace WindowsFormsApp7
         {
             Add.Show();
 
+        }
+
+        private void Del_Click(object sender, EventArgs e)
+        {
+            Delete.Show();
         }
     }
 }

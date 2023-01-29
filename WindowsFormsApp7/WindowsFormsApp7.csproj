@@ -118,6 +118,18 @@
     <Compile Include="AutorizationForm.Designer.cs">
       <DependentUpon>AutorizationForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="DelForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DelForm.Designer.cs">
+      <DependentUpon>DelForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DelStudentForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DelStudentForm.Designer.cs">
+      <DependentUpon>DelStudentForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="EditingLivingForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -261,6 +273,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="AutorizationForm.resx">
       <DependentUpon>AutorizationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DelForm.resx">
+      <DependentUpon>DelForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DelStudentForm.resx">
+      <DependentUpon>DelStudentForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="EditingLivingForm.resx">
       <DependentUpon>EditingLivingForm.cs</DependentUpon>

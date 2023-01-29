@@ -377,3 +377,5 @@ C:\Users\79635\Desktop\БАЗА15\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.pd
 C:\Users\79635\Desktop\БАЗА15\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.AddDocumetsStudent.resources
 C:\Users\79635\Desktop\БАЗА15\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.AddDocumetsCollege.resources
 C:\Users\79635\Desktop\БАЗА15\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.AddLastSchool.resources
+C:\Users\79635\Desktop\БАЗА15\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.DelForm.resources
+C:\Users\79635\Desktop\БАЗА15\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.DelStudentForm.resources
