@@ -30,6 +30,7 @@ namespace WindowsFormsApp7
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AddSpecializationForm));
             this.Add = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
             this.textBoxAddToday = new System.Windows.Forms.TextBox();
@@ -38,15 +39,15 @@ namespace WindowsFormsApp7
             this.label1 = new System.Windows.Forms.Label();
             this.textBoxAddKod = new System.Windows.Forms.TextBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.бД3DataSet = new WindowsFormsApp7.БД3DataSet();
-            this.специальностьBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.специальностьTableAdapter = new WindowsFormsApp7.БД3DataSetTableAdapters.СпециальностьTableAdapter();
             this.кодСпециальностиDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.специальностьDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.кодСтудентаDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.специальностьBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.бД3DataSet = new WindowsFormsApp7.БД3DataSet();
+            this.специальностьTableAdapter = new WindowsFormsApp7.БД3DataSetTableAdapters.СпециальностьTableAdapter();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.бД3DataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.специальностьBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.бД3DataSet)).BeginInit();
             this.SuspendLayout();
             // 
             // Add
@@ -136,37 +137,40 @@ namespace WindowsFormsApp7
             this.dataGridView1.Size = new System.Drawing.Size(778, 247);
             this.dataGridView1.TabIndex = 42;
             // 
-            // бД3DataSet
-            // 
-            this.бД3DataSet.DataSetName = "БД3DataSet";
-            this.бД3DataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // специальностьBindingSource
-            // 
-            this.специальностьBindingSource.DataMember = "Специальность";
-            this.специальностьBindingSource.DataSource = this.бД3DataSet;
-            // 
-            // специальностьTableAdapter
-            // 
-            this.специальностьTableAdapter.ClearBeforeFill = true;
-            // 
             // кодСпециальностиDataGridViewTextBoxColumn
             // 
             this.кодСпециальностиDataGridViewTextBoxColumn.DataPropertyName = "Код специальности";
             this.кодСпециальностиDataGridViewTextBoxColumn.HeaderText = "Код специальности";
             this.кодСпециальностиDataGridViewTextBoxColumn.Name = "кодСпециальностиDataGridViewTextBoxColumn";
+            this.кодСпециальностиDataGridViewTextBoxColumn.ReadOnly = true;
             // 
             // специальностьDataGridViewTextBoxColumn
             // 
             this.специальностьDataGridViewTextBoxColumn.DataPropertyName = "Специальность";
             this.специальностьDataGridViewTextBoxColumn.HeaderText = "Специальность";
             this.специальностьDataGridViewTextBoxColumn.Name = "специальностьDataGridViewTextBoxColumn";
+            this.специальностьDataGridViewTextBoxColumn.ReadOnly = true;
             // 
             // кодСтудентаDataGridViewTextBoxColumn
             // 
             this.кодСтудентаDataGridViewTextBoxColumn.DataPropertyName = "Код студента";
             this.кодСтудентаDataGridViewTextBoxColumn.HeaderText = "Код студента";
             this.кодСтудентаDataGridViewTextBoxColumn.Name = "кодСтудентаDataGridViewTextBoxColumn";
+            this.кодСтудентаDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // специальностьBindingSource
+            // 
+            this.специальностьBindingSource.DataMember = "Специальность";
+            this.специальностьBindingSource.DataSource = this.бД3DataSet;
+            // 
+            // бД3DataSet
+            // 
+            this.бД3DataSet.DataSetName = "БД3DataSet";
+            this.бД3DataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // специальностьTableAdapter
+            // 
+            this.специальностьTableAdapter.ClearBeforeFill = true;
             // 
             // AddSpecializationForm
             // 
@@ -181,13 +185,14 @@ namespace WindowsFormsApp7
             this.Controls.Add(this.textBoxAddSurname);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBoxAddKod);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "AddSpecializationForm";
             this.Text = "AddSpecializationForm";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.AddSpecializationForm_FormClosing);
             this.Load += new System.EventHandler(this.AddSpecializationForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.бД3DataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.специальностьBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.бД3DataSet)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

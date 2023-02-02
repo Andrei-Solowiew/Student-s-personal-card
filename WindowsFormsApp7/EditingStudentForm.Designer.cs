@@ -30,6 +30,7 @@ namespace WindowsFormsApp7
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(EditingStudentForm));
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.кодСтудентаDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.фамилияСтудентаDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -72,55 +73,67 @@ namespace WindowsFormsApp7
             this.сегодняшняяДатаDataGridViewTextBoxColumn});
             this.dataGridView1.DataSource = this.студентBindingSource1;
             this.dataGridView1.Location = new System.Drawing.Point(11, 144);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(2);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.RowHeadersWidth = 62;
             this.dataGridView1.RowTemplate.Height = 28;
             this.dataGridView1.Size = new System.Drawing.Size(979, 274);
-            this.dataGridView1.TabIndex = 0;
+            this.dataGridView1.TabIndex = 100;
             // 
             // кодСтудентаDataGridViewTextBoxColumn
             // 
             this.кодСтудентаDataGridViewTextBoxColumn.DataPropertyName = "Код студента";
             this.кодСтудентаDataGridViewTextBoxColumn.HeaderText = "Код студента";
+            this.кодСтудентаDataGridViewTextBoxColumn.MinimumWidth = 6;
             this.кодСтудентаDataGridViewTextBoxColumn.Name = "кодСтудентаDataGridViewTextBoxColumn";
             this.кодСтудентаDataGridViewTextBoxColumn.ReadOnly = true;
+            this.кодСтудентаDataGridViewTextBoxColumn.Width = 125;
             // 
             // фамилияСтудентаDataGridViewTextBoxColumn
             // 
             this.фамилияСтудентаDataGridViewTextBoxColumn.DataPropertyName = "Фамилия студента";
             this.фамилияСтудентаDataGridViewTextBoxColumn.HeaderText = "Фамилия студента";
+            this.фамилияСтудентаDataGridViewTextBoxColumn.MinimumWidth = 6;
             this.фамилияСтудентаDataGridViewTextBoxColumn.Name = "фамилияСтудентаDataGridViewTextBoxColumn";
             this.фамилияСтудентаDataGridViewTextBoxColumn.ReadOnly = true;
+            this.фамилияСтудентаDataGridViewTextBoxColumn.Width = 125;
             // 
             // имяСтудентаDataGridViewTextBoxColumn
             // 
             this.имяСтудентаDataGridViewTextBoxColumn.DataPropertyName = "Имя студента";
             this.имяСтудентаDataGridViewTextBoxColumn.HeaderText = "Имя студента";
+            this.имяСтудентаDataGridViewTextBoxColumn.MinimumWidth = 6;
             this.имяСтудентаDataGridViewTextBoxColumn.Name = "имяСтудентаDataGridViewTextBoxColumn";
             this.имяСтудентаDataGridViewTextBoxColumn.ReadOnly = true;
+            this.имяСтудентаDataGridViewTextBoxColumn.Width = 125;
             // 
             // отчествоСтудентаDataGridViewTextBoxColumn
             // 
             this.отчествоСтудентаDataGridViewTextBoxColumn.DataPropertyName = "Отчество студента";
             this.отчествоСтудентаDataGridViewTextBoxColumn.HeaderText = "Отчество студента";
+            this.отчествоСтудентаDataGridViewTextBoxColumn.MinimumWidth = 6;
             this.отчествоСтудентаDataGridViewTextBoxColumn.Name = "отчествоСтудентаDataGridViewTextBoxColumn";
             this.отчествоСтудентаDataGridViewTextBoxColumn.ReadOnly = true;
+            this.отчествоСтудентаDataGridViewTextBoxColumn.Width = 125;
             // 
             // датаРожденияDataGridViewTextBoxColumn
             // 
             this.датаРожденияDataGridViewTextBoxColumn.DataPropertyName = "Дата рождения";
             this.датаРожденияDataGridViewTextBoxColumn.HeaderText = "Дата рождения";
+            this.датаРожденияDataGridViewTextBoxColumn.MinimumWidth = 6;
             this.датаРожденияDataGridViewTextBoxColumn.Name = "датаРожденияDataGridViewTextBoxColumn";
             this.датаРожденияDataGridViewTextBoxColumn.ReadOnly = true;
+            this.датаРожденияDataGridViewTextBoxColumn.Width = 125;
             // 
             // сегодняшняяДатаDataGridViewTextBoxColumn
             // 
             this.сегодняшняяДатаDataGridViewTextBoxColumn.DataPropertyName = "Сегодняшняя дата";
             this.сегодняшняяДатаDataGridViewTextBoxColumn.HeaderText = "Сегодняшняя дата";
+            this.сегодняшняяДатаDataGridViewTextBoxColumn.MinimumWidth = 6;
             this.сегодняшняяДатаDataGridViewTextBoxColumn.Name = "сегодняшняяДатаDataGridViewTextBoxColumn";
             this.сегодняшняяДатаDataGridViewTextBoxColumn.ReadOnly = true;
+            this.сегодняшняяДатаDataGridViewTextBoxColumn.Width = 125;
             // 
             // студентBindingSource1
             // 
@@ -165,17 +178,17 @@ namespace WindowsFormsApp7
             // textBoxUpdateToday
             // 
             this.textBoxUpdateToday.Location = new System.Drawing.Point(139, 32);
-            this.textBoxUpdateToday.Margin = new System.Windows.Forms.Padding(2);
+            this.textBoxUpdateToday.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBoxUpdateToday.Name = "textBoxUpdateToday";
             this.textBoxUpdateToday.Size = new System.Drawing.Size(76, 20);
-            this.textBoxUpdateToday.TabIndex = 25;
+            this.textBoxUpdateToday.TabIndex = 23;
             // 
             // StudentFormChange
             // 
             this.StudentFormChange.Cursor = System.Windows.Forms.Cursors.Hand;
             this.StudentFormChange.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.StudentFormChange.Location = new System.Drawing.Point(11, 69);
-            this.StudentFormChange.Margin = new System.Windows.Forms.Padding(2);
+            this.StudentFormChange.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.StudentFormChange.Name = "StudentFormChange";
             this.StudentFormChange.Size = new System.Drawing.Size(329, 32);
             this.StudentFormChange.TabIndex = 24;
@@ -197,7 +210,7 @@ namespace WindowsFormsApp7
             // textBoxKodStudentChange
             // 
             this.textBoxKodStudentChange.Location = new System.Drawing.Point(15, 32);
-            this.textBoxKodStudentChange.Margin = new System.Windows.Forms.Padding(2);
+            this.textBoxKodStudentChange.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBoxKodStudentChange.Name = "textBoxKodStudentChange";
             this.textBoxKodStudentChange.Size = new System.Drawing.Size(76, 20);
             this.textBoxKodStudentChange.TabIndex = 22;
@@ -217,7 +230,8 @@ namespace WindowsFormsApp7
             this.Controls.Add(this.label8);
             this.Controls.Add(this.textBoxKodStudentChange);
             this.Controls.Add(this.dataGridView1);
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "EditingStudentForm";
             this.Text = "EditingStudentForm";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.EditingStudentForm_FormClosing);

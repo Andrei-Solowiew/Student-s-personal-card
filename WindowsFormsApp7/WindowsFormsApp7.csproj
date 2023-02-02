@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>logo-header_cut-photo.ru.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -222,11 +225,77 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Search_form.cs">
+    <Compile Include="SearchDocumentsCollegeForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Search_form.Designer.cs">
-      <DependentUpon>Search_form.cs</DependentUpon>
+    <Compile Include="SearchDocumentsCollegeForm.Designer.cs">
+      <DependentUpon>SearchDocumentsCollegeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SearchDocumentsStudentForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchDocumentsStudentForm.Designer.cs">
+      <DependentUpon>SearchDocumentsStudentForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SearchFamilyForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchFamilyForm.Designer.cs">
+      <DependentUpon>SearchFamilyForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SearchLastSchoolForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchLastSchoolForm.Designer.cs">
+      <DependentUpon>SearchLastSchoolForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SearchLivingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchLivingForm.Designer.cs">
+      <DependentUpon>SearchLivingForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SearchMainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchMainForm.Designer.cs">
+      <DependentUpon>SearchMainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SearchNeedsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchNeedsForm.Designer.cs">
+      <DependentUpon>SearchNeedsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SearchParentsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchParentsForm.Designer.cs">
+      <DependentUpon>SearchParentsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SearchRegistrationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchRegistrationForm.Designer.cs">
+      <DependentUpon>SearchRegistrationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SearchSpecializationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchSpecializationForm.Designer.cs">
+      <DependentUpon>SearchSpecializationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SearchStudentForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchStudentForm.Designer.cs">
+      <DependentUpon>SearchStudentForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SearchStudyForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchStudyForm.Designer.cs">
+      <DependentUpon>SearchStudyForm.cs</DependentUpon>
     </Compile>
     <Compile Include="_СР_5_ОПБД_Соловьев_Андрей_П9021DataSet.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -335,8 +404,41 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="Search_form.resx">
-      <DependentUpon>Search_form.cs</DependentUpon>
+    <EmbeddedResource Include="SearchDocumentsCollegeForm.resx">
+      <DependentUpon>SearchDocumentsCollegeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SearchDocumentsStudentForm.resx">
+      <DependentUpon>SearchDocumentsStudentForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SearchFamilyForm.resx">
+      <DependentUpon>SearchFamilyForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SearchLastSchoolForm.resx">
+      <DependentUpon>SearchLastSchoolForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SearchLivingForm.resx">
+      <DependentUpon>SearchLivingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SearchMainForm.resx">
+      <DependentUpon>SearchMainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SearchNeedsForm.resx">
+      <DependentUpon>SearchNeedsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SearchParentsForm.resx">
+      <DependentUpon>SearchParentsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SearchRegistrationForm.resx">
+      <DependentUpon>SearchRegistrationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SearchSpecializationForm.resx">
+      <DependentUpon>SearchSpecializationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SearchStudentForm.resx">
+      <DependentUpon>SearchStudentForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SearchStudyForm.resx">
+      <DependentUpon>SearchStudyForm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -383,6 +485,7 @@
     <None Include="Resources\а.png" />
     <None Include="Resources\а %281%29.png" />
     <None Include="Resources\а %281%291.png" />
+    <Content Include="logo-header_cut-photo.ru.ico" />
     <Content Include="БД3.mdb">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>

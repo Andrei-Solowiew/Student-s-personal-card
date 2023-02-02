@@ -30,23 +30,24 @@ namespace WindowsFormsApp7
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(EditingStudentDocumetsForm));
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.паспортDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.кодСтудентаDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.аттестатDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.гражданствоDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.документыСтудентаBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.бД3DataSet = new WindowsFormsApp7.БД3DataSet();
             this.документыСтудентаBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this._СР_5_ОПБД_Соловьев_Андрей_П9021DataSet = new WindowsFormsApp7._СР_5_ОПБД_Соловьев_Андрей_П9021DataSet();
             this.документы_студентаTableAdapter = new WindowsFormsApp7._СР_5_ОПБД_Соловьев_Андрей_П9021DataSetTableAdapters.Документы_студентаTableAdapter();
-            this.бД3DataSet = new WindowsFormsApp7.БД3DataSet();
-            this.документыСтудентаBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.документы_студентаTableAdapter1 = new WindowsFormsApp7.БД3DataSetTableAdapters.Документы_студентаTableAdapter();
             this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.документыСтудентаBindingSource1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.бД3DataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.документыСтудентаBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this._СР_5_ОПБД_Соловьев_Андрей_П9021DataSet)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.бД3DataSet)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.документыСтудентаBindingSource1)).BeginInit();
             this.SuspendLayout();
             // 
             // dataGridView1
@@ -106,6 +107,16 @@ namespace WindowsFormsApp7
             this.гражданствоDataGridViewTextBoxColumn.ReadOnly = true;
             this.гражданствоDataGridViewTextBoxColumn.Width = 150;
             // 
+            // документыСтудентаBindingSource1
+            // 
+            this.документыСтудентаBindingSource1.DataMember = "Документы студента";
+            this.документыСтудентаBindingSource1.DataSource = this.бД3DataSet;
+            // 
+            // бД3DataSet
+            // 
+            this.бД3DataSet.DataSetName = "БД3DataSet";
+            this.бД3DataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
             // документыСтудентаBindingSource
             // 
             this.документыСтудентаBindingSource.DataMember = "Документы студента";
@@ -119,16 +130,6 @@ namespace WindowsFormsApp7
             // документы_студентаTableAdapter
             // 
             this.документы_студентаTableAdapter.ClearBeforeFill = true;
-            // 
-            // бД3DataSet
-            // 
-            this.бД3DataSet.DataSetName = "БД3DataSet";
-            this.бД3DataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // документыСтудентаBindingSource1
-            // 
-            this.документыСтудентаBindingSource1.DataMember = "Документы студента";
-            this.документыСтудентаBindingSource1.DataSource = this.бД3DataSet;
             // 
             // документы_студентаTableAdapter1
             // 
@@ -151,16 +152,17 @@ namespace WindowsFormsApp7
             this.ClientSize = new System.Drawing.Size(761, 292);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.dataGridView1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "EditingStudentDocumetsForm";
             this.Text = "EditingStudentDocumetsForm";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.EditingStudentDocumetsForm_FormClosing);
             this.Load += new System.EventHandler(this.Form12_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.документыСтудентаBindingSource1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.бД3DataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.документыСтудентаBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this._СР_5_ОПБД_Соловьев_Андрей_П9021DataSet)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.бД3DataSet)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.документыСтудентаBindingSource1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

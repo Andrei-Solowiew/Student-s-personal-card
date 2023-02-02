@@ -30,24 +30,25 @@ namespace WindowsFormsApp7
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(EditingLastSchoolForm));
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.кодКонтактныхДанныхОПрошломУЗDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.учебноеЗаведениеУЗDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.годОкончанияУЗDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.уровеньОбразованияDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.кодСтудентаDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.данныеОПрошломУЗBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.бД3DataSet = new WindowsFormsApp7.БД3DataSet();
             this.данныеОПрошломУЗBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this._СР_5_ОПБД_Соловьев_Андрей_П9021DataSet = new WindowsFormsApp7._СР_5_ОПБД_Соловьев_Андрей_П9021DataSet();
             this.данные_о_прошлом_УЗTableAdapter = new WindowsFormsApp7._СР_5_ОПБД_Соловьев_Андрей_П9021DataSetTableAdapters.Данные_о_прошлом_УЗTableAdapter();
-            this.бД3DataSet = new WindowsFormsApp7.БД3DataSet();
-            this.данныеОПрошломУЗBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.данные_о_прошлом_УЗTableAdapter1 = new WindowsFormsApp7.БД3DataSetTableAdapters.Данные_о_прошлом_УЗTableAdapter();
             this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.данныеОПрошломУЗBindingSource1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.бД3DataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.данныеОПрошломУЗBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this._СР_5_ОПБД_Соловьев_Андрей_П9021DataSet)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.бД3DataSet)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.данныеОПрошломУЗBindingSource1)).BeginInit();
             this.SuspendLayout();
             // 
             // dataGridView1
@@ -117,6 +118,16 @@ namespace WindowsFormsApp7
             this.кодСтудентаDataGridViewTextBoxColumn.ReadOnly = true;
             this.кодСтудентаDataGridViewTextBoxColumn.Width = 150;
             // 
+            // данныеОПрошломУЗBindingSource1
+            // 
+            this.данныеОПрошломУЗBindingSource1.DataMember = "Данные о прошлом УЗ";
+            this.данныеОПрошломУЗBindingSource1.DataSource = this.бД3DataSet;
+            // 
+            // бД3DataSet
+            // 
+            this.бД3DataSet.DataSetName = "БД3DataSet";
+            this.бД3DataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
             // данныеОПрошломУЗBindingSource
             // 
             this.данныеОПрошломУЗBindingSource.DataMember = "Данные о прошлом УЗ";
@@ -130,16 +141,6 @@ namespace WindowsFormsApp7
             // данные_о_прошлом_УЗTableAdapter
             // 
             this.данные_о_прошлом_УЗTableAdapter.ClearBeforeFill = true;
-            // 
-            // бД3DataSet
-            // 
-            this.бД3DataSet.DataSetName = "БД3DataSet";
-            this.бД3DataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // данныеОПрошломУЗBindingSource1
-            // 
-            this.данныеОПрошломУЗBindingSource1.DataMember = "Данные о прошлом УЗ";
-            this.данныеОПрошломУЗBindingSource1.DataSource = this.бД3DataSet;
             // 
             // данные_о_прошлом_УЗTableAdapter1
             // 
@@ -162,15 +163,16 @@ namespace WindowsFormsApp7
             this.ClientSize = new System.Drawing.Size(885, 292);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.dataGridView1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "EditingLastSchoolForm";
             this.Text = "EditingLastSchoolForm";
             this.Load += new System.EventHandler(this.Form14_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.данныеОПрошломУЗBindingSource1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.бД3DataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.данныеОПрошломУЗBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this._СР_5_ОПБД_Соловьев_Андрей_П9021DataSet)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.бД3DataSet)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.данныеОПрошломУЗBindingSource1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

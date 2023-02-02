@@ -16,5 +16,11 @@ namespace WindowsFormsApp7
         {
             InitializeComponent();
         }
+
+        private void HelpForm_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            e.Cancel = true;
+            Hide();
+        }
     }
 }

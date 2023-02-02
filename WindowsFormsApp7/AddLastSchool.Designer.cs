@@ -30,6 +30,7 @@ namespace WindowsFormsApp7
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AddLastSchool));
             this.label3 = new System.Windows.Forms.Label();
             this.textBoxYear = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
@@ -42,17 +43,17 @@ namespace WindowsFormsApp7
             this.label4 = new System.Windows.Forms.Label();
             this.textBoxKodStudent = new System.Windows.Forms.TextBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.бД3DataSet = new WindowsFormsApp7.БД3DataSet();
-            this.данныеОПрошломУЗBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.данные_о_прошлом_УЗTableAdapter = new WindowsFormsApp7.БД3DataSetTableAdapters.Данные_о_прошлом_УЗTableAdapter();
             this.кодКонтактныхДанныхОПрошломУЗDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.учебноеЗаведениеУЗDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.годОкончанияУЗDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.уровеньОбразованияDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.кодСтудентаDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.данныеОПрошломУЗBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.бД3DataSet = new WindowsFormsApp7.БД3DataSet();
+            this.данные_о_прошлом_УЗTableAdapter = new WindowsFormsApp7.БД3DataSetTableAdapters.Данные_о_прошлом_УЗTableAdapter();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.бД3DataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.данныеОПрошломУЗBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.бД3DataSet)).BeginInit();
             this.SuspendLayout();
             // 
             // label3
@@ -72,7 +73,7 @@ namespace WindowsFormsApp7
             this.textBoxYear.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxYear.Name = "textBoxYear";
             this.textBoxYear.Size = new System.Drawing.Size(104, 20);
-            this.textBoxYear.TabIndex = 111;
+            this.textBoxYear.TabIndex = 3;
             // 
             // label6
             // 
@@ -91,7 +92,7 @@ namespace WindowsFormsApp7
             this.textBoxEdLevel.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxEdLevel.Name = "textBoxEdLevel";
             this.textBoxEdLevel.Size = new System.Drawing.Size(143, 20);
-            this.textBoxEdLevel.TabIndex = 109;
+            this.textBoxEdLevel.TabIndex = 4;
             // 
             // Add
             // 
@@ -101,7 +102,7 @@ namespace WindowsFormsApp7
             this.Add.Margin = new System.Windows.Forms.Padding(2);
             this.Add.Name = "Add";
             this.Add.Size = new System.Drawing.Size(329, 32);
-            this.Add.TabIndex = 108;
+            this.Add.TabIndex = 6;
             this.Add.Text = "Добавить";
             this.Add.UseVisualStyleBackColor = true;
             this.Add.Click += new System.EventHandler(this.Add_Click);
@@ -123,7 +124,7 @@ namespace WindowsFormsApp7
             this.textBoxUZ.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxUZ.Name = "textBoxUZ";
             this.textBoxUZ.Size = new System.Drawing.Size(136, 20);
-            this.textBoxUZ.TabIndex = 106;
+            this.textBoxUZ.TabIndex = 2;
             // 
             // label1
             // 
@@ -142,7 +143,7 @@ namespace WindowsFormsApp7
             this.textBoxKodLast.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxKodLast.Name = "textBoxKodLast";
             this.textBoxKodLast.Size = new System.Drawing.Size(120, 20);
-            this.textBoxKodLast.TabIndex = 104;
+            this.textBoxKodLast.TabIndex = 1;
             // 
             // label4
             // 
@@ -161,7 +162,7 @@ namespace WindowsFormsApp7
             this.textBoxKodStudent.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxKodStudent.Name = "textBoxKodStudent";
             this.textBoxKodStudent.Size = new System.Drawing.Size(94, 20);
-            this.textBoxKodStudent.TabIndex = 113;
+            this.textBoxKodStudent.TabIndex = 5;
             // 
             // dataGridView1
             // 
@@ -181,20 +182,6 @@ namespace WindowsFormsApp7
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.Size = new System.Drawing.Size(683, 212);
             this.dataGridView1.TabIndex = 115;
-            // 
-            // бД3DataSet
-            // 
-            this.бД3DataSet.DataSetName = "БД3DataSet";
-            this.бД3DataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // данныеОПрошломУЗBindingSource
-            // 
-            this.данныеОПрошломУЗBindingSource.DataMember = "Данные о прошлом УЗ";
-            this.данныеОПрошломУЗBindingSource.DataSource = this.бД3DataSet;
-            // 
-            // данные_о_прошлом_УЗTableAdapter
-            // 
-            this.данные_о_прошлом_УЗTableAdapter.ClearBeforeFill = true;
             // 
             // кодКонтактныхДанныхОПрошломУЗDataGridViewTextBoxColumn
             // 
@@ -233,6 +220,20 @@ namespace WindowsFormsApp7
             this.кодСтудентаDataGridViewTextBoxColumn.Name = "кодСтудентаDataGridViewTextBoxColumn";
             this.кодСтудентаDataGridViewTextBoxColumn.ReadOnly = true;
             // 
+            // данныеОПрошломУЗBindingSource
+            // 
+            this.данныеОПрошломУЗBindingSource.DataMember = "Данные о прошлом УЗ";
+            this.данныеОПрошломУЗBindingSource.DataSource = this.бД3DataSet;
+            // 
+            // бД3DataSet
+            // 
+            this.бД3DataSet.DataSetName = "БД3DataSet";
+            this.бД3DataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // данные_о_прошлом_УЗTableAdapter
+            // 
+            this.данные_о_прошлом_УЗTableAdapter.ClearBeforeFill = true;
+            // 
             // AddLastSchool
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -250,13 +251,14 @@ namespace WindowsFormsApp7
             this.Controls.Add(this.textBoxUZ);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBoxKodLast);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "AddLastSchool";
             this.Text = "AddLastSchool";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.AddLastSchool_FormClosing);
             this.Load += new System.EventHandler(this.AddLastSchool_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.бД3DataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.данныеОПрошломУЗBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.бД3DataSet)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

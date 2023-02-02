@@ -29,6 +29,7 @@ namespace WindowsFormsApp7
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AutorizationForm));
             this.label1 = new System.Windows.Forms.Label();
             this.Form1_lab = new System.Windows.Forms.Label();
             this.Form1Log = new System.Windows.Forms.TextBox();
@@ -112,6 +113,7 @@ namespace WindowsFormsApp7
             this.Controls.Add(this.Form1Log);
             this.Controls.Add(this.Form1_lab);
             this.Controls.Add(this.label1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "AutorizationForm";
             this.Text = "Autorization";

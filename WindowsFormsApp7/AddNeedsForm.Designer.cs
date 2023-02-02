@@ -30,6 +30,7 @@ namespace WindowsFormsApp7
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AddNeedsForm));
             this.label3 = new System.Windows.Forms.Label();
             this.textBoxKodStudent = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
@@ -40,16 +41,16 @@ namespace WindowsFormsApp7
             this.textBoxKodNeeds = new System.Windows.Forms.TextBox();
             this.checkBoxNeeds = new System.Windows.Forms.CheckBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.бД3DataSet = new WindowsFormsApp7.БД3DataSet();
-            this.потребностиСтудентаBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.потребности_студентаTableAdapter = new WindowsFormsApp7.БД3DataSetTableAdapters.Потребности_студентаTableAdapter();
             this.кодПотребностейDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.языкDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.потребностьВОбщежитииDataGridViewCheckBoxColumn = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             this.кодСтудентаDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.потребностиСтудентаBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.бД3DataSet = new WindowsFormsApp7.БД3DataSet();
+            this.потребности_студентаTableAdapter = new WindowsFormsApp7.БД3DataSetTableAdapters.Потребности_студентаTableAdapter();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.бД3DataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.потребностиСтудентаBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.бД3DataSet)).BeginInit();
             this.SuspendLayout();
             // 
             // label3
@@ -69,7 +70,7 @@ namespace WindowsFormsApp7
             this.textBoxKodStudent.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxKodStudent.Name = "textBoxKodStudent";
             this.textBoxKodStudent.Size = new System.Drawing.Size(94, 20);
-            this.textBoxKodStudent.TabIndex = 111;
+            this.textBoxKodStudent.TabIndex = 4;
             // 
             // label6
             // 
@@ -90,7 +91,7 @@ namespace WindowsFormsApp7
             this.Add.Margin = new System.Windows.Forms.Padding(2);
             this.Add.Name = "Add";
             this.Add.Size = new System.Drawing.Size(329, 32);
-            this.Add.TabIndex = 108;
+            this.Add.TabIndex = 5;
             this.Add.Text = "Добавить";
             this.Add.UseVisualStyleBackColor = true;
             this.Add.Click += new System.EventHandler(this.Add_Click);
@@ -112,7 +113,7 @@ namespace WindowsFormsApp7
             this.textBoxLanguage.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxLanguage.Name = "textBoxLanguage";
             this.textBoxLanguage.Size = new System.Drawing.Size(39, 20);
-            this.textBoxLanguage.TabIndex = 106;
+            this.textBoxLanguage.TabIndex = 2;
             // 
             // label1
             // 
@@ -131,7 +132,7 @@ namespace WindowsFormsApp7
             this.textBoxKodNeeds.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxKodNeeds.Name = "textBoxKodNeeds";
             this.textBoxKodNeeds.Size = new System.Drawing.Size(127, 20);
-            this.textBoxKodNeeds.TabIndex = 104;
+            this.textBoxKodNeeds.TabIndex = 1;
             // 
             // checkBoxNeeds
             // 
@@ -139,7 +140,7 @@ namespace WindowsFormsApp7
             this.checkBoxNeeds.Location = new System.Drawing.Point(334, 48);
             this.checkBoxNeeds.Name = "checkBoxNeeds";
             this.checkBoxNeeds.Size = new System.Drawing.Size(15, 14);
-            this.checkBoxNeeds.TabIndex = 114;
+            this.checkBoxNeeds.TabIndex = 3;
             this.checkBoxNeeds.UseVisualStyleBackColor = true;
             // 
             // dataGridView1
@@ -159,20 +160,6 @@ namespace WindowsFormsApp7
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.Size = new System.Drawing.Size(736, 228);
             this.dataGridView1.TabIndex = 115;
-            // 
-            // бД3DataSet
-            // 
-            this.бД3DataSet.DataSetName = "БД3DataSet";
-            this.бД3DataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // потребностиСтудентаBindingSource
-            // 
-            this.потребностиСтудентаBindingSource.DataMember = "Потребности студента";
-            this.потребностиСтудентаBindingSource.DataSource = this.бД3DataSet;
-            // 
-            // потребности_студентаTableAdapter
-            // 
-            this.потребности_студентаTableAdapter.ClearBeforeFill = true;
             // 
             // кодПотребностейDataGridViewTextBoxColumn
             // 
@@ -204,6 +191,20 @@ namespace WindowsFormsApp7
             this.кодСтудентаDataGridViewTextBoxColumn.Name = "кодСтудентаDataGridViewTextBoxColumn";
             this.кодСтудентаDataGridViewTextBoxColumn.ReadOnly = true;
             // 
+            // потребностиСтудентаBindingSource
+            // 
+            this.потребностиСтудентаBindingSource.DataMember = "Потребности студента";
+            this.потребностиСтудентаBindingSource.DataSource = this.бД3DataSet;
+            // 
+            // бД3DataSet
+            // 
+            this.бД3DataSet.DataSetName = "БД3DataSet";
+            this.бД3DataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // потребности_студентаTableAdapter
+            // 
+            this.потребности_студентаTableAdapter.ClearBeforeFill = true;
+            // 
             // AddNeedsForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -219,13 +220,14 @@ namespace WindowsFormsApp7
             this.Controls.Add(this.textBoxLanguage);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBoxKodNeeds);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "AddNeedsForm";
             this.Text = "AddNeedsForm";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.AddNeedsForm_FormClosing);
             this.Load += new System.EventHandler(this.AddNeedsForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.бД3DataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.потребностиСтудентаBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.бД3DataSet)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

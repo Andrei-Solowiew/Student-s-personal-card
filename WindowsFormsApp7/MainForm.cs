@@ -16,14 +16,14 @@ namespace WindowsFormsApp7
         {
             InitializeComponent();
             form3 = new EditingForm();
-            SearchForm = new Search_form();
+            SearchForm = new SearchMainForm();
             HelpForm = new HelpForm();
             Add = new AddForm();
             Delete = new DelForm();
         }
 
         EditingForm form3;
-        Search_form SearchForm;
+        SearchMainForm SearchForm;
         HelpForm HelpForm;
         AddForm Add;
         DelForm Delete;

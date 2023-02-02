@@ -29,12 +29,14 @@ namespace WindowsFormsApp7
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.label1 = new System.Windows.Forms.Label();
             this.Form2BtnEdit = new System.Windows.Forms.Button();
             this.Form2BtnSearch = new System.Windows.Forms.Button();
             this.Form2BtnHelp = new System.Windows.Forms.Button();
             this.BtnAdd = new System.Windows.Forms.Button();
             this.Del = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -69,7 +71,7 @@ namespace WindowsFormsApp7
             this.Form2BtnSearch.Margin = new System.Windows.Forms.Padding(2);
             this.Form2BtnSearch.Name = "Form2BtnSearch";
             this.Form2BtnSearch.Size = new System.Drawing.Size(329, 40);
-            this.Form2BtnSearch.TabIndex = 8;
+            this.Form2BtnSearch.TabIndex = 10;
             this.Form2BtnSearch.Text = "Поиск";
             this.Form2BtnSearch.UseVisualStyleBackColor = true;
             this.Form2BtnSearch.Click += new System.EventHandler(this.Form2BtnSearch_Click);
@@ -81,7 +83,7 @@ namespace WindowsFormsApp7
             this.Form2BtnHelp.Location = new System.Drawing.Point(497, 398);
             this.Form2BtnHelp.Name = "Form2BtnHelp";
             this.Form2BtnHelp.Size = new System.Drawing.Size(155, 40);
-            this.Form2BtnHelp.TabIndex = 9;
+            this.Form2BtnHelp.TabIndex = 11;
             this.Form2BtnHelp.Text = "Помощь";
             this.Form2BtnHelp.UseVisualStyleBackColor = true;
             this.Form2BtnHelp.Click += new System.EventHandler(this.Form2BtnHelp_Click);
@@ -94,7 +96,7 @@ namespace WindowsFormsApp7
             this.BtnAdd.Margin = new System.Windows.Forms.Padding(2);
             this.BtnAdd.Name = "BtnAdd";
             this.BtnAdd.Size = new System.Drawing.Size(329, 40);
-            this.BtnAdd.TabIndex = 10;
+            this.BtnAdd.TabIndex = 8;
             this.BtnAdd.Text = "Добавление";
             this.BtnAdd.UseVisualStyleBackColor = true;
             this.BtnAdd.Click += new System.EventHandler(this.BtnAdd_Click);
@@ -107,22 +109,34 @@ namespace WindowsFormsApp7
             this.Del.Margin = new System.Windows.Forms.Padding(2);
             this.Del.Name = "Del";
             this.Del.Size = new System.Drawing.Size(329, 40);
-            this.Del.TabIndex = 11;
+            this.Del.TabIndex = 9;
             this.Del.Text = "Удаление";
             this.Del.UseVisualStyleBackColor = true;
             this.Del.Click += new System.EventHandler(this.Del_Click);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.label2.Location = new System.Drawing.Point(13, 424);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(303, 13);
+            this.label2.TabIndex = 12;
+            this.label2.Text = "Работу выполнил студент группы П9021 Соловьев Андрей";
             // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(663, 450);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.Del);
             this.Controls.Add(this.BtnAdd);
             this.Controls.Add(this.Form2BtnHelp);
             this.Controls.Add(this.Form2BtnSearch);
             this.Controls.Add(this.Form2BtnEdit);
             this.Controls.Add(this.label1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "MainForm";
             this.Text = "MainForm";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MainForm_FormClosing);
@@ -140,5 +154,6 @@ namespace WindowsFormsApp7
         private System.Windows.Forms.Button Form2BtnHelp;
         private System.Windows.Forms.Button BtnAdd;
         private System.Windows.Forms.Button Del;
+        private System.Windows.Forms.Label label2;
     }
 }

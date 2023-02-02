@@ -19,8 +19,8 @@ namespace WindowsFormsApp7
         }
 
         MainForm form2;
-        string Login = "a";
-        string Password = "1";
+        string Login = "admin";
+        string Password = "1234";
         private void Form1Btn_Click(object sender, EventArgs e)
         {
             string Log = Form1Log.Text;

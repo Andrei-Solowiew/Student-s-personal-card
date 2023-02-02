@@ -30,6 +30,7 @@ namespace WindowsFormsApp7
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AddParentsForm));
             this.label6 = new System.Windows.Forms.Label();
             this.textBoxMomPost = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
@@ -74,9 +75,6 @@ namespace WindowsFormsApp7
             this.label21 = new System.Windows.Forms.Label();
             this.textBoxZpMail = new System.Windows.Forms.TextBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.бД3DataSet = new WindowsFormsApp7.БД3DataSet();
-            this.родителиBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.родителиTableAdapter = new WindowsFormsApp7.БД3DataSetTableAdapters.РодителиTableAdapter();
             this.кодРодителейDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.фамилияМатериDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.имяМатериDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -99,11 +97,14 @@ namespace WindowsFormsApp7
             this.должностьЗпDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.имейлЗпDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.кодСтудентаDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.родителиBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.бД3DataSet = new WindowsFormsApp7.БД3DataSet();
+            this.родителиTableAdapter = new WindowsFormsApp7.БД3DataSetTableAdapters.РодителиTableAdapter();
             this.label22 = new System.Windows.Forms.Label();
             this.textBoxZpPhone = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.бД3DataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.родителиBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.бД3DataSet)).BeginInit();
             this.SuspendLayout();
             // 
             // label6
@@ -123,7 +124,7 @@ namespace WindowsFormsApp7
             this.textBoxMomPost.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxMomPost.Name = "textBoxMomPost";
             this.textBoxMomPost.Size = new System.Drawing.Size(130, 20);
-            this.textBoxMomPost.TabIndex = 100;
+            this.textBoxMomPost.TabIndex = 6;
             // 
             // label5
             // 
@@ -142,7 +143,7 @@ namespace WindowsFormsApp7
             this.textBoxMomWork.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxMomWork.Name = "textBoxMomWork";
             this.textBoxMomWork.Size = new System.Drawing.Size(151, 20);
-            this.textBoxMomWork.TabIndex = 98;
+            this.textBoxMomWork.TabIndex = 5;
             // 
             // Add
             // 
@@ -152,7 +153,7 @@ namespace WindowsFormsApp7
             this.Add.Margin = new System.Windows.Forms.Padding(2);
             this.Add.Name = "Add";
             this.Add.Size = new System.Drawing.Size(329, 32);
-            this.Add.TabIndex = 97;
+            this.Add.TabIndex = 23;
             this.Add.Text = "Добавить";
             this.Add.UseVisualStyleBackColor = true;
             this.Add.Click += new System.EventHandler(this.Add_Click);
@@ -174,7 +175,7 @@ namespace WindowsFormsApp7
             this.textBoxMomFathername.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxMomFathername.Name = "textBoxMomFathername";
             this.textBoxMomFathername.Size = new System.Drawing.Size(120, 20);
-            this.textBoxMomFathername.TabIndex = 95;
+            this.textBoxMomFathername.TabIndex = 4;
             // 
             // label3
             // 
@@ -193,7 +194,7 @@ namespace WindowsFormsApp7
             this.textBoxMomName.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxMomName.Name = "textBoxMomName";
             this.textBoxMomName.Size = new System.Drawing.Size(84, 20);
-            this.textBoxMomName.TabIndex = 93;
+            this.textBoxMomName.TabIndex = 3;
             // 
             // label2
             // 
@@ -212,7 +213,7 @@ namespace WindowsFormsApp7
             this.textBoxMomSurname.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxMomSurname.Name = "textBoxMomSurname";
             this.textBoxMomSurname.Size = new System.Drawing.Size(119, 20);
-            this.textBoxMomSurname.TabIndex = 91;
+            this.textBoxMomSurname.TabIndex = 2;
             // 
             // label1
             // 
@@ -231,7 +232,7 @@ namespace WindowsFormsApp7
             this.textBoxKodParents.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxKodParents.Name = "textBoxKodParents";
             this.textBoxKodParents.Size = new System.Drawing.Size(105, 20);
-            this.textBoxKodParents.TabIndex = 89;
+            this.textBoxKodParents.TabIndex = 1;
             // 
             // label7
             // 
@@ -250,7 +251,7 @@ namespace WindowsFormsApp7
             this.textBoxPapaPost.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxPapaPost.Name = "textBoxPapaPost";
             this.textBoxPapaPost.Size = new System.Drawing.Size(113, 20);
-            this.textBoxPapaPost.TabIndex = 110;
+            this.textBoxPapaPost.TabIndex = 11;
             // 
             // label8
             // 
@@ -269,7 +270,7 @@ namespace WindowsFormsApp7
             this.textBoxPapaWork.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxPapaWork.Name = "textBoxPapaWork";
             this.textBoxPapaWork.Size = new System.Drawing.Size(134, 20);
-            this.textBoxPapaWork.TabIndex = 108;
+            this.textBoxPapaWork.TabIndex = 10;
             // 
             // label9
             // 
@@ -288,7 +289,7 @@ namespace WindowsFormsApp7
             this.textBoxPapaFathername.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxPapaFathername.Name = "textBoxPapaFathername";
             this.textBoxPapaFathername.Size = new System.Drawing.Size(106, 20);
-            this.textBoxPapaFathername.TabIndex = 106;
+            this.textBoxPapaFathername.TabIndex = 9;
             // 
             // label10
             // 
@@ -307,7 +308,7 @@ namespace WindowsFormsApp7
             this.textBoxPapaName.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxPapaName.Name = "textBoxPapaName";
             this.textBoxPapaName.Size = new System.Drawing.Size(67, 20);
-            this.textBoxPapaName.TabIndex = 104;
+            this.textBoxPapaName.TabIndex = 8;
             // 
             // label11
             // 
@@ -326,7 +327,7 @@ namespace WindowsFormsApp7
             this.textBoxPapaSurname.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxPapaSurname.Name = "textBoxPapaSurname";
             this.textBoxPapaSurname.Size = new System.Drawing.Size(107, 20);
-            this.textBoxPapaSurname.TabIndex = 102;
+            this.textBoxPapaSurname.TabIndex = 7;
             // 
             // label12
             // 
@@ -345,7 +346,7 @@ namespace WindowsFormsApp7
             this.textBoxMomPhone.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxMomPhone.Name = "textBoxMomPhone";
             this.textBoxMomPhone.Size = new System.Drawing.Size(113, 20);
-            this.textBoxMomPhone.TabIndex = 112;
+            this.textBoxMomPhone.TabIndex = 12;
             // 
             // label13
             // 
@@ -364,7 +365,7 @@ namespace WindowsFormsApp7
             this.textBoxPapaPhone.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxPapaPhone.Name = "textBoxPapaPhone";
             this.textBoxPapaPhone.Size = new System.Drawing.Size(100, 20);
-            this.textBoxPapaPhone.TabIndex = 114;
+            this.textBoxPapaPhone.TabIndex = 13;
             // 
             // label14
             // 
@@ -383,7 +384,7 @@ namespace WindowsFormsApp7
             this.textBoxParentsMail.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxParentsMail.Name = "textBoxParentsMail";
             this.textBoxParentsMail.Size = new System.Drawing.Size(119, 20);
-            this.textBoxParentsMail.TabIndex = 116;
+            this.textBoxParentsMail.TabIndex = 14;
             // 
             // label16
             // 
@@ -402,7 +403,7 @@ namespace WindowsFormsApp7
             this.textBoxZpWork.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxZpWork.Name = "textBoxZpWork";
             this.textBoxZpWork.Size = new System.Drawing.Size(118, 20);
-            this.textBoxZpWork.TabIndex = 124;
+            this.textBoxZpWork.TabIndex = 19;
             // 
             // label17
             // 
@@ -421,7 +422,7 @@ namespace WindowsFormsApp7
             this.textBoxZpFathername.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxZpFathername.Name = "textBoxZpFathername";
             this.textBoxZpFathername.Size = new System.Drawing.Size(87, 20);
-            this.textBoxZpFathername.TabIndex = 122;
+            this.textBoxZpFathername.TabIndex = 17;
             // 
             // label18
             // 
@@ -440,7 +441,7 @@ namespace WindowsFormsApp7
             this.textBoxZpName.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxZpName.Name = "textBoxZpName";
             this.textBoxZpName.Size = new System.Drawing.Size(51, 20);
-            this.textBoxZpName.TabIndex = 120;
+            this.textBoxZpName.TabIndex = 16;
             // 
             // label19
             // 
@@ -459,7 +460,7 @@ namespace WindowsFormsApp7
             this.textBoxZpSurname.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxZpSurname.Name = "textBoxZpSurname";
             this.textBoxZpSurname.Size = new System.Drawing.Size(86, 20);
-            this.textBoxZpSurname.TabIndex = 118;
+            this.textBoxZpSurname.TabIndex = 15;
             // 
             // label15
             // 
@@ -478,7 +479,7 @@ namespace WindowsFormsApp7
             this.textBoxZpPost.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxZpPost.Name = "textBoxZpPost";
             this.textBoxZpPost.Size = new System.Drawing.Size(97, 20);
-            this.textBoxZpPost.TabIndex = 126;
+            this.textBoxZpPost.TabIndex = 21;
             // 
             // label20
             // 
@@ -497,7 +498,7 @@ namespace WindowsFormsApp7
             this.textBoxKodStudent.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxKodStudent.Name = "textBoxKodStudent";
             this.textBoxKodStudent.Size = new System.Drawing.Size(94, 20);
-            this.textBoxKodStudent.TabIndex = 130;
+            this.textBoxKodStudent.TabIndex = 22;
             // 
             // label21
             // 
@@ -516,7 +517,7 @@ namespace WindowsFormsApp7
             this.textBoxZpMail.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxZpMail.Name = "textBoxZpMail";
             this.textBoxZpMail.Size = new System.Drawing.Size(67, 20);
-            this.textBoxZpMail.TabIndex = 128;
+            this.textBoxZpMail.TabIndex = 20;
             // 
             // dataGridView1
             // 
@@ -553,20 +554,6 @@ namespace WindowsFormsApp7
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.Size = new System.Drawing.Size(786, 295);
             this.dataGridView1.TabIndex = 132;
-            // 
-            // бД3DataSet
-            // 
-            this.бД3DataSet.DataSetName = "БД3DataSet";
-            this.бД3DataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // родителиBindingSource
-            // 
-            this.родителиBindingSource.DataMember = "Родители";
-            this.родителиBindingSource.DataSource = this.бД3DataSet;
-            // 
-            // родителиTableAdapter
-            // 
-            this.родителиTableAdapter.ClearBeforeFill = true;
             // 
             // кодРодителейDataGridViewTextBoxColumn
             // 
@@ -722,6 +709,20 @@ namespace WindowsFormsApp7
             this.кодСтудентаDataGridViewTextBoxColumn.Name = "кодСтудентаDataGridViewTextBoxColumn";
             this.кодСтудентаDataGridViewTextBoxColumn.ReadOnly = true;
             // 
+            // родителиBindingSource
+            // 
+            this.родителиBindingSource.DataMember = "Родители";
+            this.родителиBindingSource.DataSource = this.бД3DataSet;
+            // 
+            // бД3DataSet
+            // 
+            this.бД3DataSet.DataSetName = "БД3DataSet";
+            this.бД3DataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // родителиTableAdapter
+            // 
+            this.родителиTableAdapter.ClearBeforeFill = true;
+            // 
             // label22
             // 
             this.label22.AutoSize = true;
@@ -739,7 +740,7 @@ namespace WindowsFormsApp7
             this.textBoxZpPhone.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxZpPhone.Name = "textBoxZpPhone";
             this.textBoxZpPhone.Size = new System.Drawing.Size(84, 20);
-            this.textBoxZpPhone.TabIndex = 133;
+            this.textBoxZpPhone.TabIndex = 18;
             // 
             // AddParentsForm
             // 
@@ -792,13 +793,14 @@ namespace WindowsFormsApp7
             this.Controls.Add(this.textBoxMomSurname);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBoxKodParents);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "AddParentsForm";
             this.Text = "AddParentsForm";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.AddParentsForm_FormClosing);
             this.Load += new System.EventHandler(this.AddParentsForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.бД3DataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.родителиBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.бД3DataSet)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

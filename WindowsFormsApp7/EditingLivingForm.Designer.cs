@@ -30,6 +30,7 @@ namespace WindowsFormsApp7
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(EditingLivingForm));
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.кодПроживанияDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.населенныйПунктПроживанияDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -83,12 +84,12 @@ namespace WindowsFormsApp7
             this.кодСтудентаDataGridViewTextBoxColumn});
             this.dataGridView1.DataSource = this.местоПроживанияСтудентаBindingSource1;
             this.dataGridView1.Location = new System.Drawing.Point(11, 236);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(2);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 62;
             this.dataGridView1.RowTemplate.Height = 28;
-            this.dataGridView1.Size = new System.Drawing.Size(902, 92);
-            this.dataGridView1.TabIndex = 0;
+            this.dataGridView1.Size = new System.Drawing.Size(902, 167);
+            this.dataGridView1.TabIndex = 100;
             // 
             // кодПроживанияDataGridViewTextBoxColumn
             // 
@@ -180,20 +181,20 @@ namespace WindowsFormsApp7
             // textBoxFlat
             // 
             this.textBoxFlat.Location = new System.Drawing.Point(780, 144);
-            this.textBoxFlat.Margin = new System.Windows.Forms.Padding(2);
+            this.textBoxFlat.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBoxFlat.Name = "textBoxFlat";
             this.textBoxFlat.Size = new System.Drawing.Size(68, 20);
-            this.textBoxFlat.TabIndex = 90;
+            this.textBoxFlat.TabIndex = 11;
             // 
             // ChangeFlat
             // 
             this.ChangeFlat.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ChangeFlat.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.ChangeFlat.Location = new System.Drawing.Point(568, 181);
-            this.ChangeFlat.Margin = new System.Windows.Forms.Padding(2);
+            this.ChangeFlat.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.ChangeFlat.Name = "ChangeFlat";
             this.ChangeFlat.Size = new System.Drawing.Size(280, 32);
-            this.ChangeFlat.TabIndex = 89;
+            this.ChangeFlat.TabIndex = 12;
             this.ChangeFlat.Text = "Изменить";
             this.ChangeFlat.UseVisualStyleBackColor = true;
             this.ChangeFlat.Click += new System.EventHandler(this.ChangeFlat_Click);
@@ -212,10 +213,10 @@ namespace WindowsFormsApp7
             // textBoxKod4
             // 
             this.textBoxKod4.Location = new System.Drawing.Point(572, 144);
-            this.textBoxKod4.Margin = new System.Windows.Forms.Padding(2);
+            this.textBoxKod4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBoxKod4.Name = "textBoxKod4";
             this.textBoxKod4.Size = new System.Drawing.Size(117, 20);
-            this.textBoxKod4.TabIndex = 87;
+            this.textBoxKod4.TabIndex = 10;
             // 
             // label3
             // 
@@ -231,20 +232,20 @@ namespace WindowsFormsApp7
             // textBoxHouse
             // 
             this.textBoxHouse.Location = new System.Drawing.Point(333, 144);
-            this.textBoxHouse.Margin = new System.Windows.Forms.Padding(2);
+            this.textBoxHouse.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBoxHouse.Name = "textBoxHouse";
             this.textBoxHouse.Size = new System.Drawing.Size(33, 20);
-            this.textBoxHouse.TabIndex = 85;
+            this.textBoxHouse.TabIndex = 8;
             // 
             // ChangeHouse
             // 
             this.ChangeHouse.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ChangeHouse.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.ChangeHouse.Location = new System.Drawing.Point(86, 181);
-            this.ChangeHouse.Margin = new System.Windows.Forms.Padding(2);
+            this.ChangeHouse.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.ChangeHouse.Name = "ChangeHouse";
             this.ChangeHouse.Size = new System.Drawing.Size(280, 32);
-            this.ChangeHouse.TabIndex = 84;
+            this.ChangeHouse.TabIndex = 9;
             this.ChangeHouse.Text = "Изменить";
             this.ChangeHouse.UseVisualStyleBackColor = true;
             this.ChangeHouse.Click += new System.EventHandler(this.ChangeHouse_Click);
@@ -264,10 +265,10 @@ namespace WindowsFormsApp7
             // textBoxKod3
             // 
             this.textBoxKod3.Location = new System.Drawing.Point(90, 144);
-            this.textBoxKod3.Margin = new System.Windows.Forms.Padding(2);
+            this.textBoxKod3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBoxKod3.Name = "textBoxKod3";
             this.textBoxKod3.Size = new System.Drawing.Size(117, 20);
-            this.textBoxKod3.TabIndex = 82;
+            this.textBoxKod3.TabIndex = 7;
             // 
             // label1
             // 
@@ -283,20 +284,20 @@ namespace WindowsFormsApp7
             // textBoxStreet
             // 
             this.textBoxStreet.Location = new System.Drawing.Point(802, 32);
-            this.textBoxStreet.Margin = new System.Windows.Forms.Padding(2);
+            this.textBoxStreet.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBoxStreet.Name = "textBoxStreet";
             this.textBoxStreet.Size = new System.Drawing.Size(46, 20);
-            this.textBoxStreet.TabIndex = 80;
+            this.textBoxStreet.TabIndex = 5;
             // 
             // ChangeStreet
             // 
             this.ChangeStreet.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ChangeStreet.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.ChangeStreet.Location = new System.Drawing.Point(568, 69);
-            this.ChangeStreet.Margin = new System.Windows.Forms.Padding(2);
+            this.ChangeStreet.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.ChangeStreet.Name = "ChangeStreet";
             this.ChangeStreet.Size = new System.Drawing.Size(280, 32);
-            this.ChangeStreet.TabIndex = 79;
+            this.ChangeStreet.TabIndex = 6;
             this.ChangeStreet.Text = "Изменить";
             this.ChangeStreet.UseVisualStyleBackColor = true;
             this.ChangeStreet.Click += new System.EventHandler(this.ChangeStreet_Click);
@@ -315,10 +316,10 @@ namespace WindowsFormsApp7
             // textBoxKod2
             // 
             this.textBoxKod2.Location = new System.Drawing.Point(572, 32);
-            this.textBoxKod2.Margin = new System.Windows.Forms.Padding(2);
+            this.textBoxKod2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBoxKod2.Name = "textBoxKod2";
             this.textBoxKod2.Size = new System.Drawing.Size(117, 20);
-            this.textBoxKod2.TabIndex = 77;
+            this.textBoxKod2.TabIndex = 4;
             // 
             // label9
             // 
@@ -334,20 +335,20 @@ namespace WindowsFormsApp7
             // textBoxCity
             // 
             this.textBoxCity.Location = new System.Drawing.Point(237, 32);
-            this.textBoxCity.Margin = new System.Windows.Forms.Padding(2);
+            this.textBoxCity.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBoxCity.Name = "textBoxCity";
             this.textBoxCity.Size = new System.Drawing.Size(129, 20);
-            this.textBoxCity.TabIndex = 75;
+            this.textBoxCity.TabIndex = 2;
             // 
             // ChangeCity
             // 
             this.ChangeCity.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ChangeCity.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.ChangeCity.Location = new System.Drawing.Point(86, 69);
-            this.ChangeCity.Margin = new System.Windows.Forms.Padding(2);
+            this.ChangeCity.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.ChangeCity.Name = "ChangeCity";
             this.ChangeCity.Size = new System.Drawing.Size(280, 32);
-            this.ChangeCity.TabIndex = 74;
+            this.ChangeCity.TabIndex = 3;
             this.ChangeCity.Text = "Изменить";
             this.ChangeCity.UseVisualStyleBackColor = true;
             this.ChangeCity.Click += new System.EventHandler(this.ChangeCity_Click);
@@ -366,16 +367,16 @@ namespace WindowsFormsApp7
             // textBoxKod1
             // 
             this.textBoxKod1.Location = new System.Drawing.Point(90, 32);
-            this.textBoxKod1.Margin = new System.Windows.Forms.Padding(2);
+            this.textBoxKod1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBoxKod1.Name = "textBoxKod1";
             this.textBoxKod1.Size = new System.Drawing.Size(117, 20);
-            this.textBoxKod1.TabIndex = 72;
+            this.textBoxKod1.TabIndex = 1;
             // 
             // EditingLivingForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(924, 339);
+            this.ClientSize = new System.Drawing.Size(924, 425);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.textBoxFlat);
             this.Controls.Add(this.ChangeFlat);
@@ -397,7 +398,8 @@ namespace WindowsFormsApp7
             this.Controls.Add(this.label8);
             this.Controls.Add(this.textBoxKod1);
             this.Controls.Add(this.dataGridView1);
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "EditingLivingForm";
             this.Text = "EditingLivingForm";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.EditingLivingForm_FormClosing);

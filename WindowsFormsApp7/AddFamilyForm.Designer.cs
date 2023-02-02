@@ -30,6 +30,7 @@ namespace WindowsFormsApp7
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AddFamilyForm));
             this.Add = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.textBoxChildren = new System.Windows.Forms.TextBox();
@@ -72,7 +73,7 @@ namespace WindowsFormsApp7
             this.Add.Margin = new System.Windows.Forms.Padding(2);
             this.Add.Name = "Add";
             this.Add.Size = new System.Drawing.Size(329, 32);
-            this.Add.TabIndex = 41;
+            this.Add.TabIndex = 9;
             this.Add.Text = "Добавить";
             this.Add.UseVisualStyleBackColor = true;
             this.Add.Click += new System.EventHandler(this.Add_Click);
@@ -94,7 +95,7 @@ namespace WindowsFormsApp7
             this.textBoxChildren.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxChildren.Name = "textBoxChildren";
             this.textBoxChildren.Size = new System.Drawing.Size(129, 20);
-            this.textBoxChildren.TabIndex = 35;
+            this.textBoxChildren.TabIndex = 4;
             // 
             // label3
             // 
@@ -113,7 +114,7 @@ namespace WindowsFormsApp7
             this.textBoxReason.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxReason.Name = "textBoxReason";
             this.textBoxReason.Size = new System.Drawing.Size(175, 20);
-            this.textBoxReason.TabIndex = 33;
+            this.textBoxReason.TabIndex = 3;
             // 
             // label2
             // 
@@ -132,7 +133,7 @@ namespace WindowsFormsApp7
             this.textBoxCompleteness.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxCompleteness.Name = "textBoxCompleteness";
             this.textBoxCompleteness.Size = new System.Drawing.Size(118, 20);
-            this.textBoxCompleteness.TabIndex = 31;
+            this.textBoxCompleteness.TabIndex = 2;
             // 
             // label1
             // 
@@ -151,7 +152,7 @@ namespace WindowsFormsApp7
             this.textBoxKodFamily.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxKodFamily.Name = "textBoxKodFamily";
             this.textBoxKodFamily.Size = new System.Drawing.Size(73, 20);
-            this.textBoxKodFamily.TabIndex = 29;
+            this.textBoxKodFamily.TabIndex = 1;
             // 
             // label5
             // 
@@ -170,7 +171,7 @@ namespace WindowsFormsApp7
             this.textBoxDataChildren.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxDataChildren.Name = "textBoxDataChildren";
             this.textBoxDataChildren.Size = new System.Drawing.Size(165, 20);
-            this.textBoxDataChildren.TabIndex = 42;
+            this.textBoxDataChildren.TabIndex = 5;
             // 
             // label6
             // 
@@ -189,7 +190,7 @@ namespace WindowsFormsApp7
             this.textBoxPlace.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxPlace.Name = "textBoxPlace";
             this.textBoxPlace.Size = new System.Drawing.Size(173, 20);
-            this.textBoxPlace.TabIndex = 44;
+            this.textBoxPlace.TabIndex = 6;
             // 
             // label7
             // 
@@ -208,7 +209,7 @@ namespace WindowsFormsApp7
             this.textBoxToday.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxToday.Name = "textBoxToday";
             this.textBoxToday.Size = new System.Drawing.Size(129, 20);
-            this.textBoxToday.TabIndex = 46;
+            this.textBoxToday.TabIndex = 7;
             // 
             // label8
             // 
@@ -227,7 +228,7 @@ namespace WindowsFormsApp7
             this.textBoxKodStudenta.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxKodStudenta.Name = "textBoxKodStudenta";
             this.textBoxKodStudenta.Size = new System.Drawing.Size(94, 20);
-            this.textBoxKodStudenta.TabIndex = 48;
+            this.textBoxKodStudenta.TabIndex = 8;
             // 
             // dataGridView1
             // 
@@ -249,7 +250,7 @@ namespace WindowsFormsApp7
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.Size = new System.Drawing.Size(888, 217);
-            this.dataGridView1.TabIndex = 50;
+            this.dataGridView1.TabIndex = 500;
             // 
             // кодСемьиDataGridViewTextBoxColumn
             // 
@@ -345,6 +346,7 @@ namespace WindowsFormsApp7
             this.Controls.Add(this.textBoxCompleteness);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBoxKodFamily);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "AddFamilyForm";
             this.Text = "AddFamilyForm";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.AddFamilyForm_FormClosing);

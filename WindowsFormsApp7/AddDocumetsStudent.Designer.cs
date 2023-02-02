@@ -30,6 +30,7 @@ namespace WindowsFormsApp7
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AddDocumetsStudent));
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.паспортDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.кодСтудентаDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -118,7 +119,7 @@ namespace WindowsFormsApp7
             this.textBoxPasport.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxPasport.Name = "textBoxPasport";
             this.textBoxPasport.Size = new System.Drawing.Size(61, 20);
-            this.textBoxPasport.TabIndex = 89;
+            this.textBoxPasport.TabIndex = 1;
             // 
             // label1
             // 
@@ -137,7 +138,7 @@ namespace WindowsFormsApp7
             this.textBoxAttestat.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxAttestat.Name = "textBoxAttestat";
             this.textBoxAttestat.Size = new System.Drawing.Size(65, 20);
-            this.textBoxAttestat.TabIndex = 91;
+            this.textBoxAttestat.TabIndex = 3;
             // 
             // label2
             // 
@@ -156,7 +157,7 @@ namespace WindowsFormsApp7
             this.textBoxCitezenship.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxCitezenship.Name = "textBoxCitezenship";
             this.textBoxCitezenship.Size = new System.Drawing.Size(91, 20);
-            this.textBoxCitezenship.TabIndex = 93;
+            this.textBoxCitezenship.TabIndex = 4;
             // 
             // label3
             // 
@@ -177,7 +178,7 @@ namespace WindowsFormsApp7
             this.Add.Margin = new System.Windows.Forms.Padding(2);
             this.Add.Name = "Add";
             this.Add.Size = new System.Drawing.Size(362, 32);
-            this.Add.TabIndex = 97;
+            this.Add.TabIndex = 5;
             this.Add.Text = "Добавить";
             this.Add.UseVisualStyleBackColor = true;
             this.Add.Click += new System.EventHandler(this.Add_Click);
@@ -188,7 +189,7 @@ namespace WindowsFormsApp7
             this.textBoxKodStudent.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxKodStudent.Name = "textBoxKodStudent";
             this.textBoxKodStudent.Size = new System.Drawing.Size(94, 20);
-            this.textBoxKodStudent.TabIndex = 100;
+            this.textBoxKodStudent.TabIndex = 2;
             // 
             // label6
             // 
@@ -216,6 +217,7 @@ namespace WindowsFormsApp7
             this.Controls.Add(this.textBoxAttestat);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBoxPasport);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "AddDocumetsStudent";
             this.Text = "AddDocumetsStudent";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.AddDocumetsStudent_FormClosing);

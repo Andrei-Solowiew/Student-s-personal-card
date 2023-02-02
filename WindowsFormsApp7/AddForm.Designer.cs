@@ -29,6 +29,7 @@ namespace WindowsFormsApp7
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AddForm));
             this.Form3BtnSchool = new System.Windows.Forms.Button();
             this.Form3BtnCollegeDoc = new System.Windows.Forms.Button();
             this.Form3BtnStudentDoc = new System.Windows.Forms.Button();
@@ -90,7 +91,7 @@ namespace WindowsFormsApp7
             this.Form3BtnHabitation.Margin = new System.Windows.Forms.Padding(2);
             this.Form3BtnHabitation.Name = "Form3BtnHabitation";
             this.Form3BtnHabitation.Size = new System.Drawing.Size(157, 40);
-            this.Form3BtnHabitation.TabIndex = 27;
+            this.Form3BtnHabitation.TabIndex = 26;
             this.Form3BtnHabitation.Text = "Проживание";
             this.Form3BtnHabitation.UseVisualStyleBackColor = true;
             this.Form3BtnHabitation.Click += new System.EventHandler(this.Form3BtnHabitation_Click);
@@ -103,7 +104,7 @@ namespace WindowsFormsApp7
             this.Form3BtnRegistration.Margin = new System.Windows.Forms.Padding(2);
             this.Form3BtnRegistration.Name = "Form3BtnRegistration";
             this.Form3BtnRegistration.Size = new System.Drawing.Size(157, 40);
-            this.Form3BtnRegistration.TabIndex = 26;
+            this.Form3BtnRegistration.TabIndex = 25;
             this.Form3BtnRegistration.Text = "Регистрация";
             this.Form3BtnRegistration.UseVisualStyleBackColor = true;
             this.Form3BtnRegistration.Click += new System.EventHandler(this.Form3BtnRegistration_Click);
@@ -116,7 +117,7 @@ namespace WindowsFormsApp7
             this.Form3BtnStudy.Margin = new System.Windows.Forms.Padding(2);
             this.Form3BtnStudy.Name = "Form3BtnStudy";
             this.Form3BtnStudy.Size = new System.Drawing.Size(157, 40);
-            this.Form3BtnStudy.TabIndex = 25;
+            this.Form3BtnStudy.TabIndex = 24;
             this.Form3BtnStudy.Text = "Обучение";
             this.Form3BtnStudy.UseVisualStyleBackColor = true;
             this.Form3BtnStudy.Click += new System.EventHandler(this.Form3BtnStudy_Click);
@@ -129,7 +130,7 @@ namespace WindowsFormsApp7
             this.Form3BtnNeeds.Margin = new System.Windows.Forms.Padding(2);
             this.Form3BtnNeeds.Name = "Form3BtnNeeds";
             this.Form3BtnNeeds.Size = new System.Drawing.Size(157, 40);
-            this.Form3BtnNeeds.TabIndex = 24;
+            this.Form3BtnNeeds.TabIndex = 23;
             this.Form3BtnNeeds.Text = "Потребности";
             this.Form3BtnNeeds.UseVisualStyleBackColor = true;
             this.Form3BtnNeeds.Click += new System.EventHandler(this.Form3BtnNeeds_Click);
@@ -142,7 +143,7 @@ namespace WindowsFormsApp7
             this.Form3BtnParents.Margin = new System.Windows.Forms.Padding(2);
             this.Form3BtnParents.Name = "Form3BtnParents";
             this.Form3BtnParents.Size = new System.Drawing.Size(157, 40);
-            this.Form3BtnParents.TabIndex = 23;
+            this.Form3BtnParents.TabIndex = 27;
             this.Form3BtnParents.Text = "Родители";
             this.Form3BtnParents.UseVisualStyleBackColor = true;
             this.Form3BtnParents.Click += new System.EventHandler(this.Form3BtnParents_Click);
@@ -214,6 +215,7 @@ namespace WindowsFormsApp7
             this.Controls.Add(this.Form3BtnSpecial);
             this.Controls.Add(this.Form3BtnStudent);
             this.Controls.Add(this.label1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "AddForm";
             this.Text = "AddForm";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.AddForm_FormClosing);

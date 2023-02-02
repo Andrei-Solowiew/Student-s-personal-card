@@ -29,6 +29,7 @@ namespace WindowsFormsApp7
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DelForm));
             this.Form3BtnStudent = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
@@ -64,6 +65,7 @@ namespace WindowsFormsApp7
             this.ClientSize = new System.Drawing.Size(886, 450);
             this.Controls.Add(this.Form3BtnStudent);
             this.Controls.Add(this.label1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "DelForm";
             this.Text = "DelForm";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.DelForm_FormClosing);

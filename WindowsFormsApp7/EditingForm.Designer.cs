@@ -29,6 +29,7 @@ namespace WindowsFormsApp7
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(EditingForm));
             this.label1 = new System.Windows.Forms.Label();
             this.Form3BtnStudent = new System.Windows.Forms.Button();
             this.Form3BtnSpecial = new System.Windows.Forms.Button();
@@ -59,7 +60,7 @@ namespace WindowsFormsApp7
             this.Form3BtnStudent.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Form3BtnStudent.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Form3BtnStudent.Location = new System.Drawing.Point(75, 84);
-            this.Form3BtnStudent.Margin = new System.Windows.Forms.Padding(2);
+            this.Form3BtnStudent.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Form3BtnStudent.Name = "Form3BtnStudent";
             this.Form3BtnStudent.Size = new System.Drawing.Size(157, 40);
             this.Form3BtnStudent.TabIndex = 8;
@@ -72,7 +73,7 @@ namespace WindowsFormsApp7
             this.Form3BtnSpecial.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Form3BtnSpecial.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Form3BtnSpecial.Location = new System.Drawing.Point(262, 84);
-            this.Form3BtnSpecial.Margin = new System.Windows.Forms.Padding(2);
+            this.Form3BtnSpecial.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Form3BtnSpecial.Name = "Form3BtnSpecial";
             this.Form3BtnSpecial.Size = new System.Drawing.Size(157, 40);
             this.Form3BtnSpecial.TabIndex = 9;
@@ -85,7 +86,7 @@ namespace WindowsFormsApp7
             this.Form3BtnFamily.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Form3BtnFamily.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Form3BtnFamily.Location = new System.Drawing.Point(455, 84);
-            this.Form3BtnFamily.Margin = new System.Windows.Forms.Padding(2);
+            this.Form3BtnFamily.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Form3BtnFamily.Name = "Form3BtnFamily";
             this.Form3BtnFamily.Size = new System.Drawing.Size(157, 40);
             this.Form3BtnFamily.TabIndex = 10;
@@ -98,10 +99,10 @@ namespace WindowsFormsApp7
             this.Form3BtnParents.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Form3BtnParents.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Form3BtnParents.Location = new System.Drawing.Point(656, 142);
-            this.Form3BtnParents.Margin = new System.Windows.Forms.Padding(2);
+            this.Form3BtnParents.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Form3BtnParents.Name = "Form3BtnParents";
             this.Form3BtnParents.Size = new System.Drawing.Size(157, 40);
-            this.Form3BtnParents.TabIndex = 11;
+            this.Form3BtnParents.TabIndex = 15;
             this.Form3BtnParents.Text = "Родители";
             this.Form3BtnParents.UseVisualStyleBackColor = true;
             this.Form3BtnParents.Click += new System.EventHandler(this.Form3BtnParents_Click);
@@ -111,10 +112,10 @@ namespace WindowsFormsApp7
             this.Form3BtnNeeds.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Form3BtnNeeds.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Form3BtnNeeds.Location = new System.Drawing.Point(656, 84);
-            this.Form3BtnNeeds.Margin = new System.Windows.Forms.Padding(2);
+            this.Form3BtnNeeds.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Form3BtnNeeds.Name = "Form3BtnNeeds";
             this.Form3BtnNeeds.Size = new System.Drawing.Size(157, 40);
-            this.Form3BtnNeeds.TabIndex = 12;
+            this.Form3BtnNeeds.TabIndex = 11;
             this.Form3BtnNeeds.Text = "Потребности";
             this.Form3BtnNeeds.UseVisualStyleBackColor = true;
             this.Form3BtnNeeds.Click += new System.EventHandler(this.Form3BtnNeeds_Click);
@@ -124,10 +125,10 @@ namespace WindowsFormsApp7
             this.Form3BtnStudy.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Form3BtnStudy.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Form3BtnStudy.Location = new System.Drawing.Point(75, 142);
-            this.Form3BtnStudy.Margin = new System.Windows.Forms.Padding(2);
+            this.Form3BtnStudy.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Form3BtnStudy.Name = "Form3BtnStudy";
             this.Form3BtnStudy.Size = new System.Drawing.Size(157, 40);
-            this.Form3BtnStudy.TabIndex = 13;
+            this.Form3BtnStudy.TabIndex = 12;
             this.Form3BtnStudy.Text = "Обучение";
             this.Form3BtnStudy.UseVisualStyleBackColor = true;
             this.Form3BtnStudy.Click += new System.EventHandler(this.Form3BtnStudy_Click);
@@ -137,10 +138,10 @@ namespace WindowsFormsApp7
             this.Form3BtnRegistration.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Form3BtnRegistration.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Form3BtnRegistration.Location = new System.Drawing.Point(262, 142);
-            this.Form3BtnRegistration.Margin = new System.Windows.Forms.Padding(2);
+            this.Form3BtnRegistration.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Form3BtnRegistration.Name = "Form3BtnRegistration";
             this.Form3BtnRegistration.Size = new System.Drawing.Size(157, 40);
-            this.Form3BtnRegistration.TabIndex = 14;
+            this.Form3BtnRegistration.TabIndex = 13;
             this.Form3BtnRegistration.Text = "Регистрация";
             this.Form3BtnRegistration.UseVisualStyleBackColor = true;
             this.Form3BtnRegistration.Click += new System.EventHandler(this.Form3BtnRegistration_Click);
@@ -150,10 +151,10 @@ namespace WindowsFormsApp7
             this.Form3BtnHabitation.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Form3BtnHabitation.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Form3BtnHabitation.Location = new System.Drawing.Point(455, 142);
-            this.Form3BtnHabitation.Margin = new System.Windows.Forms.Padding(2);
+            this.Form3BtnHabitation.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Form3BtnHabitation.Name = "Form3BtnHabitation";
             this.Form3BtnHabitation.Size = new System.Drawing.Size(157, 40);
-            this.Form3BtnHabitation.TabIndex = 15;
+            this.Form3BtnHabitation.TabIndex = 14;
             this.Form3BtnHabitation.Text = "Проживание";
             this.Form3BtnHabitation.UseVisualStyleBackColor = true;
             this.Form3BtnHabitation.Click += new System.EventHandler(this.Form3BtnHabitation_Click);
@@ -163,7 +164,7 @@ namespace WindowsFormsApp7
             this.Form3BtnStudentDoc.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Form3BtnStudentDoc.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Form3BtnStudentDoc.Location = new System.Drawing.Point(165, 204);
-            this.Form3BtnStudentDoc.Margin = new System.Windows.Forms.Padding(2);
+            this.Form3BtnStudentDoc.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Form3BtnStudentDoc.Name = "Form3BtnStudentDoc";
             this.Form3BtnStudentDoc.Size = new System.Drawing.Size(254, 40);
             this.Form3BtnStudentDoc.TabIndex = 16;
@@ -176,7 +177,7 @@ namespace WindowsFormsApp7
             this.Form3BtnCollegeDoc.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Form3BtnCollegeDoc.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Form3BtnCollegeDoc.Location = new System.Drawing.Point(455, 204);
-            this.Form3BtnCollegeDoc.Margin = new System.Windows.Forms.Padding(2);
+            this.Form3BtnCollegeDoc.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Form3BtnCollegeDoc.Name = "Form3BtnCollegeDoc";
             this.Form3BtnCollegeDoc.Size = new System.Drawing.Size(254, 40);
             this.Form3BtnCollegeDoc.TabIndex = 17;
@@ -189,7 +190,7 @@ namespace WindowsFormsApp7
             this.Form3BtnSchool.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Form3BtnSchool.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Form3BtnSchool.Location = new System.Drawing.Point(309, 270);
-            this.Form3BtnSchool.Margin = new System.Windows.Forms.Padding(2);
+            this.Form3BtnSchool.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Form3BtnSchool.Name = "Form3BtnSchool";
             this.Form3BtnSchool.Size = new System.Drawing.Size(254, 40);
             this.Form3BtnSchool.TabIndex = 18;
@@ -214,6 +215,7 @@ namespace WindowsFormsApp7
             this.Controls.Add(this.Form3BtnSpecial);
             this.Controls.Add(this.Form3BtnStudent);
             this.Controls.Add(this.label1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "EditingForm";
             this.Text = "EditingForm";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.EditingForm_FormClosing);

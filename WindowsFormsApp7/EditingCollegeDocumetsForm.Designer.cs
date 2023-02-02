@@ -30,23 +30,24 @@ namespace WindowsFormsApp7
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(EditingCollegeDocumetsForm));
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.номерПриказаОЗачисленииDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.кодСтудентаDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.датаЗаключенияДоговораDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.датаПриказаОЗачисленииDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.документыОтКолледжаBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.бД3DataSet = new WindowsFormsApp7.БД3DataSet();
             this.документыОтКолледжаBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this._СР_5_ОПБД_Соловьев_Андрей_П9021DataSet = new WindowsFormsApp7._СР_5_ОПБД_Соловьев_Андрей_П9021DataSet();
             this.документы_от_колледжаTableAdapter = new WindowsFormsApp7._СР_5_ОПБД_Соловьев_Андрей_П9021DataSetTableAdapters.Документы_от_колледжаTableAdapter();
-            this.бД3DataSet = new WindowsFormsApp7.БД3DataSet();
-            this.документыОтКолледжаBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.документы_от_колледжаTableAdapter1 = new WindowsFormsApp7.БД3DataSetTableAdapters.Документы_от_колледжаTableAdapter();
             this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.документыОтКолледжаBindingSource1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.бД3DataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.документыОтКолледжаBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this._СР_5_ОПБД_Соловьев_Андрей_П9021DataSet)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.бД3DataSet)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.документыОтКолледжаBindingSource1)).BeginInit();
             this.SuspendLayout();
             // 
             // dataGridView1
@@ -76,6 +77,7 @@ namespace WindowsFormsApp7
             this.номерПриказаОЗачисленииDataGridViewTextBoxColumn.HeaderText = "Номер приказа о зачислении";
             this.номерПриказаОЗачисленииDataGridViewTextBoxColumn.MinimumWidth = 8;
             this.номерПриказаОЗачисленииDataGridViewTextBoxColumn.Name = "номерПриказаОЗачисленииDataGridViewTextBoxColumn";
+            this.номерПриказаОЗачисленииDataGridViewTextBoxColumn.ReadOnly = true;
             this.номерПриказаОЗачисленииDataGridViewTextBoxColumn.Width = 150;
             // 
             // кодСтудентаDataGridViewTextBoxColumn
@@ -84,6 +86,7 @@ namespace WindowsFormsApp7
             this.кодСтудентаDataGridViewTextBoxColumn.HeaderText = "Код студента";
             this.кодСтудентаDataGridViewTextBoxColumn.MinimumWidth = 8;
             this.кодСтудентаDataGridViewTextBoxColumn.Name = "кодСтудентаDataGridViewTextBoxColumn";
+            this.кодСтудентаDataGridViewTextBoxColumn.ReadOnly = true;
             this.кодСтудентаDataGridViewTextBoxColumn.Width = 150;
             // 
             // датаЗаключенияДоговораDataGridViewTextBoxColumn
@@ -92,6 +95,7 @@ namespace WindowsFormsApp7
             this.датаЗаключенияДоговораDataGridViewTextBoxColumn.HeaderText = "Дата заключения договора";
             this.датаЗаключенияДоговораDataGridViewTextBoxColumn.MinimumWidth = 8;
             this.датаЗаключенияДоговораDataGridViewTextBoxColumn.Name = "датаЗаключенияДоговораDataGridViewTextBoxColumn";
+            this.датаЗаключенияДоговораDataGridViewTextBoxColumn.ReadOnly = true;
             this.датаЗаключенияДоговораDataGridViewTextBoxColumn.Width = 150;
             // 
             // датаПриказаОЗачисленииDataGridViewTextBoxColumn
@@ -100,7 +104,18 @@ namespace WindowsFormsApp7
             this.датаПриказаОЗачисленииDataGridViewTextBoxColumn.HeaderText = "Дата приказа о зачислении";
             this.датаПриказаОЗачисленииDataGridViewTextBoxColumn.MinimumWidth = 8;
             this.датаПриказаОЗачисленииDataGridViewTextBoxColumn.Name = "датаПриказаОЗачисленииDataGridViewTextBoxColumn";
+            this.датаПриказаОЗачисленииDataGridViewTextBoxColumn.ReadOnly = true;
             this.датаПриказаОЗачисленииDataGridViewTextBoxColumn.Width = 150;
+            // 
+            // документыОтКолледжаBindingSource1
+            // 
+            this.документыОтКолледжаBindingSource1.DataMember = "Документы от колледжа";
+            this.документыОтКолледжаBindingSource1.DataSource = this.бД3DataSet;
+            // 
+            // бД3DataSet
+            // 
+            this.бД3DataSet.DataSetName = "БД3DataSet";
+            this.бД3DataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // документыОтКолледжаBindingSource
             // 
@@ -115,16 +130,6 @@ namespace WindowsFormsApp7
             // документы_от_колледжаTableAdapter
             // 
             this.документы_от_колледжаTableAdapter.ClearBeforeFill = true;
-            // 
-            // бД3DataSet
-            // 
-            this.бД3DataSet.DataSetName = "БД3DataSet";
-            this.бД3DataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // документыОтКолледжаBindingSource1
-            // 
-            this.документыОтКолледжаBindingSource1.DataMember = "Документы от колледжа";
-            this.документыОтКолледжаBindingSource1.DataSource = this.бД3DataSet;
             // 
             // документы_от_колледжаTableAdapter1
             // 
@@ -147,16 +152,17 @@ namespace WindowsFormsApp7
             this.ClientSize = new System.Drawing.Size(768, 292);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.dataGridView1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "EditingCollegeDocumetsForm";
             this.Text = "EditingCollegeDocumetsForm";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.EditingCollegeDocumetsForm_FormClosing);
             this.Load += new System.EventHandler(this.Form13_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.документыОтКолледжаBindingSource1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.бД3DataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.документыОтКолледжаBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this._СР_5_ОПБД_Соловьев_Андрей_П9021DataSet)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.бД3DataSet)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.документыОтКолледжаBindingSource1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -98,5 +98,10 @@ namespace WindowsFormsApp7
             MessageBox.Show("Дата обновлена");
             this.семьяTableAdapter1.Fill(this.бД3DataSet.Семья);
         }
+
+        private void textBoxUpdateToday_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

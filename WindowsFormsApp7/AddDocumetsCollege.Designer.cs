@@ -30,6 +30,7 @@ namespace WindowsFormsApp7
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AddDocumetsCollege));
             this.label6 = new System.Windows.Forms.Label();
             this.textBoxKodStudent = new System.Windows.Forms.TextBox();
             this.Add = new System.Windows.Forms.Button();
@@ -40,16 +41,16 @@ namespace WindowsFormsApp7
             this.label3 = new System.Windows.Forms.Label();
             this.textBoxDataOrder = new System.Windows.Forms.TextBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.бД3DataSet = new WindowsFormsApp7.БД3DataSet();
-            this.документыОтКолледжаBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.документы_от_колледжаTableAdapter = new WindowsFormsApp7.БД3DataSetTableAdapters.Документы_от_колледжаTableAdapter();
             this.номерПриказаОЗачисленииDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.кодСтудентаDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.датаЗаключенияДоговораDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.датаПриказаОЗачисленииDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.документыОтКолледжаBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.бД3DataSet = new WindowsFormsApp7.БД3DataSet();
+            this.документы_от_колледжаTableAdapter = new WindowsFormsApp7.БД3DataSetTableAdapters.Документы_от_колледжаTableAdapter();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.бД3DataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.документыОтКолледжаBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.бД3DataSet)).BeginInit();
             this.SuspendLayout();
             // 
             // label6
@@ -69,7 +70,7 @@ namespace WindowsFormsApp7
             this.textBoxKodStudent.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxKodStudent.Name = "textBoxKodStudent";
             this.textBoxKodStudent.Size = new System.Drawing.Size(94, 20);
-            this.textBoxKodStudent.TabIndex = 100;
+            this.textBoxKodStudent.TabIndex = 2;
             // 
             // Add
             // 
@@ -79,7 +80,7 @@ namespace WindowsFormsApp7
             this.Add.Margin = new System.Windows.Forms.Padding(2);
             this.Add.Name = "Add";
             this.Add.Size = new System.Drawing.Size(329, 32);
-            this.Add.TabIndex = 97;
+            this.Add.TabIndex = 5;
             this.Add.Text = "Добавить";
             this.Add.UseVisualStyleBackColor = true;
             this.Add.Click += new System.EventHandler(this.Add_Click);
@@ -101,7 +102,7 @@ namespace WindowsFormsApp7
             this.textBoxDataContract.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxDataContract.Name = "textBoxDataContract";
             this.textBoxDataContract.Size = new System.Drawing.Size(187, 20);
-            this.textBoxDataContract.TabIndex = 91;
+            this.textBoxDataContract.TabIndex = 3;
             // 
             // label1
             // 
@@ -120,7 +121,7 @@ namespace WindowsFormsApp7
             this.textBoxNumber.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxNumber.Name = "textBoxNumber";
             this.textBoxNumber.Size = new System.Drawing.Size(200, 20);
-            this.textBoxNumber.TabIndex = 89;
+            this.textBoxNumber.TabIndex = 1;
             // 
             // label3
             // 
@@ -139,7 +140,7 @@ namespace WindowsFormsApp7
             this.textBoxDataOrder.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxDataOrder.Name = "textBoxDataOrder";
             this.textBoxDataOrder.Size = new System.Drawing.Size(191, 20);
-            this.textBoxDataOrder.TabIndex = 102;
+            this.textBoxDataOrder.TabIndex = 4;
             // 
             // dataGridView1
             // 
@@ -158,20 +159,6 @@ namespace WindowsFormsApp7
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.Size = new System.Drawing.Size(739, 225);
             this.dataGridView1.TabIndex = 104;
-            // 
-            // бД3DataSet
-            // 
-            this.бД3DataSet.DataSetName = "БД3DataSet";
-            this.бД3DataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // документыОтКолледжаBindingSource
-            // 
-            this.документыОтКолледжаBindingSource.DataMember = "Документы от колледжа";
-            this.документыОтКолледжаBindingSource.DataSource = this.бД3DataSet;
-            // 
-            // документы_от_колледжаTableAdapter
-            // 
-            this.документы_от_колледжаTableAdapter.ClearBeforeFill = true;
             // 
             // номерПриказаОЗачисленииDataGridViewTextBoxColumn
             // 
@@ -204,6 +191,20 @@ namespace WindowsFormsApp7
             this.датаПриказаОЗачисленииDataGridViewTextBoxColumn.ReadOnly = true;
             this.датаПриказаОЗачисленииDataGridViewTextBoxColumn.Width = 175;
             // 
+            // документыОтКолледжаBindingSource
+            // 
+            this.документыОтКолледжаBindingSource.DataMember = "Документы от колледжа";
+            this.документыОтКолледжаBindingSource.DataSource = this.бД3DataSet;
+            // 
+            // бД3DataSet
+            // 
+            this.бД3DataSet.DataSetName = "БД3DataSet";
+            this.бД3DataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // документы_от_колледжаTableAdapter
+            // 
+            this.документы_от_колледжаTableAdapter.ClearBeforeFill = true;
+            // 
             // AddDocumetsCollege
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -219,13 +220,14 @@ namespace WindowsFormsApp7
             this.Controls.Add(this.textBoxDataContract);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBoxNumber);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "AddDocumetsCollege";
             this.Text = "AddDocumetsCollege";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.AddDocumetsCollege_FormClosing);
             this.Load += new System.EventHandler(this.AddDocumetsCollege_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.бД3DataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.документыОтКолледжаBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.бД3DataSet)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

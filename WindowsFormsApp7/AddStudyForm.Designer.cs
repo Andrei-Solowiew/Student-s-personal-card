@@ -30,6 +30,7 @@ namespace WindowsFormsApp7
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AddStudyForm));
             this.label5 = new System.Windows.Forms.Label();
             this.textBoxTerm = new System.Windows.Forms.TextBox();
             this.Add = new System.Windows.Forms.Button();
@@ -44,18 +45,18 @@ namespace WindowsFormsApp7
             this.label6 = new System.Windows.Forms.Label();
             this.textBoxKodStudent = new System.Windows.Forms.TextBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.бД3DataSet = new WindowsFormsApp7.БД3DataSet();
-            this.обучениеСтудентаBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.обучение_студентаTableAdapter = new WindowsFormsApp7.БД3DataSetTableAdapters.Обучение_студентаTableAdapter();
             this.кодОбученияDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.формаОбученияDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.форматОбученияDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.группаDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.срокОбученияDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.кодСтудентаDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.обучениеСтудентаBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.бД3DataSet = new WindowsFormsApp7.БД3DataSet();
+            this.обучение_студентаTableAdapter = new WindowsFormsApp7.БД3DataSetTableAdapters.Обучение_студентаTableAdapter();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.бД3DataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.обучениеСтудентаBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.бД3DataSet)).BeginInit();
             this.SuspendLayout();
             // 
             // label5
@@ -75,7 +76,7 @@ namespace WindowsFormsApp7
             this.textBoxTerm.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxTerm.Name = "textBoxTerm";
             this.textBoxTerm.Size = new System.Drawing.Size(104, 20);
-            this.textBoxTerm.TabIndex = 59;
+            this.textBoxTerm.TabIndex = 5;
             // 
             // Add
             // 
@@ -85,7 +86,7 @@ namespace WindowsFormsApp7
             this.Add.Margin = new System.Windows.Forms.Padding(2);
             this.Add.Name = "Add";
             this.Add.Size = new System.Drawing.Size(329, 32);
-            this.Add.TabIndex = 58;
+            this.Add.TabIndex = 7;
             this.Add.Text = "Добавить";
             this.Add.UseVisualStyleBackColor = true;
             this.Add.Click += new System.EventHandler(this.Add_Click);
@@ -107,7 +108,7 @@ namespace WindowsFormsApp7
             this.textBoxGroup.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxGroup.Name = "textBoxGroup";
             this.textBoxGroup.Size = new System.Drawing.Size(52, 20);
-            this.textBoxGroup.TabIndex = 56;
+            this.textBoxGroup.TabIndex = 4;
             // 
             // label3
             // 
@@ -126,7 +127,7 @@ namespace WindowsFormsApp7
             this.textBoxFormat.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxFormat.Name = "textBoxFormat";
             this.textBoxFormat.Size = new System.Drawing.Size(125, 20);
-            this.textBoxFormat.TabIndex = 54;
+            this.textBoxFormat.TabIndex = 3;
             // 
             // label2
             // 
@@ -145,7 +146,7 @@ namespace WindowsFormsApp7
             this.textBoxForm.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxForm.Name = "textBoxForm";
             this.textBoxForm.Size = new System.Drawing.Size(118, 20);
-            this.textBoxForm.TabIndex = 52;
+            this.textBoxForm.TabIndex = 2;
             // 
             // label1
             // 
@@ -164,7 +165,7 @@ namespace WindowsFormsApp7
             this.textBoxKodStudy.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxKodStudy.Name = "textBoxKodStudy";
             this.textBoxKodStudy.Size = new System.Drawing.Size(97, 20);
-            this.textBoxKodStudy.TabIndex = 50;
+            this.textBoxKodStudy.TabIndex = 1;
             // 
             // label6
             // 
@@ -183,7 +184,7 @@ namespace WindowsFormsApp7
             this.textBoxKodStudent.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxKodStudent.Name = "textBoxKodStudent";
             this.textBoxKodStudent.Size = new System.Drawing.Size(94, 20);
-            this.textBoxKodStudent.TabIndex = 61;
+            this.textBoxKodStudent.TabIndex = 6;
             // 
             // dataGridView1
             // 
@@ -204,20 +205,6 @@ namespace WindowsFormsApp7
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.Size = new System.Drawing.Size(808, 227);
             this.dataGridView1.TabIndex = 63;
-            // 
-            // бД3DataSet
-            // 
-            this.бД3DataSet.DataSetName = "БД3DataSet";
-            this.бД3DataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // обучениеСтудентаBindingSource
-            // 
-            this.обучениеСтудентаBindingSource.DataMember = "Обучение студента";
-            this.обучениеСтудентаBindingSource.DataSource = this.бД3DataSet;
-            // 
-            // обучение_студентаTableAdapter
-            // 
-            this.обучение_студентаTableAdapter.ClearBeforeFill = true;
             // 
             // кодОбученияDataGridViewTextBoxColumn
             // 
@@ -261,6 +248,20 @@ namespace WindowsFormsApp7
             this.кодСтудентаDataGridViewTextBoxColumn.Name = "кодСтудентаDataGridViewTextBoxColumn";
             this.кодСтудентаDataGridViewTextBoxColumn.ReadOnly = true;
             // 
+            // обучениеСтудентаBindingSource
+            // 
+            this.обучениеСтудентаBindingSource.DataMember = "Обучение студента";
+            this.обучениеСтудентаBindingSource.DataSource = this.бД3DataSet;
+            // 
+            // бД3DataSet
+            // 
+            this.бД3DataSet.DataSetName = "БД3DataSet";
+            this.бД3DataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // обучение_студентаTableAdapter
+            // 
+            this.обучение_студентаTableAdapter.ClearBeforeFill = true;
+            // 
             // AddStudyForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -280,13 +281,14 @@ namespace WindowsFormsApp7
             this.Controls.Add(this.textBoxForm);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBoxKodStudy);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "AddStudyForm";
             this.Text = "AddStudyForm";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.AddStudyForm_FormClosing);
             this.Load += new System.EventHandler(this.AddStudyForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.бД3DataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.обучениеСтудентаBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.бД3DataSet)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

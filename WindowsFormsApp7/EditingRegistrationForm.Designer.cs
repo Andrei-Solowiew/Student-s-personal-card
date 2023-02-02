@@ -30,19 +30,20 @@ namespace WindowsFormsApp7
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(EditingRegistrationForm));
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.местоРегистрацииСтудентаBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this._СР_5_ОПБД_Соловьев_Андрей_П9021DataSet = new WindowsFormsApp7._СР_5_ОПБД_Соловьев_Андрей_П9021DataSet();
-            this.место_регистрации_студентаTableAdapter = new WindowsFormsApp7._СР_5_ОПБД_Соловьев_Андрей_П9021DataSetTableAdapters.Место_регистрации_студентаTableAdapter();
-            this.бД3DataSet = new WindowsFormsApp7.БД3DataSet();
-            this.местоРегистрацииСтудентаBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
-            this.место_регистрации_студентаTableAdapter1 = new WindowsFormsApp7.БД3DataSetTableAdapters.Место_регистрации_студентаTableAdapter();
             this.кодРегистрацииDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.населенныйПунктРегистрацииDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.улицаDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.домDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.квартираDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.кодСтудентаDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.местоРегистрацииСтудентаBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.бД3DataSet = new WindowsFormsApp7.БД3DataSet();
+            this.местоРегистрацииСтудентаBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this._СР_5_ОПБД_Соловьев_Андрей_П9021DataSet = new WindowsFormsApp7._СР_5_ОПБД_Соловьев_Андрей_П9021DataSet();
+            this.место_регистрации_студентаTableAdapter = new WindowsFormsApp7._СР_5_ОПБД_Соловьев_Андрей_П9021DataSetTableAdapters.Место_регистрации_студентаTableAdapter();
+            this.место_регистрации_студентаTableAdapter1 = new WindowsFormsApp7.БД3DataSetTableAdapters.Место_регистрации_студентаTableAdapter();
             this.label5 = new System.Windows.Forms.Label();
             this.textBoxFlat = new System.Windows.Forms.TextBox();
             this.ChangeFlat = new System.Windows.Forms.Button();
@@ -64,10 +65,10 @@ namespace WindowsFormsApp7
             this.label8 = new System.Windows.Forms.Label();
             this.textBoxKod1 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.местоРегистрацииСтудентаBindingSource1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.бД3DataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.местоРегистрацииСтудентаBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this._СР_5_ОПБД_Соловьев_Андрей_П9021DataSet)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.бД3DataSet)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.местоРегистрацииСтудентаBindingSource1)).BeginInit();
             this.SuspendLayout();
             // 
             // dataGridView1
@@ -85,41 +86,13 @@ namespace WindowsFormsApp7
             this.кодСтудентаDataGridViewTextBoxColumn});
             this.dataGridView1.DataSource = this.местоРегистрацииСтудентаBindingSource1;
             this.dataGridView1.Location = new System.Drawing.Point(11, 224);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(2);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.RowHeadersWidth = 62;
             this.dataGridView1.RowTemplate.Height = 28;
-            this.dataGridView1.Size = new System.Drawing.Size(909, 102);
-            this.dataGridView1.TabIndex = 0;
-            // 
-            // местоРегистрацииСтудентаBindingSource
-            // 
-            this.местоРегистрацииСтудентаBindingSource.DataMember = "Место регистрации студента";
-            this.местоРегистрацииСтудентаBindingSource.DataSource = this._СР_5_ОПБД_Соловьев_Андрей_П9021DataSet;
-            // 
-            // _СР_5_ОПБД_Соловьев_Андрей_П9021DataSet
-            // 
-            this._СР_5_ОПБД_Соловьев_Андрей_П9021DataSet.DataSetName = "_СР_5_ОПБД_Соловьев_Андрей_П9021DataSet";
-            this._СР_5_ОПБД_Соловьев_Андрей_П9021DataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // место_регистрации_студентаTableAdapter
-            // 
-            this.место_регистрации_студентаTableAdapter.ClearBeforeFill = true;
-            // 
-            // бД3DataSet
-            // 
-            this.бД3DataSet.DataSetName = "БД3DataSet";
-            this.бД3DataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // местоРегистрацииСтудентаBindingSource1
-            // 
-            this.местоРегистрацииСтудентаBindingSource1.DataMember = "Место регистрации студента";
-            this.местоРегистрацииСтудентаBindingSource1.DataSource = this.бД3DataSet;
-            // 
-            // место_регистрации_студентаTableAdapter1
-            // 
-            this.место_регистрации_студентаTableAdapter1.ClearBeforeFill = true;
+            this.dataGridView1.Size = new System.Drawing.Size(909, 200);
+            this.dataGridView1.TabIndex = 100;
             // 
             // кодРегистрацииDataGridViewTextBoxColumn
             // 
@@ -175,6 +148,34 @@ namespace WindowsFormsApp7
             this.кодСтудентаDataGridViewTextBoxColumn.ReadOnly = true;
             this.кодСтудентаDataGridViewTextBoxColumn.Width = 150;
             // 
+            // местоРегистрацииСтудентаBindingSource1
+            // 
+            this.местоРегистрацииСтудентаBindingSource1.DataMember = "Место регистрации студента";
+            this.местоРегистрацииСтудентаBindingSource1.DataSource = this.бД3DataSet;
+            // 
+            // бД3DataSet
+            // 
+            this.бД3DataSet.DataSetName = "БД3DataSet";
+            this.бД3DataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // местоРегистрацииСтудентаBindingSource
+            // 
+            this.местоРегистрацииСтудентаBindingSource.DataMember = "Место регистрации студента";
+            this.местоРегистрацииСтудентаBindingSource.DataSource = this._СР_5_ОПБД_Соловьев_Андрей_П9021DataSet;
+            // 
+            // _СР_5_ОПБД_Соловьев_Андрей_П9021DataSet
+            // 
+            this._СР_5_ОПБД_Соловьев_Андрей_П9021DataSet.DataSetName = "_СР_5_ОПБД_Соловьев_Андрей_П9021DataSet";
+            this._СР_5_ОПБД_Соловьев_Андрей_П9021DataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // место_регистрации_студентаTableAdapter
+            // 
+            this.место_регистрации_студентаTableAdapter.ClearBeforeFill = true;
+            // 
+            // место_регистрации_студентаTableAdapter1
+            // 
+            this.место_регистрации_студентаTableAdapter1.ClearBeforeFill = true;
+            // 
             // label5
             // 
             this.label5.AutoSize = true;
@@ -189,20 +190,20 @@ namespace WindowsFormsApp7
             // textBoxFlat
             // 
             this.textBoxFlat.Location = new System.Drawing.Point(785, 141);
-            this.textBoxFlat.Margin = new System.Windows.Forms.Padding(2);
+            this.textBoxFlat.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBoxFlat.Name = "textBoxFlat";
             this.textBoxFlat.Size = new System.Drawing.Size(68, 20);
-            this.textBoxFlat.TabIndex = 70;
+            this.textBoxFlat.TabIndex = 11;
             // 
             // ChangeFlat
             // 
             this.ChangeFlat.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ChangeFlat.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.ChangeFlat.Location = new System.Drawing.Point(573, 178);
-            this.ChangeFlat.Margin = new System.Windows.Forms.Padding(2);
+            this.ChangeFlat.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.ChangeFlat.Name = "ChangeFlat";
             this.ChangeFlat.Size = new System.Drawing.Size(280, 32);
-            this.ChangeFlat.TabIndex = 69;
+            this.ChangeFlat.TabIndex = 12;
             this.ChangeFlat.Text = "Изменить";
             this.ChangeFlat.UseVisualStyleBackColor = true;
             this.ChangeFlat.Click += new System.EventHandler(this.ChangeFlat_Click);
@@ -221,10 +222,10 @@ namespace WindowsFormsApp7
             // textBoxKod4
             // 
             this.textBoxKod4.Location = new System.Drawing.Point(577, 141);
-            this.textBoxKod4.Margin = new System.Windows.Forms.Padding(2);
+            this.textBoxKod4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBoxKod4.Name = "textBoxKod4";
             this.textBoxKod4.Size = new System.Drawing.Size(117, 20);
-            this.textBoxKod4.TabIndex = 67;
+            this.textBoxKod4.TabIndex = 10;
             // 
             // label3
             // 
@@ -240,20 +241,20 @@ namespace WindowsFormsApp7
             // textBoxHouse
             // 
             this.textBoxHouse.Location = new System.Drawing.Point(338, 141);
-            this.textBoxHouse.Margin = new System.Windows.Forms.Padding(2);
+            this.textBoxHouse.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBoxHouse.Name = "textBoxHouse";
             this.textBoxHouse.Size = new System.Drawing.Size(33, 20);
-            this.textBoxHouse.TabIndex = 65;
+            this.textBoxHouse.TabIndex = 8;
             // 
             // ChangeHouse
             // 
             this.ChangeHouse.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ChangeHouse.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.ChangeHouse.Location = new System.Drawing.Point(91, 178);
-            this.ChangeHouse.Margin = new System.Windows.Forms.Padding(2);
+            this.ChangeHouse.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.ChangeHouse.Name = "ChangeHouse";
             this.ChangeHouse.Size = new System.Drawing.Size(280, 32);
-            this.ChangeHouse.TabIndex = 64;
+            this.ChangeHouse.TabIndex = 9;
             this.ChangeHouse.Text = "Изменить";
             this.ChangeHouse.UseVisualStyleBackColor = true;
             this.ChangeHouse.Click += new System.EventHandler(this.ChangeHouse_Click);
@@ -272,10 +273,10 @@ namespace WindowsFormsApp7
             // textBoxKod3
             // 
             this.textBoxKod3.Location = new System.Drawing.Point(95, 141);
-            this.textBoxKod3.Margin = new System.Windows.Forms.Padding(2);
+            this.textBoxKod3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBoxKod3.Name = "textBoxKod3";
             this.textBoxKod3.Size = new System.Drawing.Size(117, 20);
-            this.textBoxKod3.TabIndex = 62;
+            this.textBoxKod3.TabIndex = 7;
             // 
             // label1
             // 
@@ -291,20 +292,20 @@ namespace WindowsFormsApp7
             // textBoxStreet
             // 
             this.textBoxStreet.Location = new System.Drawing.Point(807, 29);
-            this.textBoxStreet.Margin = new System.Windows.Forms.Padding(2);
+            this.textBoxStreet.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBoxStreet.Name = "textBoxStreet";
             this.textBoxStreet.Size = new System.Drawing.Size(46, 20);
-            this.textBoxStreet.TabIndex = 60;
+            this.textBoxStreet.TabIndex = 5;
             // 
             // ChangeStreet
             // 
             this.ChangeStreet.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ChangeStreet.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.ChangeStreet.Location = new System.Drawing.Point(573, 66);
-            this.ChangeStreet.Margin = new System.Windows.Forms.Padding(2);
+            this.ChangeStreet.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.ChangeStreet.Name = "ChangeStreet";
             this.ChangeStreet.Size = new System.Drawing.Size(280, 32);
-            this.ChangeStreet.TabIndex = 59;
+            this.ChangeStreet.TabIndex = 6;
             this.ChangeStreet.Text = "Изменить";
             this.ChangeStreet.UseVisualStyleBackColor = true;
             this.ChangeStreet.Click += new System.EventHandler(this.ChangeStreet_Click);
@@ -323,10 +324,10 @@ namespace WindowsFormsApp7
             // textBoxKod2
             // 
             this.textBoxKod2.Location = new System.Drawing.Point(577, 29);
-            this.textBoxKod2.Margin = new System.Windows.Forms.Padding(2);
+            this.textBoxKod2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBoxKod2.Name = "textBoxKod2";
             this.textBoxKod2.Size = new System.Drawing.Size(117, 20);
-            this.textBoxKod2.TabIndex = 57;
+            this.textBoxKod2.TabIndex = 4;
             // 
             // label9
             // 
@@ -342,20 +343,20 @@ namespace WindowsFormsApp7
             // textBoxCity
             // 
             this.textBoxCity.Location = new System.Drawing.Point(242, 29);
-            this.textBoxCity.Margin = new System.Windows.Forms.Padding(2);
+            this.textBoxCity.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBoxCity.Name = "textBoxCity";
             this.textBoxCity.Size = new System.Drawing.Size(129, 20);
-            this.textBoxCity.TabIndex = 55;
+            this.textBoxCity.TabIndex = 2;
             // 
             // ChangeCity
             // 
             this.ChangeCity.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ChangeCity.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.ChangeCity.Location = new System.Drawing.Point(91, 66);
-            this.ChangeCity.Margin = new System.Windows.Forms.Padding(2);
+            this.ChangeCity.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.ChangeCity.Name = "ChangeCity";
             this.ChangeCity.Size = new System.Drawing.Size(280, 32);
-            this.ChangeCity.TabIndex = 54;
+            this.ChangeCity.TabIndex = 3;
             this.ChangeCity.Text = "Изменить";
             this.ChangeCity.UseVisualStyleBackColor = true;
             this.ChangeCity.Click += new System.EventHandler(this.ChangeCity_Click);
@@ -374,16 +375,16 @@ namespace WindowsFormsApp7
             // textBoxKod1
             // 
             this.textBoxKod1.Location = new System.Drawing.Point(95, 29);
-            this.textBoxKod1.Margin = new System.Windows.Forms.Padding(2);
+            this.textBoxKod1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBoxKod1.Name = "textBoxKod1";
             this.textBoxKod1.Size = new System.Drawing.Size(117, 20);
-            this.textBoxKod1.TabIndex = 52;
+            this.textBoxKod1.TabIndex = 1;
             // 
             // EditingRegistrationForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(931, 337);
+            this.ClientSize = new System.Drawing.Size(931, 433);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.textBoxFlat);
             this.Controls.Add(this.ChangeFlat);
@@ -405,16 +406,17 @@ namespace WindowsFormsApp7
             this.Controls.Add(this.label8);
             this.Controls.Add(this.textBoxKod1);
             this.Controls.Add(this.dataGridView1);
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "EditingRegistrationForm";
             this.Text = "EditingRegistrationForm";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.EditingRegistrationForm_FormClosing);
             this.Load += new System.EventHandler(this.Form9_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.местоРегистрацииСтудентаBindingSource1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.бД3DataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.местоРегистрацииСтудентаBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this._СР_5_ОПБД_Соловьев_Андрей_П9021DataSet)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.бД3DataSet)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.местоРегистрацииСтудентаBindingSource1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -30,6 +30,7 @@ namespace WindowsFormsApp7
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AddLivingForm));
             this.label6 = new System.Windows.Forms.Label();
             this.textBoxKodStudent = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
@@ -44,18 +45,18 @@ namespace WindowsFormsApp7
             this.label1 = new System.Windows.Forms.Label();
             this.textBoxKodLiving = new System.Windows.Forms.TextBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.бД3DataSet = new WindowsFormsApp7.БД3DataSet();
-            this.местоПроживанияСтудентаBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.место_проживания_студентаTableAdapter = new WindowsFormsApp7.БД3DataSetTableAdapters.Место_проживания_студентаTableAdapter();
             this.кодПроживанияDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.населенныйПунктПроживанияDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.улицаDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.домDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.квартираDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.кодСтудентаDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.местоПроживанияСтудентаBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.бД3DataSet = new WindowsFormsApp7.БД3DataSet();
+            this.место_проживания_студентаTableAdapter = new WindowsFormsApp7.БД3DataSetTableAdapters.Место_проживания_студентаTableAdapter();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.бД3DataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.местоПроживанияСтудентаBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.бД3DataSet)).BeginInit();
             this.SuspendLayout();
             // 
             // label6
@@ -75,7 +76,7 @@ namespace WindowsFormsApp7
             this.textBoxKodStudent.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxKodStudent.Name = "textBoxKodStudent";
             this.textBoxKodStudent.Size = new System.Drawing.Size(94, 20);
-            this.textBoxKodStudent.TabIndex = 87;
+            this.textBoxKodStudent.TabIndex = 6;
             // 
             // label5
             // 
@@ -94,7 +95,7 @@ namespace WindowsFormsApp7
             this.textBoxFlat.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxFlat.Name = "textBoxFlat";
             this.textBoxFlat.Size = new System.Drawing.Size(68, 20);
-            this.textBoxFlat.TabIndex = 85;
+            this.textBoxFlat.TabIndex = 5;
             // 
             // Add
             // 
@@ -104,7 +105,7 @@ namespace WindowsFormsApp7
             this.Add.Margin = new System.Windows.Forms.Padding(2);
             this.Add.Name = "Add";
             this.Add.Size = new System.Drawing.Size(329, 32);
-            this.Add.TabIndex = 84;
+            this.Add.TabIndex = 7;
             this.Add.Text = "Добавить";
             this.Add.UseVisualStyleBackColor = true;
             this.Add.Click += new System.EventHandler(this.Add_Click);
@@ -126,7 +127,7 @@ namespace WindowsFormsApp7
             this.textBoxHouse.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxHouse.Name = "textBoxHouse";
             this.textBoxHouse.Size = new System.Drawing.Size(33, 20);
-            this.textBoxHouse.TabIndex = 82;
+            this.textBoxHouse.TabIndex = 4;
             // 
             // label3
             // 
@@ -145,7 +146,7 @@ namespace WindowsFormsApp7
             this.textBoxStreet.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxStreet.Name = "textBoxStreet";
             this.textBoxStreet.Size = new System.Drawing.Size(46, 20);
-            this.textBoxStreet.TabIndex = 80;
+            this.textBoxStreet.TabIndex = 3;
             // 
             // label2
             // 
@@ -164,7 +165,7 @@ namespace WindowsFormsApp7
             this.textBoxSity.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxSity.Name = "textBoxSity";
             this.textBoxSity.Size = new System.Drawing.Size(129, 20);
-            this.textBoxSity.TabIndex = 78;
+            this.textBoxSity.TabIndex = 2;
             // 
             // label1
             // 
@@ -183,7 +184,7 @@ namespace WindowsFormsApp7
             this.textBoxKodLiving.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxKodLiving.Name = "textBoxKodLiving";
             this.textBoxKodLiving.Size = new System.Drawing.Size(117, 20);
-            this.textBoxKodLiving.TabIndex = 76;
+            this.textBoxKodLiving.TabIndex = 1;
             // 
             // dataGridView1
             // 
@@ -204,20 +205,6 @@ namespace WindowsFormsApp7
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.Size = new System.Drawing.Size(710, 232);
             this.dataGridView1.TabIndex = 89;
-            // 
-            // бД3DataSet
-            // 
-            this.бД3DataSet.DataSetName = "БД3DataSet";
-            this.бД3DataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // местоПроживанияСтудентаBindingSource
-            // 
-            this.местоПроживанияСтудентаBindingSource.DataMember = "Место проживания студента";
-            this.местоПроживанияСтудентаBindingSource.DataSource = this.бД3DataSet;
-            // 
-            // место_проживания_студентаTableAdapter
-            // 
-            this.место_проживания_студентаTableAdapter.ClearBeforeFill = true;
             // 
             // кодПроживанияDataGridViewTextBoxColumn
             // 
@@ -261,6 +248,20 @@ namespace WindowsFormsApp7
             this.кодСтудентаDataGridViewTextBoxColumn.Name = "кодСтудентаDataGridViewTextBoxColumn";
             this.кодСтудентаDataGridViewTextBoxColumn.ReadOnly = true;
             // 
+            // местоПроживанияСтудентаBindingSource
+            // 
+            this.местоПроживанияСтудентаBindingSource.DataMember = "Место проживания студента";
+            this.местоПроживанияСтудентаBindingSource.DataSource = this.бД3DataSet;
+            // 
+            // бД3DataSet
+            // 
+            this.бД3DataSet.DataSetName = "БД3DataSet";
+            this.бД3DataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // место_проживания_студентаTableAdapter
+            // 
+            this.место_проживания_студентаTableAdapter.ClearBeforeFill = true;
+            // 
             // AddLivingForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -280,13 +281,14 @@ namespace WindowsFormsApp7
             this.Controls.Add(this.textBoxSity);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBoxKodLiving);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "AddLivingForm";
             this.Text = "AddLivingForm";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.AddLivingForm_FormClosing);
             this.Load += new System.EventHandler(this.AddLivingForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.бД3DataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.местоПроживанияСтудентаBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.бД3DataSet)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

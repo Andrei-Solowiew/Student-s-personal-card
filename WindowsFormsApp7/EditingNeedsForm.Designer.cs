@@ -30,6 +30,7 @@ namespace WindowsFormsApp7
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(EditingNeedsForm));
             this.потребностиСтудентаBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this._СР_5_ОПБД_Соловьев_Андрей_П9021DataSet = new WindowsFormsApp7._СР_5_ОПБД_Соловьев_Андрей_П9021DataSet();
             this.потребности_студентаTableAdapter = new WindowsFormsApp7._СР_5_ОПБД_Соловьев_Андрей_П9021DataSetTableAdapters.Потребности_студентаTableAdapter();
@@ -114,32 +115,41 @@ namespace WindowsFormsApp7
             this.dataGridView1.DataSource = this.потребностиСтудентаBindingSource1;
             this.dataGridView1.Location = new System.Drawing.Point(12, 127);
             this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.Size = new System.Drawing.Size(735, 153);
-            this.dataGridView1.TabIndex = 0;
+            this.dataGridView1.TabIndex = 4;
             // 
             // кодПотребностейDataGridViewTextBoxColumn
             // 
             this.кодПотребностейDataGridViewTextBoxColumn.DataPropertyName = "Код потребностей";
             this.кодПотребностейDataGridViewTextBoxColumn.HeaderText = "Код потребностей";
+            this.кодПотребностейDataGridViewTextBoxColumn.MinimumWidth = 6;
             this.кодПотребностейDataGridViewTextBoxColumn.Name = "кодПотребностейDataGridViewTextBoxColumn";
+            this.кодПотребностейDataGridViewTextBoxColumn.Width = 125;
             // 
             // языкDataGridViewTextBoxColumn
             // 
             this.языкDataGridViewTextBoxColumn.DataPropertyName = "Язык";
             this.языкDataGridViewTextBoxColumn.HeaderText = "Язык";
+            this.языкDataGridViewTextBoxColumn.MinimumWidth = 6;
             this.языкDataGridViewTextBoxColumn.Name = "языкDataGridViewTextBoxColumn";
+            this.языкDataGridViewTextBoxColumn.Width = 125;
             // 
             // потребностьВОбщежитииDataGridViewCheckBoxColumn
             // 
             this.потребностьВОбщежитииDataGridViewCheckBoxColumn.DataPropertyName = "Потребность в общежитии";
             this.потребностьВОбщежитииDataGridViewCheckBoxColumn.HeaderText = "Потребность в общежитии";
+            this.потребностьВОбщежитииDataGridViewCheckBoxColumn.MinimumWidth = 6;
             this.потребностьВОбщежитииDataGridViewCheckBoxColumn.Name = "потребностьВОбщежитииDataGridViewCheckBoxColumn";
+            this.потребностьВОбщежитииDataGridViewCheckBoxColumn.Width = 125;
             // 
             // кодСтудентаDataGridViewTextBoxColumn
             // 
             this.кодСтудентаDataGridViewTextBoxColumn.DataPropertyName = "Код студента";
             this.кодСтудентаDataGridViewTextBoxColumn.HeaderText = "Код студента";
+            this.кодСтудентаDataGridViewTextBoxColumn.MinimumWidth = 6;
             this.кодСтудентаDataGridViewTextBoxColumn.Name = "кодСтудентаDataGridViewTextBoxColumn";
+            this.кодСтудентаDataGridViewTextBoxColumn.Width = 125;
             // 
             // label9
             // 
@@ -157,10 +167,10 @@ namespace WindowsFormsApp7
             this.Change.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Change.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Change.Location = new System.Drawing.Point(12, 67);
-            this.Change.Margin = new System.Windows.Forms.Padding(2);
+            this.Change.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Change.Name = "Change";
             this.Change.Size = new System.Drawing.Size(329, 32);
-            this.Change.TabIndex = 34;
+            this.Change.TabIndex = 3;
             this.Change.Text = "Изменить";
             this.Change.UseVisualStyleBackColor = true;
             this.Change.Click += new System.EventHandler(this.Change_Click);
@@ -179,10 +189,10 @@ namespace WindowsFormsApp7
             // textBoxKodNeed
             // 
             this.textBoxKodNeed.Location = new System.Drawing.Point(16, 30);
-            this.textBoxKodNeed.Margin = new System.Windows.Forms.Padding(2);
+            this.textBoxKodNeed.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBoxKodNeed.Name = "textBoxKodNeed";
-            this.textBoxKodNeed.Size = new System.Drawing.Size(76, 20);
-            this.textBoxKodNeed.TabIndex = 32;
+            this.textBoxKodNeed.Size = new System.Drawing.Size(122, 20);
+            this.textBoxKodNeed.TabIndex = 1;
             // 
             // checkBoxNeed
             // 
@@ -190,7 +200,7 @@ namespace WindowsFormsApp7
             this.checkBoxNeed.Location = new System.Drawing.Point(242, 33);
             this.checkBoxNeed.Name = "checkBoxNeed";
             this.checkBoxNeed.Size = new System.Drawing.Size(15, 14);
-            this.checkBoxNeed.TabIndex = 37;
+            this.checkBoxNeed.TabIndex = 2;
             this.checkBoxNeed.UseVisualStyleBackColor = true;
             // 
             // EditingNeedsForm
@@ -204,7 +214,8 @@ namespace WindowsFormsApp7
             this.Controls.Add(this.label8);
             this.Controls.Add(this.textBoxKodNeed);
             this.Controls.Add(this.dataGridView1);
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "EditingNeedsForm";
             this.Text = "EditingNeedsForm";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.EditingNeedsForm_FormClosing);
