@@ -44,7 +44,7 @@ namespace WindowsFormsApp7
             string name = textBoxAddName.Text;
             string fathername = textBoxAddNameFather.Text;
             string birthday = textBoxAddBirthday.Text;
-            string today = textBoxAddToday.Text;
+            string today = DateTime.UtcNow.Date.ToString("dd/MM/yyyy");
             string query = "INSERT INTO Студент ([Код студента], [Фамилия студента], [Имя студента], [Отчество студента], [Дата рождения], [Сегодняшняя дата]) VALUES(" + kod + ",'" + surname + "','" + name + "','" + fathername + "','" + birthday + "','" + today + "')";
             OleDbCommand command = new OleDbCommand(query, myConnection);
             command.ExecuteNonQuery();

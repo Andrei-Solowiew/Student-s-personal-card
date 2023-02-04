@@ -62,11 +62,7 @@ namespace WindowsFormsApp7
             this.ChangeChildren = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.textBoxKod3 = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.textBoxToday = new System.Windows.Forms.TextBox();
             this.ChangeToday = new System.Windows.Forms.Button();
-            this.label6 = new System.Windows.Forms.Label();
-            this.textBoxKod6 = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.textBoxPlace = new System.Windows.Forms.TextBox();
             this.ChangePlace = new System.Windows.Forms.Button();
@@ -134,11 +130,11 @@ namespace WindowsFormsApp7
             this.сегодняшняяДатаDataGridViewTextBoxColumn,
             this.кодСтудентаDataGridViewTextBoxColumn});
             this.dataGridView1.DataSource = this.семьяBindingSource2;
-            this.dataGridView1.Location = new System.Drawing.Point(12, 273);
+            this.dataGridView1.Location = new System.Drawing.Point(12, 354);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.Size = new System.Drawing.Size(889, 226);
+            this.dataGridView1.Size = new System.Drawing.Size(889, 245);
             this.dataGridView1.TabIndex = 100;
             // 
             // кодСемьиDataGridViewTextBoxColumn
@@ -227,7 +223,7 @@ namespace WindowsFormsApp7
             // textBoxUpdateToday
             // 
             this.textBoxUpdateToday.Location = new System.Drawing.Point(167, 39);
-            this.textBoxUpdateToday.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBoxUpdateToday.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxUpdateToday.Name = "textBoxUpdateToday";
             this.textBoxUpdateToday.Size = new System.Drawing.Size(118, 20);
             this.textBoxUpdateToday.TabIndex = 2;
@@ -238,7 +234,7 @@ namespace WindowsFormsApp7
             this.FamilyFormChangeComp.Cursor = System.Windows.Forms.Cursors.Hand;
             this.FamilyFormChangeComp.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.FamilyFormChangeComp.Location = new System.Drawing.Point(12, 76);
-            this.FamilyFormChangeComp.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.FamilyFormChangeComp.Margin = new System.Windows.Forms.Padding(2);
             this.FamilyFormChangeComp.Name = "FamilyFormChangeComp";
             this.FamilyFormChangeComp.Size = new System.Drawing.Size(273, 32);
             this.FamilyFormChangeComp.TabIndex = 3;
@@ -260,7 +256,7 @@ namespace WindowsFormsApp7
             // textBoxKodStudentChange
             // 
             this.textBoxKodStudentChange.Location = new System.Drawing.Point(16, 39);
-            this.textBoxKodStudentChange.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBoxKodStudentChange.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxKodStudentChange.Name = "textBoxKodStudentChange";
             this.textBoxKodStudentChange.Size = new System.Drawing.Size(73, 20);
             this.textBoxKodStudentChange.TabIndex = 1;
@@ -279,7 +275,7 @@ namespace WindowsFormsApp7
             // textBoxReason
             // 
             this.textBoxReason.Location = new System.Drawing.Point(454, 39);
-            this.textBoxReason.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBoxReason.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxReason.Name = "textBoxReason";
             this.textBoxReason.Size = new System.Drawing.Size(140, 20);
             this.textBoxReason.TabIndex = 5;
@@ -289,7 +285,7 @@ namespace WindowsFormsApp7
             this.FamilyFormChangeReason.Cursor = System.Windows.Forms.Cursors.Hand;
             this.FamilyFormChangeReason.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.FamilyFormChangeReason.Location = new System.Drawing.Point(321, 76);
-            this.FamilyFormChangeReason.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.FamilyFormChangeReason.Margin = new System.Windows.Forms.Padding(2);
             this.FamilyFormChangeReason.Name = "FamilyFormChangeReason";
             this.FamilyFormChangeReason.Size = new System.Drawing.Size(273, 32);
             this.FamilyFormChangeReason.TabIndex = 6;
@@ -311,7 +307,7 @@ namespace WindowsFormsApp7
             // textBoxKodFamily1
             // 
             this.textBoxKodFamily1.Location = new System.Drawing.Point(325, 39);
-            this.textBoxKodFamily1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBoxKodFamily1.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxKodFamily1.Name = "textBoxKodFamily1";
             this.textBoxKodFamily1.Size = new System.Drawing.Size(73, 20);
             this.textBoxKodFamily1.TabIndex = 4;
@@ -330,7 +326,7 @@ namespace WindowsFormsApp7
             // textBoxChildren
             // 
             this.textBoxChildren.Location = new System.Drawing.Point(775, 39);
-            this.textBoxChildren.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBoxChildren.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxChildren.Name = "textBoxChildren";
             this.textBoxChildren.Size = new System.Drawing.Size(126, 20);
             this.textBoxChildren.TabIndex = 8;
@@ -340,7 +336,7 @@ namespace WindowsFormsApp7
             this.ChangeChildren.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ChangeChildren.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.ChangeChildren.Location = new System.Drawing.Point(628, 76);
-            this.ChangeChildren.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ChangeChildren.Margin = new System.Windows.Forms.Padding(2);
             this.ChangeChildren.Name = "ChangeChildren";
             this.ChangeChildren.Size = new System.Drawing.Size(273, 32);
             this.ChangeChildren.TabIndex = 9;
@@ -362,67 +358,29 @@ namespace WindowsFormsApp7
             // textBoxKod3
             // 
             this.textBoxKod3.Location = new System.Drawing.Point(632, 39);
-            this.textBoxKod3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBoxKod3.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxKod3.Name = "textBoxKod3";
             this.textBoxKod3.Size = new System.Drawing.Size(73, 20);
             this.textBoxKod3.TabIndex = 7;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label5.Location = new System.Drawing.Point(772, 146);
-            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(132, 17);
-            this.label5.TabIndex = 61;
-            this.label5.Text = "Сегодняшняя дата";
-            // 
-            // textBoxToday
-            // 
-            this.textBoxToday.Location = new System.Drawing.Point(775, 165);
-            this.textBoxToday.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.textBoxToday.Name = "textBoxToday";
-            this.textBoxToday.Size = new System.Drawing.Size(126, 20);
-            this.textBoxToday.TabIndex = 17;
             // 
             // ChangeToday
             // 
             this.ChangeToday.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ChangeToday.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.ChangeToday.Location = new System.Drawing.Point(628, 202);
-            this.ChangeToday.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ChangeToday.Location = new System.Drawing.Point(321, 269);
+            this.ChangeToday.Margin = new System.Windows.Forms.Padding(2);
             this.ChangeToday.Name = "ChangeToday";
             this.ChangeToday.Size = new System.Drawing.Size(273, 32);
             this.ChangeToday.TabIndex = 18;
-            this.ChangeToday.Text = "Изменить";
+            this.ChangeToday.Text = "Изменить сегодняшнюю дату ";
             this.ChangeToday.UseVisualStyleBackColor = true;
             this.ChangeToday.Click += new System.EventHandler(this.ChangeToday_Click);
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label6.Location = new System.Drawing.Point(629, 146);
-            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(76, 17);
-            this.label6.TabIndex = 58;
-            this.label6.Text = "Код семьи";
-            // 
-            // textBoxKod6
-            // 
-            this.textBoxKod6.Location = new System.Drawing.Point(632, 165);
-            this.textBoxKod6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.textBoxKod6.Name = "textBoxKod6";
-            this.textBoxKod6.Size = new System.Drawing.Size(73, 20);
-            this.textBoxKod6.TabIndex = 16;
             // 
             // label7
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label7.Location = new System.Drawing.Point(520, 146);
+            this.label7.Location = new System.Drawing.Point(663, 144);
             this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(74, 17);
@@ -431,8 +389,8 @@ namespace WindowsFormsApp7
             // 
             // textBoxPlace
             // 
-            this.textBoxPlace.Location = new System.Drawing.Point(523, 165);
-            this.textBoxPlace.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBoxPlace.Location = new System.Drawing.Point(666, 163);
+            this.textBoxPlace.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxPlace.Name = "textBoxPlace";
             this.textBoxPlace.Size = new System.Drawing.Size(71, 20);
             this.textBoxPlace.TabIndex = 14;
@@ -441,8 +399,8 @@ namespace WindowsFormsApp7
             // 
             this.ChangePlace.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ChangePlace.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.ChangePlace.Location = new System.Drawing.Point(321, 202);
-            this.ChangePlace.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ChangePlace.Location = new System.Drawing.Point(464, 200);
+            this.ChangePlace.Margin = new System.Windows.Forms.Padding(2);
             this.ChangePlace.Name = "ChangePlace";
             this.ChangePlace.Size = new System.Drawing.Size(273, 32);
             this.ChangePlace.TabIndex = 15;
@@ -454,7 +412,7 @@ namespace WindowsFormsApp7
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label10.Location = new System.Drawing.Point(322, 146);
+            this.label10.Location = new System.Drawing.Point(465, 144);
             this.label10.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(76, 17);
@@ -463,8 +421,8 @@ namespace WindowsFormsApp7
             // 
             // textBoxKod5
             // 
-            this.textBoxKod5.Location = new System.Drawing.Point(325, 165);
-            this.textBoxKod5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBoxKod5.Location = new System.Drawing.Point(468, 163);
+            this.textBoxKod5.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxKod5.Name = "textBoxKod5";
             this.textBoxKod5.Size = new System.Drawing.Size(73, 20);
             this.textBoxKod5.TabIndex = 13;
@@ -473,7 +431,7 @@ namespace WindowsFormsApp7
             // 
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label11.Location = new System.Drawing.Point(117, 146);
+            this.label11.Location = new System.Drawing.Point(260, 144);
             this.label11.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(168, 17);
@@ -482,8 +440,8 @@ namespace WindowsFormsApp7
             // 
             // textBoxChildrenDate
             // 
-            this.textBoxChildrenDate.Location = new System.Drawing.Point(120, 165);
-            this.textBoxChildrenDate.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBoxChildrenDate.Location = new System.Drawing.Point(263, 163);
+            this.textBoxChildrenDate.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxChildrenDate.Name = "textBoxChildrenDate";
             this.textBoxChildrenDate.Size = new System.Drawing.Size(165, 20);
             this.textBoxChildrenDate.TabIndex = 11;
@@ -492,8 +450,8 @@ namespace WindowsFormsApp7
             // 
             this.ChangeChildrenDate.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ChangeChildrenDate.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.ChangeChildrenDate.Location = new System.Drawing.Point(12, 202);
-            this.ChangeChildrenDate.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ChangeChildrenDate.Location = new System.Drawing.Point(155, 200);
+            this.ChangeChildrenDate.Margin = new System.Windows.Forms.Padding(2);
             this.ChangeChildrenDate.Name = "ChangeChildrenDate";
             this.ChangeChildrenDate.Size = new System.Drawing.Size(273, 32);
             this.ChangeChildrenDate.TabIndex = 12;
@@ -505,7 +463,7 @@ namespace WindowsFormsApp7
             // 
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label12.Location = new System.Drawing.Point(13, 146);
+            this.label12.Location = new System.Drawing.Point(156, 144);
             this.label12.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(76, 17);
@@ -514,8 +472,8 @@ namespace WindowsFormsApp7
             // 
             // textBoxKod4
             // 
-            this.textBoxKod4.Location = new System.Drawing.Point(16, 165);
-            this.textBoxKod4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBoxKod4.Location = new System.Drawing.Point(159, 163);
+            this.textBoxKod4.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxKod4.Name = "textBoxKod4";
             this.textBoxKod4.Size = new System.Drawing.Size(73, 20);
             this.textBoxKod4.TabIndex = 10;
@@ -524,12 +482,8 @@ namespace WindowsFormsApp7
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(924, 511);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.textBoxToday);
+            this.ClientSize = new System.Drawing.Size(924, 611);
             this.Controls.Add(this.ChangeToday);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.textBoxKod6);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.textBoxPlace);
             this.Controls.Add(this.ChangePlace);
@@ -557,7 +511,7 @@ namespace WindowsFormsApp7
             this.Controls.Add(this.textBoxKodStudentChange);
             this.Controls.Add(this.dataGridView1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "EditingFamilyForm";
             this.Text = "EditingFamilyForm";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.EditingFamilyForm_FormClosing);
@@ -605,11 +559,7 @@ namespace WindowsFormsApp7
         private System.Windows.Forms.Button ChangeChildren;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox textBoxKod3;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBoxToday;
         private System.Windows.Forms.Button ChangeToday;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBoxKod6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TextBox textBoxPlace;
         private System.Windows.Forms.Button ChangePlace;

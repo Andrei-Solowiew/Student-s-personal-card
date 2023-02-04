@@ -44,8 +44,6 @@ namespace WindowsFormsApp7
             this.textBoxDataChildren = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.textBoxPlace = new System.Windows.Forms.TextBox();
-            this.label7 = new System.Windows.Forms.Label();
-            this.textBoxToday = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.textBoxKodStudenta = new System.Windows.Forms.TextBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
@@ -192,30 +190,11 @@ namespace WindowsFormsApp7
             this.textBoxPlace.Size = new System.Drawing.Size(173, 20);
             this.textBoxPlace.TabIndex = 6;
             // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label7.Location = new System.Drawing.Point(335, 69);
-            this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(132, 17);
-            this.label7.TabIndex = 47;
-            this.label7.Text = "Сегодняшняя дата";
-            // 
-            // textBoxToday
-            // 
-            this.textBoxToday.Location = new System.Drawing.Point(338, 87);
-            this.textBoxToday.Margin = new System.Windows.Forms.Padding(2);
-            this.textBoxToday.Name = "textBoxToday";
-            this.textBoxToday.Size = new System.Drawing.Size(129, 20);
-            this.textBoxToday.TabIndex = 7;
-            // 
             // label8
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label8.Location = new System.Drawing.Point(515, 69);
+            this.label8.Location = new System.Drawing.Point(435, 69);
             this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(97, 17);
@@ -224,7 +203,7 @@ namespace WindowsFormsApp7
             // 
             // textBoxKodStudenta
             // 
-            this.textBoxKodStudenta.Location = new System.Drawing.Point(518, 87);
+            this.textBoxKodStudenta.Location = new System.Drawing.Point(438, 87);
             this.textBoxKodStudenta.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxKodStudenta.Name = "textBoxKodStudenta";
             this.textBoxKodStudenta.Size = new System.Drawing.Size(94, 20);
@@ -331,8 +310,6 @@ namespace WindowsFormsApp7
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.textBoxKodStudenta);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.textBoxToday);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.textBoxPlace);
             this.Controls.Add(this.label5);
@@ -374,8 +351,6 @@ namespace WindowsFormsApp7
         private System.Windows.Forms.TextBox textBoxDataChildren;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox textBoxPlace;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox textBoxToday;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.TextBox textBoxKodStudenta;
         private System.Windows.Forms.DataGridView dataGridView1;

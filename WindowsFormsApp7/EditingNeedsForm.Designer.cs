@@ -116,7 +116,7 @@ namespace WindowsFormsApp7
             this.dataGridView1.Location = new System.Drawing.Point(12, 127);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.Size = new System.Drawing.Size(735, 153);
+            this.dataGridView1.Size = new System.Drawing.Size(735, 377);
             this.dataGridView1.TabIndex = 4;
             // 
             // кодПотребностейDataGridViewTextBoxColumn
@@ -167,7 +167,7 @@ namespace WindowsFormsApp7
             this.Change.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Change.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Change.Location = new System.Drawing.Point(12, 67);
-            this.Change.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Change.Margin = new System.Windows.Forms.Padding(2);
             this.Change.Name = "Change";
             this.Change.Size = new System.Drawing.Size(329, 32);
             this.Change.TabIndex = 3;
@@ -189,7 +189,7 @@ namespace WindowsFormsApp7
             // textBoxKodNeed
             // 
             this.textBoxKodNeed.Location = new System.Drawing.Point(16, 30);
-            this.textBoxKodNeed.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBoxKodNeed.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxKodNeed.Name = "textBoxKodNeed";
             this.textBoxKodNeed.Size = new System.Drawing.Size(122, 20);
             this.textBoxKodNeed.TabIndex = 1;
@@ -207,7 +207,7 @@ namespace WindowsFormsApp7
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(759, 292);
+            this.ClientSize = new System.Drawing.Size(759, 516);
             this.Controls.Add(this.checkBoxNeed);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.Change);
@@ -215,7 +215,7 @@ namespace WindowsFormsApp7
             this.Controls.Add(this.textBoxKodNeed);
             this.Controls.Add(this.dataGridView1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "EditingNeedsForm";
             this.Text = "EditingNeedsForm";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.EditingNeedsForm_FormClosing);

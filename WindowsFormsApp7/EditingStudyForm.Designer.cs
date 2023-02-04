@@ -86,12 +86,12 @@ namespace WindowsFormsApp7
             this.кодСтудентаDataGridViewTextBoxColumn});
             this.dataGridView1.DataSource = this.обучениеСтудентаBindingSource1;
             this.dataGridView1.Location = new System.Drawing.Point(8, 237);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(2);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.RowHeadersWidth = 62;
             this.dataGridView1.RowTemplate.Height = 28;
-            this.dataGridView1.Size = new System.Drawing.Size(904, 146);
+            this.dataGridView1.Size = new System.Drawing.Size(904, 268);
             this.dataGridView1.TabIndex = 100;
             // 
             // кодОбученияDataGridViewTextBoxColumn
@@ -186,7 +186,7 @@ namespace WindowsFormsApp7
             // textBoxForm
             // 
             this.textBoxForm.Location = new System.Drawing.Point(234, 28);
-            this.textBoxForm.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBoxForm.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxForm.Name = "textBoxForm";
             this.textBoxForm.Size = new System.Drawing.Size(118, 20);
             this.textBoxForm.TabIndex = 2;
@@ -196,7 +196,7 @@ namespace WindowsFormsApp7
             this.ChangeForm.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ChangeForm.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.ChangeForm.Location = new System.Drawing.Point(72, 65);
-            this.ChangeForm.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ChangeForm.Margin = new System.Windows.Forms.Padding(2);
             this.ChangeForm.Name = "ChangeForm";
             this.ChangeForm.Size = new System.Drawing.Size(280, 32);
             this.ChangeForm.TabIndex = 3;
@@ -218,7 +218,7 @@ namespace WindowsFormsApp7
             // textBoxKod1
             // 
             this.textBoxKod1.Location = new System.Drawing.Point(76, 28);
-            this.textBoxKod1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBoxKod1.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxKod1.Name = "textBoxKod1";
             this.textBoxKod1.Size = new System.Drawing.Size(97, 20);
             this.textBoxKod1.TabIndex = 1;
@@ -237,7 +237,7 @@ namespace WindowsFormsApp7
             // textBoxFormat
             // 
             this.textBoxFormat.Location = new System.Drawing.Point(709, 28);
-            this.textBoxFormat.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBoxFormat.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxFormat.Name = "textBoxFormat";
             this.textBoxFormat.Size = new System.Drawing.Size(125, 20);
             this.textBoxFormat.TabIndex = 5;
@@ -247,7 +247,7 @@ namespace WindowsFormsApp7
             this.ChangeFormat.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ChangeFormat.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.ChangeFormat.Location = new System.Drawing.Point(554, 65);
-            this.ChangeFormat.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ChangeFormat.Margin = new System.Windows.Forms.Padding(2);
             this.ChangeFormat.Name = "ChangeFormat";
             this.ChangeFormat.Size = new System.Drawing.Size(280, 32);
             this.ChangeFormat.TabIndex = 6;
@@ -269,7 +269,7 @@ namespace WindowsFormsApp7
             // textBoxKod2
             // 
             this.textBoxKod2.Location = new System.Drawing.Point(558, 28);
-            this.textBoxKod2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBoxKod2.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxKod2.Name = "textBoxKod2";
             this.textBoxKod2.Size = new System.Drawing.Size(97, 20);
             this.textBoxKod2.TabIndex = 4;
@@ -288,7 +288,7 @@ namespace WindowsFormsApp7
             // textBoxGroup
             // 
             this.textBoxGroup.Location = new System.Drawing.Point(300, 140);
-            this.textBoxGroup.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBoxGroup.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxGroup.Name = "textBoxGroup";
             this.textBoxGroup.Size = new System.Drawing.Size(52, 20);
             this.textBoxGroup.TabIndex = 8;
@@ -298,7 +298,7 @@ namespace WindowsFormsApp7
             this.ChangeGroup.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ChangeGroup.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.ChangeGroup.Location = new System.Drawing.Point(72, 177);
-            this.ChangeGroup.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ChangeGroup.Margin = new System.Windows.Forms.Padding(2);
             this.ChangeGroup.Name = "ChangeGroup";
             this.ChangeGroup.Size = new System.Drawing.Size(280, 32);
             this.ChangeGroup.TabIndex = 9;
@@ -320,7 +320,7 @@ namespace WindowsFormsApp7
             // textBoxKod3
             // 
             this.textBoxKod3.Location = new System.Drawing.Point(76, 140);
-            this.textBoxKod3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBoxKod3.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxKod3.Name = "textBoxKod3";
             this.textBoxKod3.Size = new System.Drawing.Size(97, 20);
             this.textBoxKod3.TabIndex = 7;
@@ -339,7 +339,7 @@ namespace WindowsFormsApp7
             // textBoxTerm
             // 
             this.textBoxTerm.Location = new System.Drawing.Point(730, 140);
-            this.textBoxTerm.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBoxTerm.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxTerm.Name = "textBoxTerm";
             this.textBoxTerm.Size = new System.Drawing.Size(104, 20);
             this.textBoxTerm.TabIndex = 11;
@@ -349,7 +349,7 @@ namespace WindowsFormsApp7
             this.ChangeTerm.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ChangeTerm.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.ChangeTerm.Location = new System.Drawing.Point(554, 177);
-            this.ChangeTerm.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ChangeTerm.Margin = new System.Windows.Forms.Padding(2);
             this.ChangeTerm.Name = "ChangeTerm";
             this.ChangeTerm.Size = new System.Drawing.Size(280, 32);
             this.ChangeTerm.TabIndex = 12;
@@ -371,7 +371,7 @@ namespace WindowsFormsApp7
             // textBoxKod4
             // 
             this.textBoxKod4.Location = new System.Drawing.Point(558, 140);
-            this.textBoxKod4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBoxKod4.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxKod4.Name = "textBoxKod4";
             this.textBoxKod4.Size = new System.Drawing.Size(97, 20);
             this.textBoxKod4.TabIndex = 10;
@@ -384,7 +384,7 @@ namespace WindowsFormsApp7
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(923, 394);
+            this.ClientSize = new System.Drawing.Size(923, 516);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.textBoxTerm);
             this.Controls.Add(this.ChangeTerm);
@@ -407,7 +407,7 @@ namespace WindowsFormsApp7
             this.Controls.Add(this.textBoxKod1);
             this.Controls.Add(this.dataGridView1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "EditingStudyForm";
             this.Text = "EditingStudyForm";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.EditingStudyForm_FormClosing);

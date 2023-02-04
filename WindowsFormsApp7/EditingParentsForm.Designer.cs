@@ -126,11 +126,11 @@ namespace WindowsFormsApp7
             this.кодСтудентаDataGridViewTextBoxColumn});
             this.dataGridView1.DataSource = this.родителиBindingSource1;
             this.dataGridView1.Location = new System.Drawing.Point(11, 240);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(2);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 62;
             this.dataGridView1.RowTemplate.Height = 28;
-            this.dataGridView1.Size = new System.Drawing.Size(903, 210);
+            this.dataGridView1.Size = new System.Drawing.Size(903, 265);
             this.dataGridView1.TabIndex = 100;
             // 
             // кодРодителейDataGridViewTextBoxColumn
@@ -351,7 +351,7 @@ namespace WindowsFormsApp7
             // textBoxZpPost
             // 
             this.textBoxZpPost.Location = new System.Drawing.Point(752, 153);
-            this.textBoxZpPost.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBoxZpPost.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxZpPost.Name = "textBoxZpPost";
             this.textBoxZpPost.Size = new System.Drawing.Size(154, 20);
             this.textBoxZpPost.TabIndex = 17;
@@ -361,7 +361,7 @@ namespace WindowsFormsApp7
             this.ChangeZpPost.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ChangeZpPost.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.ChangeZpPost.Location = new System.Drawing.Point(633, 190);
-            this.ChangeZpPost.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ChangeZpPost.Margin = new System.Windows.Forms.Padding(2);
             this.ChangeZpPost.Name = "ChangeZpPost";
             this.ChangeZpPost.Size = new System.Drawing.Size(273, 32);
             this.ChangeZpPost.TabIndex = 18;
@@ -383,7 +383,7 @@ namespace WindowsFormsApp7
             // textBoxKod6
             // 
             this.textBoxKod6.Location = new System.Drawing.Point(637, 153);
-            this.textBoxKod6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBoxKod6.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxKod6.Name = "textBoxKod6";
             this.textBoxKod6.Size = new System.Drawing.Size(105, 20);
             this.textBoxKod6.TabIndex = 16;
@@ -402,7 +402,7 @@ namespace WindowsFormsApp7
             // textBoxPapaPost
             // 
             this.textBoxPapaPost.Location = new System.Drawing.Point(486, 153);
-            this.textBoxPapaPost.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBoxPapaPost.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxPapaPost.Name = "textBoxPapaPost";
             this.textBoxPapaPost.Size = new System.Drawing.Size(113, 20);
             this.textBoxPapaPost.TabIndex = 11;
@@ -412,7 +412,7 @@ namespace WindowsFormsApp7
             this.ChangePapaPost.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ChangePapaPost.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.ChangePapaPost.Location = new System.Drawing.Point(326, 190);
-            this.ChangePapaPost.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ChangePapaPost.Margin = new System.Windows.Forms.Padding(2);
             this.ChangePapaPost.Name = "ChangePapaPost";
             this.ChangePapaPost.Size = new System.Drawing.Size(273, 32);
             this.ChangePapaPost.TabIndex = 12;
@@ -434,7 +434,7 @@ namespace WindowsFormsApp7
             // textBoxKod4
             // 
             this.textBoxKod4.Location = new System.Drawing.Point(330, 153);
-            this.textBoxKod4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBoxKod4.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxKod4.Name = "textBoxKod4";
             this.textBoxKod4.Size = new System.Drawing.Size(105, 20);
             this.textBoxKod4.TabIndex = 10;
@@ -453,7 +453,7 @@ namespace WindowsFormsApp7
             // textBoxMomPost
             // 
             this.textBoxMomPost.Location = new System.Drawing.Point(160, 153);
-            this.textBoxMomPost.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBoxMomPost.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxMomPost.Name = "textBoxMomPost";
             this.textBoxMomPost.Size = new System.Drawing.Size(130, 20);
             this.textBoxMomPost.TabIndex = 5;
@@ -463,7 +463,7 @@ namespace WindowsFormsApp7
             this.ChangeMomPost.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ChangeMomPost.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.ChangeMomPost.Location = new System.Drawing.Point(17, 190);
-            this.ChangeMomPost.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ChangeMomPost.Margin = new System.Windows.Forms.Padding(2);
             this.ChangeMomPost.Name = "ChangeMomPost";
             this.ChangeMomPost.Size = new System.Drawing.Size(273, 32);
             this.ChangeMomPost.TabIndex = 6;
@@ -485,7 +485,7 @@ namespace WindowsFormsApp7
             // textBoxKod2
             // 
             this.textBoxKod2.Location = new System.Drawing.Point(21, 153);
-            this.textBoxKod2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBoxKod2.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxKod2.Name = "textBoxKod2";
             this.textBoxKod2.Size = new System.Drawing.Size(105, 20);
             this.textBoxKod2.TabIndex = 4;
@@ -504,7 +504,7 @@ namespace WindowsFormsApp7
             // textBoxZpWork
             // 
             this.textBoxZpWork.Location = new System.Drawing.Point(769, 27);
-            this.textBoxZpWork.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBoxZpWork.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxZpWork.Name = "textBoxZpWork";
             this.textBoxZpWork.Size = new System.Drawing.Size(137, 20);
             this.textBoxZpWork.TabIndex = 14;
@@ -514,7 +514,7 @@ namespace WindowsFormsApp7
             this.ChangeZpWork.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ChangeZpWork.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.ChangeZpWork.Location = new System.Drawing.Point(633, 64);
-            this.ChangeZpWork.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ChangeZpWork.Margin = new System.Windows.Forms.Padding(2);
             this.ChangeZpWork.Name = "ChangeZpWork";
             this.ChangeZpWork.Size = new System.Drawing.Size(273, 32);
             this.ChangeZpWork.TabIndex = 15;
@@ -536,7 +536,7 @@ namespace WindowsFormsApp7
             // textBoxKod5
             // 
             this.textBoxKod5.Location = new System.Drawing.Point(637, 27);
-            this.textBoxKod5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBoxKod5.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxKod5.Name = "textBoxKod5";
             this.textBoxKod5.Size = new System.Drawing.Size(105, 20);
             this.textBoxKod5.TabIndex = 13;
@@ -555,7 +555,7 @@ namespace WindowsFormsApp7
             // textBoxPapaWork
             // 
             this.textBoxPapaWork.Location = new System.Drawing.Point(511, 27);
-            this.textBoxPapaWork.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBoxPapaWork.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxPapaWork.Name = "textBoxPapaWork";
             this.textBoxPapaWork.Size = new System.Drawing.Size(88, 20);
             this.textBoxPapaWork.TabIndex = 8;
@@ -565,7 +565,7 @@ namespace WindowsFormsApp7
             this.ChangePapaWork.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ChangePapaWork.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.ChangePapaWork.Location = new System.Drawing.Point(326, 64);
-            this.ChangePapaWork.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ChangePapaWork.Margin = new System.Windows.Forms.Padding(2);
             this.ChangePapaWork.Name = "ChangePapaWork";
             this.ChangePapaWork.Size = new System.Drawing.Size(273, 32);
             this.ChangePapaWork.TabIndex = 9;
@@ -587,7 +587,7 @@ namespace WindowsFormsApp7
             // textBoxKod3
             // 
             this.textBoxKod3.Location = new System.Drawing.Point(330, 27);
-            this.textBoxKod3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBoxKod3.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxKod3.Name = "textBoxKod3";
             this.textBoxKod3.Size = new System.Drawing.Size(105, 20);
             this.textBoxKod3.TabIndex = 7;
@@ -606,7 +606,7 @@ namespace WindowsFormsApp7
             // textBoxMomWork
             // 
             this.textBoxMomWork.Location = new System.Drawing.Point(185, 27);
-            this.textBoxMomWork.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBoxMomWork.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxMomWork.Name = "textBoxMomWork";
             this.textBoxMomWork.Size = new System.Drawing.Size(105, 20);
             this.textBoxMomWork.TabIndex = 2;
@@ -616,7 +616,7 @@ namespace WindowsFormsApp7
             this.ChangeMomWork.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ChangeMomWork.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.ChangeMomWork.Location = new System.Drawing.Point(17, 64);
-            this.ChangeMomWork.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ChangeMomWork.Margin = new System.Windows.Forms.Padding(2);
             this.ChangeMomWork.Name = "ChangeMomWork";
             this.ChangeMomWork.Size = new System.Drawing.Size(273, 32);
             this.ChangeMomWork.TabIndex = 3;
@@ -638,7 +638,7 @@ namespace WindowsFormsApp7
             // textBoxKod1
             // 
             this.textBoxKod1.Location = new System.Drawing.Point(21, 27);
-            this.textBoxKod1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBoxKod1.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxKod1.Name = "textBoxKod1";
             this.textBoxKod1.Size = new System.Drawing.Size(105, 20);
             this.textBoxKod1.TabIndex = 1;
@@ -647,7 +647,7 @@ namespace WindowsFormsApp7
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(925, 461);
+            this.ClientSize = new System.Drawing.Size(925, 516);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.textBoxZpPost);
             this.Controls.Add(this.ChangeZpPost);
@@ -680,7 +680,7 @@ namespace WindowsFormsApp7
             this.Controls.Add(this.textBoxKod1);
             this.Controls.Add(this.dataGridView1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "EditingParentsForm";
             this.Text = "EditingParentsForm";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.EditingParentsForm_FormClosing);
