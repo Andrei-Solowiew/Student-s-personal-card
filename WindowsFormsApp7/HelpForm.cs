@@ -22,5 +22,10 @@ namespace WindowsFormsApp7
             e.Cancel = true;
             Hide();
         }
+
+        private void richTextBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

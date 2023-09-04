@@ -26,6 +26,7 @@ namespace WindowsFormsApp7
             SearchStudentDoc = new SearchDocumentsStudentForm();
             SearchCollegeDoc = new SearchDocumentsCollegeForm();
             SearchSchool = new SearchLastSchoolForm();
+            SearchContacts = new SearchContactsForm();
         }
 
         SearchStudentForm SearchStudent;
@@ -39,6 +40,7 @@ namespace WindowsFormsApp7
         SearchDocumentsStudentForm SearchStudentDoc;
         SearchDocumentsCollegeForm SearchCollegeDoc;
         SearchLastSchoolForm SearchSchool;
+        SearchContactsForm SearchContacts;
 
         private void SearchMainForm_FormClosing(object sender, FormClosingEventArgs e)
         {
@@ -107,6 +109,16 @@ namespace WindowsFormsApp7
         {
             SearchSchool.Show();
 
+        }
+
+        private void SearchMainForm_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form3BtnContacts_Click(object sender, EventArgs e)
+        {
+            SearchContacts.Show();
         }
     }
 }

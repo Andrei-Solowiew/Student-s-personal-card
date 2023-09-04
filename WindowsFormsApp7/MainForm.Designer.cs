@@ -54,11 +54,11 @@ namespace WindowsFormsApp7
             // 
             this.Form2BtnEdit.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Form2BtnEdit.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Form2BtnEdit.Location = new System.Drawing.Point(153, 101);
+            this.Form2BtnEdit.Location = new System.Drawing.Point(153, 164);
             this.Form2BtnEdit.Margin = new System.Windows.Forms.Padding(2);
             this.Form2BtnEdit.Name = "Form2BtnEdit";
             this.Form2BtnEdit.Size = new System.Drawing.Size(329, 40);
-            this.Form2BtnEdit.TabIndex = 7;
+            this.Form2BtnEdit.TabIndex = 8;
             this.Form2BtnEdit.Text = "Редактирование";
             this.Form2BtnEdit.UseVisualStyleBackColor = true;
             this.Form2BtnEdit.Click += new System.EventHandler(this.Form2BtnEdit_Click);
@@ -92,11 +92,11 @@ namespace WindowsFormsApp7
             // 
             this.BtnAdd.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnAdd.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.BtnAdd.Location = new System.Drawing.Point(153, 161);
+            this.BtnAdd.Location = new System.Drawing.Point(153, 102);
             this.BtnAdd.Margin = new System.Windows.Forms.Padding(2);
             this.BtnAdd.Name = "BtnAdd";
             this.BtnAdd.Size = new System.Drawing.Size(329, 40);
-            this.BtnAdd.TabIndex = 8;
+            this.BtnAdd.TabIndex = 7;
             this.BtnAdd.Text = "Добавление";
             this.BtnAdd.UseVisualStyleBackColor = true;
             this.BtnAdd.Click += new System.EventHandler(this.BtnAdd_Click);
@@ -105,7 +105,7 @@ namespace WindowsFormsApp7
             // 
             this.Del.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Del.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Del.Location = new System.Drawing.Point(153, 222);
+            this.Del.Location = new System.Drawing.Point(153, 224);
             this.Del.Margin = new System.Windows.Forms.Padding(2);
             this.Del.Name = "Del";
             this.Del.Size = new System.Drawing.Size(329, 40);

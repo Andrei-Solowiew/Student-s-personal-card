@@ -42,17 +42,18 @@ namespace WindowsFormsApp7
             this.Form3BtnSpecial = new System.Windows.Forms.Button();
             this.Form3BtnStudent = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.Form3BtnContacts = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Form3BtnSchool
             // 
             this.Form3BtnSchool.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Form3BtnSchool.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Form3BtnSchool.Location = new System.Drawing.Point(310, 268);
+            this.Form3BtnSchool.Location = new System.Drawing.Point(456, 267);
             this.Form3BtnSchool.Margin = new System.Windows.Forms.Padding(2);
             this.Form3BtnSchool.Name = "Form3BtnSchool";
             this.Form3BtnSchool.Size = new System.Drawing.Size(254, 40);
-            this.Form3BtnSchool.TabIndex = 30;
+            this.Form3BtnSchool.TabIndex = 31;
             this.Form3BtnSchool.Text = "Данные о прошлом УЗ";
             this.Form3BtnSchool.UseVisualStyleBackColor = true;
             this.Form3BtnSchool.Click += new System.EventHandler(this.Form3BtnSchool_Click);
@@ -61,7 +62,7 @@ namespace WindowsFormsApp7
             // 
             this.Form3BtnCollegeDoc.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Form3BtnCollegeDoc.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Form3BtnCollegeDoc.Location = new System.Drawing.Point(456, 202);
+            this.Form3BtnCollegeDoc.Location = new System.Drawing.Point(456, 201);
             this.Form3BtnCollegeDoc.Margin = new System.Windows.Forms.Padding(2);
             this.Form3BtnCollegeDoc.Name = "Form3BtnCollegeDoc";
             this.Form3BtnCollegeDoc.Size = new System.Drawing.Size(254, 40);
@@ -74,11 +75,11 @@ namespace WindowsFormsApp7
             // 
             this.Form3BtnStudentDoc.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Form3BtnStudentDoc.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Form3BtnStudentDoc.Location = new System.Drawing.Point(166, 202);
+            this.Form3BtnStudentDoc.Location = new System.Drawing.Point(166, 267);
             this.Form3BtnStudentDoc.Margin = new System.Windows.Forms.Padding(2);
             this.Form3BtnStudentDoc.Name = "Form3BtnStudentDoc";
             this.Form3BtnStudentDoc.Size = new System.Drawing.Size(254, 40);
-            this.Form3BtnStudentDoc.TabIndex = 28;
+            this.Form3BtnStudentDoc.TabIndex = 30;
             this.Form3BtnStudentDoc.Text = "Документы студента";
             this.Form3BtnStudentDoc.UseVisualStyleBackColor = true;
             this.Form3BtnStudentDoc.Click += new System.EventHandler(this.Form3BtnStudentDoc_Click);
@@ -198,11 +199,25 @@ namespace WindowsFormsApp7
             this.label1.TabIndex = 19;
             this.label1.Text = "Выберите таблицу, в которую хотите добавить данные";
             // 
+            // Form3BtnContacts
+            // 
+            this.Form3BtnContacts.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Form3BtnContacts.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Form3BtnContacts.Location = new System.Drawing.Point(166, 201);
+            this.Form3BtnContacts.Margin = new System.Windows.Forms.Padding(2);
+            this.Form3BtnContacts.Name = "Form3BtnContacts";
+            this.Form3BtnContacts.Size = new System.Drawing.Size(254, 40);
+            this.Form3BtnContacts.TabIndex = 28;
+            this.Form3BtnContacts.Text = "Контакты студента";
+            this.Form3BtnContacts.UseVisualStyleBackColor = true;
+            this.Form3BtnContacts.Click += new System.EventHandler(this.Form3BtnContacts_Click);
+            // 
             // AddForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(895, 450);
+            this.Controls.Add(this.Form3BtnContacts);
             this.Controls.Add(this.Form3BtnSchool);
             this.Controls.Add(this.Form3BtnCollegeDoc);
             this.Controls.Add(this.Form3BtnStudentDoc);
@@ -239,5 +254,6 @@ namespace WindowsFormsApp7
         private System.Windows.Forms.Button Form3BtnSpecial;
         private System.Windows.Forms.Button Form3BtnStudent;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button Form3BtnContacts;
     }
 }

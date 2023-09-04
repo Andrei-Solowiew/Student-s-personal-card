@@ -46,7 +46,7 @@ namespace WindowsFormsApp7
             int children = Convert.ToInt32(textBoxChildren.Text);
             string data_children = textBoxDataChildren.Text;
             string place = textBoxPlace.Text;
-            string today = textBoxToday.Text;
+            string today = DateTime.UtcNow.Date.ToString("dd/MM/yyyy");
             int kod_student = Convert.ToInt32(textBoxKodStudenta.Text);
             string query = "INSERT INTO Семья ([Код семьи], [Полная ли семья], [Причина неполноты семьи], [Количество детей], [Дата рождения каждого], [Где живут(дом, квартира)], [Сегодняшняя дата] , [Код студента]) VALUES(" + kod_family + ",'" + completeness + "','" + reason + "','" + children + "','" + data_children + "','" + place + "','" + today + "','" + kod_student + "')";
             OleDbCommand command = new OleDbCommand(query, myConnection);

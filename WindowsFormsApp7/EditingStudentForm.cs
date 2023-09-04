@@ -42,8 +42,8 @@ namespace WindowsFormsApp7
 
         private void StudentFormChange_Click(object sender, EventArgs e)
         {
-            int kod = Convert.ToInt32(textBoxKodStudentChange.Text);
-            string query = "UPDATE Студент SET [Сегодняшняя дата] = '" + textBoxUpdateToday.Text + "' WHERE [Код студента] = " + kod;
+            string data = DateTime.UtcNow.Date.ToString("dd/MM/yyyy");
+            string query = $"UPDATE Студент SET [Сегодняшняя дата] = '{data}'";
             OleDbCommand command = new OleDbCommand(query, myConnection);
             command.ExecuteNonQuery();
             MessageBox.Show("Дата обновлена");

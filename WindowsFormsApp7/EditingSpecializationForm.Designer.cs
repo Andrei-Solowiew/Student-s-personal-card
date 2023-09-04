@@ -65,12 +65,12 @@ namespace WindowsFormsApp7
             this.кодСтудентаDataGridViewTextBoxColumn});
             this.dataGridView1.DataSource = this.специальностьBindingSource1;
             this.dataGridView1.Location = new System.Drawing.Point(11, 132);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(2);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.RowHeadersWidth = 62;
             this.dataGridView1.RowTemplate.Height = 28;
-            this.dataGridView1.Size = new System.Drawing.Size(871, 230);
+            this.dataGridView1.Size = new System.Drawing.Size(871, 373);
             this.dataGridView1.TabIndex = 100;
             // 
             // кодСпециальностиDataGridViewTextBoxColumn
@@ -138,7 +138,7 @@ namespace WindowsFormsApp7
             // textBoxUpdateToday
             // 
             this.textBoxUpdateToday.Location = new System.Drawing.Point(166, 34);
-            this.textBoxUpdateToday.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBoxUpdateToday.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxUpdateToday.Name = "textBoxUpdateToday";
             this.textBoxUpdateToday.Size = new System.Drawing.Size(76, 20);
             this.textBoxUpdateToday.TabIndex = 28;
@@ -148,7 +148,7 @@ namespace WindowsFormsApp7
             this.SpecualizationFormChange.Cursor = System.Windows.Forms.Cursors.Hand;
             this.SpecualizationFormChange.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.SpecualizationFormChange.Location = new System.Drawing.Point(11, 71);
-            this.SpecualizationFormChange.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.SpecualizationFormChange.Margin = new System.Windows.Forms.Padding(2);
             this.SpecualizationFormChange.Name = "SpecualizationFormChange";
             this.SpecualizationFormChange.Size = new System.Drawing.Size(329, 32);
             this.SpecualizationFormChange.TabIndex = 29;
@@ -170,7 +170,7 @@ namespace WindowsFormsApp7
             // textBoxKodStudentChange
             // 
             this.textBoxKodStudentChange.Location = new System.Drawing.Point(15, 34);
-            this.textBoxKodStudentChange.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBoxKodStudentChange.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxKodStudentChange.Name = "textBoxKodStudentChange";
             this.textBoxKodStudentChange.Size = new System.Drawing.Size(76, 20);
             this.textBoxKodStudentChange.TabIndex = 27;
@@ -183,7 +183,7 @@ namespace WindowsFormsApp7
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(893, 373);
+            this.ClientSize = new System.Drawing.Size(893, 516);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.textBoxUpdateToday);
             this.Controls.Add(this.SpecualizationFormChange);
@@ -191,7 +191,7 @@ namespace WindowsFormsApp7
             this.Controls.Add(this.textBoxKodStudentChange);
             this.Controls.Add(this.dataGridView1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "EditingSpecializationForm";
             this.Text = "EditingSpecializationForm";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.EditingSpecializationForm_FormClosing);

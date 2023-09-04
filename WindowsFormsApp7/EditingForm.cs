@@ -26,7 +26,7 @@ namespace WindowsFormsApp7
             form12 = new EditingStudentDocumetsForm();
             form13 = new EditingCollegeDocumetsForm();
             form14 = new EditingLastSchoolForm();
-
+            Contacts = new EditContactsForm();
         }
 
         EditingStudentForm form4;
@@ -40,6 +40,7 @@ namespace WindowsFormsApp7
         EditingStudentDocumetsForm form12;
         EditingCollegeDocumetsForm form13;
         EditingLastSchoolForm form14;
+        EditContactsForm Contacts;
 
 
         private void Form3BtnStudent_Click(object sender, EventArgs e)
@@ -108,6 +109,16 @@ namespace WindowsFormsApp7
         {
             e.Cancel = true;
             Hide();
+        }
+
+        private void EditingForm_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form3BtnStudentContacts_Click(object sender, EventArgs e)
+        {
+            Contacts.Show();
         }
     }
 }

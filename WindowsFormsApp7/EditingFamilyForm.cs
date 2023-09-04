@@ -91,8 +91,8 @@ namespace WindowsFormsApp7
 
         private void ChangeToday_Click(object sender, EventArgs e)
         {
-            int kod = Convert.ToInt32(textBoxKod6.Text);
-            string query = "UPDATE Семья SET [Сегодняшняя дата] = '" + textBoxToday.Text + "' WHERE [Код семьи] = " + kod;
+            string data = DateTime.UtcNow.Date.ToString("dd/MM/yyyy");
+            string query = $"UPDATE Семья SET[Сегодняшняя дата] = '{data}'";
             OleDbCommand command = new OleDbCommand(query, myConnection);
             command.ExecuteNonQuery();
             MessageBox.Show("Дата обновлена");

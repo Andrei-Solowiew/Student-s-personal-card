@@ -39,12 +39,12 @@ namespace WindowsFormsApp7
             this.label1 = new System.Windows.Forms.Label();
             this.textBoxAddKod = new System.Windows.Forms.TextBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.кодСпециальностиDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.специальностьDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.кодСтудентаDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.специальностьBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.бД3DataSet = new WindowsFormsApp7.БД3DataSet();
             this.специальностьTableAdapter = new WindowsFormsApp7.БД3DataSetTableAdapters.СпециальностьTableAdapter();
+            this.кодСпециальностиDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.специальностьDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.кодСтудентаDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.специальностьBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.бД3DataSet)).BeginInit();
@@ -137,27 +137,6 @@ namespace WindowsFormsApp7
             this.dataGridView1.Size = new System.Drawing.Size(778, 247);
             this.dataGridView1.TabIndex = 42;
             // 
-            // кодСпециальностиDataGridViewTextBoxColumn
-            // 
-            this.кодСпециальностиDataGridViewTextBoxColumn.DataPropertyName = "Код специальности";
-            this.кодСпециальностиDataGridViewTextBoxColumn.HeaderText = "Код специальности";
-            this.кодСпециальностиDataGridViewTextBoxColumn.Name = "кодСпециальностиDataGridViewTextBoxColumn";
-            this.кодСпециальностиDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // специальностьDataGridViewTextBoxColumn
-            // 
-            this.специальностьDataGridViewTextBoxColumn.DataPropertyName = "Специальность";
-            this.специальностьDataGridViewTextBoxColumn.HeaderText = "Специальность";
-            this.специальностьDataGridViewTextBoxColumn.Name = "специальностьDataGridViewTextBoxColumn";
-            this.специальностьDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // кодСтудентаDataGridViewTextBoxColumn
-            // 
-            this.кодСтудентаDataGridViewTextBoxColumn.DataPropertyName = "Код студента";
-            this.кодСтудентаDataGridViewTextBoxColumn.HeaderText = "Код студента";
-            this.кодСтудентаDataGridViewTextBoxColumn.Name = "кодСтудентаDataGridViewTextBoxColumn";
-            this.кодСтудентаDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
             // специальностьBindingSource
             // 
             this.специальностьBindingSource.DataMember = "Специальность";
@@ -171,6 +150,30 @@ namespace WindowsFormsApp7
             // специальностьTableAdapter
             // 
             this.специальностьTableAdapter.ClearBeforeFill = true;
+            // 
+            // кодСпециальностиDataGridViewTextBoxColumn
+            // 
+            this.кодСпециальностиDataGridViewTextBoxColumn.DataPropertyName = "Код специальности";
+            this.кодСпециальностиDataGridViewTextBoxColumn.HeaderText = "Код специальности";
+            this.кодСпециальностиDataGridViewTextBoxColumn.Name = "кодСпециальностиDataGridViewTextBoxColumn";
+            this.кодСпециальностиDataGridViewTextBoxColumn.ReadOnly = true;
+            this.кодСпециальностиDataGridViewTextBoxColumn.Width = 150;
+            // 
+            // специальностьDataGridViewTextBoxColumn
+            // 
+            this.специальностьDataGridViewTextBoxColumn.DataPropertyName = "Специальность";
+            this.специальностьDataGridViewTextBoxColumn.HeaderText = "Специальность";
+            this.специальностьDataGridViewTextBoxColumn.Name = "специальностьDataGridViewTextBoxColumn";
+            this.специальностьDataGridViewTextBoxColumn.ReadOnly = true;
+            this.специальностьDataGridViewTextBoxColumn.Width = 150;
+            // 
+            // кодСтудентаDataGridViewTextBoxColumn
+            // 
+            this.кодСтудентаDataGridViewTextBoxColumn.DataPropertyName = "Код студента";
+            this.кодСтудентаDataGridViewTextBoxColumn.HeaderText = "Код студента";
+            this.кодСтудентаDataGridViewTextBoxColumn.Name = "кодСтудентаDataGridViewTextBoxColumn";
+            this.кодСтудентаDataGridViewTextBoxColumn.ReadOnly = true;
+            this.кодСтудентаDataGridViewTextBoxColumn.Width = 150;
             // 
             // AddSpecializationForm
             // 

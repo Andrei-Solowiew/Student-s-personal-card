@@ -26,6 +26,7 @@ namespace WindowsFormsApp7
             AddStudentDoc = new AddDocumetsStudent();
             AddCollegeDoc = new AddDocumetsCollege();
             AddSchool = new AddLastSchool();
+            AddContacts = new AddContactsForm();
 
         }
 
@@ -40,6 +41,7 @@ namespace WindowsFormsApp7
         AddDocumetsStudent AddStudentDoc;
         AddDocumetsCollege AddCollegeDoc;
         AddLastSchool AddSchool;
+        AddContactsForm AddContacts;
 
         private void AddForm_Load(object sender, EventArgs e)
         {
@@ -105,6 +107,11 @@ namespace WindowsFormsApp7
         private void Form3BtnSchool_Click(object sender, EventArgs e)
         {
             AddSchool.Show();
+        }
+
+        private void Form3BtnContacts_Click(object sender, EventArgs e)
+        {
+            AddContacts.Show();
         }
     }
 }

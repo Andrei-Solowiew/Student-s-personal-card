@@ -49,6 +49,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddContacts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddContacts.Designer.cs">
+      <DependentUpon>AddContacts.cs</DependentUpon>
+    </Compile>
     <Compile Include="AddDocumetsCollege.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -132,6 +138,12 @@
     </Compile>
     <Compile Include="DelStudentForm.Designer.cs">
       <DependentUpon>DelStudentForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditContactsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditContactsForm.Designer.cs">
+      <DependentUpon>EditContactsForm.cs</DependentUpon>
     </Compile>
     <Compile Include="EditingLivingForm.cs">
       <SubType>Form</SubType>
@@ -225,6 +237,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SearchContactsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchContactsForm.Designer.cs">
+      <DependentUpon>SearchContactsForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="SearchDocumentsCollegeForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -307,6 +325,9 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>БД3DataSet.xsd</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="AddContacts.resx">
+      <DependentUpon>AddContacts.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="AddDocumetsCollege.resx">
       <DependentUpon>AddDocumetsCollege.cs</DependentUpon>
     </EmbeddedResource>
@@ -348,6 +369,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="DelStudentForm.resx">
       <DependentUpon>DelStudentForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditContactsForm.resx">
+      <DependentUpon>EditContactsForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="EditingLivingForm.resx">
       <DependentUpon>EditingLivingForm.cs</DependentUpon>
@@ -404,6 +428,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="SearchContactsForm.resx">
+      <DependentUpon>SearchContactsForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="SearchDocumentsCollegeForm.resx">
       <DependentUpon>SearchDocumentsCollegeForm.cs</DependentUpon>
     </EmbeddedResource>
