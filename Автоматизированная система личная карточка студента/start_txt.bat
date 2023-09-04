@@ -1,0 +1,1 @@
+start "" "App\WindowsFormsApp7\bin\Debug\a.txt"

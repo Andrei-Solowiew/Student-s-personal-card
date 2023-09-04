@@ -1,0 +1,2 @@
+Откройте другой exe файл по адресу:
+Приложение\WindowsFormsApp7\bin\Debug\WindowsFormsApp7.exe

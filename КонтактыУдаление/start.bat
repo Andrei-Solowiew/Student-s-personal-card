@@ -1,0 +1,1 @@
+call  "" "App\WindowsFormsApp7\bin\Debug\WindowsFormsApp7.exe"
